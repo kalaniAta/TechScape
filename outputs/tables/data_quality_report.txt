@@ -1,0 +1,64 @@
+==============================================================================
+               TECHSCAPE DATA QUALITY & TRANSFORMATION REPORT                 
+==============================================================================
+DATASET CLASSIFICATION: SYNTHETIC DEVELOPMENT DATA (Testing Asset)
+Report Generated:       2026-08-26 21:57:40.273284
+------------------------------------------------------------------------------
+
+1. RECORD COUNTS & DEDUPLICATION SUMMARY
+ - Raw Jobs Count:                 303
+ - Cleaned / Processed Jobs Count: 300
+ - Duplicates Removed:             3
+ - Raw Skills Count:               1316
+ - Cleaned / Processed Skills:     1316
+
+2. MISSINGNESS & DISCLOSURE PROFILE
+ - Raw Salary Undisclosed Rate:    72.3% (219 of 303)
+ - Processed Salary Disclosed:     27.7% (83 of 300)
+ - Experience Min Missingness:     0.0% (0 missing)
+ - Work Mode Missingness:          0.0%
+
+3. ENGINEERED VARIABLES SUMMARY
+ - Temporal Span:                  2016 to 2026 (Span: 11 years)
+ - Entry-Level Jobs Indicator:     32.7% (98 of 300 postings)
+ - Average Skills Per Job:         4.39 (Min: 3, Max: 6)
+
+4. CAREER CATEGORY DISTRIBUTION (DEVELOPMENT SYNTHETIC DATA)
+ - Cloud & DevOps                    34 (11.3%)
+ - Cyber Security                    12 ( 4.0%)
+ - Data & AI / ML                    26 ( 8.7%)
+ - IT Systems & Infrastructure        8 ( 2.7%)
+ - Management & Business Analysis    16 ( 5.3%)
+ - QA & Test Automation              62 (20.7%)
+ - Software Engineering             128 (42.7%)
+ - UI/UX & Product Design            14 ( 4.7%)
+
+5. SENIORITY LEVEL DISTRIBUTION
+ - Intern           32 (10.7%)
+ - Junior           66 (22.0%)
+ - Lead             28 ( 9.3%)
+ - Mid             118 (39.3%)
+ - Senior           56 (18.7%)
+
+6. EXPERIENCE BAND DISTRIBUTION
+ - 0-1 Years (Entry/Junior)      98 (32.7%)
+ - 2-4 Years (Mid-Level)        133 (44.3%)
+ - 5-7 Years (Senior)            51 (17.0%)
+ - 8+ Years (Lead/Principal)     18 ( 6.0%)
+
+7. TOP SKILLS RECORDED (DEVELOPMENT SYNTHETIC DATA)
+ - Java                  83 occurrences (27.7% penetration)
+ - Docker                70 occurrences (23.3% penetration)
+ - Python                61 occurrences (20.3% penetration)
+ - Node.js               57 occurrences (19.0% penetration)
+ - .NET                  56 occurrences (18.7% penetration)
+ - Spring Boot           53 occurrences (17.7% penetration)
+ - TypeScript            48 occurrences (16.0% penetration)
+ - MySQL                 47 occurrences (15.7% penetration)
+ - React                 47 occurrences (15.7% penetration)
+ - JIRA                  46 occurrences (15.3% penetration)
+
+==============================================================================
+NOTICE: All metrics above represent SYNTHETIC DEVELOPMENT ASSETS.
+They must NOT be cited or interpreted as empirical findings about Sri Lanka.
+==============================================================================

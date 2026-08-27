@@ -1,0 +1,292 @@
+job_id,skill_raw,skill_name,skill_category,is_required
+REAL_00001,Java 17,Java,Programming Language,TRUE
+REAL_00001,Spring Boot,Spring Boot,Framework/Library,TRUE
+REAL_00001,Microservices,Microservices,Tool/Methodology,TRUE
+REAL_00001,Docker,Docker,Cloud/DevOps,FALSE
+REAL_00001,PostgreSQL,PostgreSQL,Database,TRUE
+REAL_00002,Selenium WebDriver,Selenium,Tool/Methodology,TRUE
+REAL_00002,Cypress.io,Cypress,Tool/Methodology,TRUE
+REAL_00002,Java,Java,Programming Language,TRUE
+REAL_00002,TestNG,TestNG,Framework/Library,TRUE
+REAL_00002,JIRA,JIRA,Tool/Methodology,FALSE
+REAL_00003,AWS,AWS,Cloud/DevOps,TRUE
+REAL_00003,Terraform,Terraform,Cloud/DevOps,TRUE
+REAL_00003,Kubernetes,Kubernetes,Cloud/DevOps,TRUE
+REAL_00003,CI/CD,CI/CD,Tool/Methodology,TRUE
+REAL_00003,Linux,Linux,Tool/Methodology,TRUE
+REAL_00004,Python 3,Python,Programming Language,TRUE
+REAL_00004,PyTorch,PyTorch,Framework/Library,TRUE
+REAL_00004,NLP,NLP,Domain/Other,TRUE
+REAL_00004,LLM / LangChain,LangChain,Framework/Library,TRUE
+REAL_00004,SQL,SQL,Database,TRUE
+REAL_00005,Figma,Figma,Tool/Methodology,TRUE
+REAL_00005,Wireframing,Wireframing,Tool/Methodology,TRUE
+REAL_00005,User Research,User Research,Domain/Other,TRUE
+REAL_00005,Design Systems,Design Systems,Tool/Methodology,TRUE
+REAL_00006,SIEM,SIEM,Tool/Methodology,TRUE
+REAL_00006,Splunk,Splunk,Tool/Methodology,TRUE
+REAL_00006,SOC Operations,SOC,Domain/Other,TRUE
+REAL_00006,Network Security,Network Security,Domain/Other,TRUE
+REAL_00007,React.js,React,Framework/Library,TRUE
+REAL_00007,NodeJS,Node.js,Framework/Library,TRUE
+REAL_00007,TypeScript,TypeScript,Programming Language,TRUE
+REAL_00007,PostgreSQL,PostgreSQL,Database,TRUE
+REAL_00007,AWS,AWS,Cloud/DevOps,FALSE
+REAL_00008,JavaScript,JavaScript,Programming Language,TRUE
+REAL_00008,React,React,Framework/Library,TRUE
+REAL_00008,HTML5/CSS3,HTML/CSS,Programming Language,TRUE
+REAL_00008,Git,Git,Tool/Methodology,TRUE
+REAL_00009,Business Analysis,Business Analysis,Domain/Other,TRUE
+REAL_00009,Agile/Scrum,Agile,Tool/Methodology,TRUE
+REAL_00009,JIRA,JIRA,Tool/Methodology,TRUE
+REAL_00009,SQL Queries,SQL,Database,TRUE
+REAL_00010,Cisco Routing & Switching,Cisco,Tool/Methodology,TRUE
+REAL_00010,Linux Administration,Linux,Tool/Methodology,TRUE
+REAL_00010,Windows Server,Windows Server,Tool/Methodology,TRUE
+REAL_00010,Firewall Management,Network Security,Domain/Other,TRUE
+REAL_00011,C# .NET Core,C#,Programming Language,TRUE
+REAL_00011,.NET Core,.NET,Framework/Library,TRUE
+REAL_00011,Angular 14+,Angular,Framework/Library,TRUE
+REAL_00011,MS SQL Server,Microsoft SQL Server,Database,TRUE
+REAL_00012,Manual Testing,Manual Testing,Tool/Methodology,TRUE
+REAL_00012,Postman,Postman,Tool/Methodology,TRUE
+REAL_00012,RestAssured,RestAssured,Framework/Library,TRUE
+REAL_00012,API Testing,API Testing,Tool/Methodology,TRUE
+REAL_00013,AWS Security,AWS,Cloud/DevOps,TRUE
+REAL_00013,Azure Cloud,Azure,Cloud/DevOps,TRUE
+REAL_00013,IAM,IAM,Domain/Other,TRUE
+REAL_00013,Kubernetes Security,Kubernetes,Cloud/DevOps,TRUE
+REAL_00014,PySpark,PySpark,Framework/Library,TRUE
+REAL_00014,Python,Python,Programming Language,TRUE
+REAL_00014,Azure Synapse,Azure,Cloud/DevOps,TRUE
+REAL_00014,SQL Server,Microsoft SQL Server,Database,TRUE
+REAL_00014,ETL Pipelines,ETL,Tool/Methodology,TRUE
+REAL_00015,Windows 10/11,Windows Server,Tool/Methodology,TRUE
+REAL_00015,Active Directory,Active Directory,Tool/Methodology,TRUE
+REAL_00015,Troubleshooting,Hardware,Domain/Other,TRUE
+REAL_00015,Hardware Support,Hardware,Domain/Other,TRUE
+REAL_00016,Scrum / Agile,Agile,Tool/Methodology,TRUE
+REAL_00016,JIRA / Confluence,JIRA,Tool/Methodology,TRUE
+REAL_00016,Project Management,Project Management,Domain/Other,TRUE
+REAL_00016,Sprint Planning,Agile,Tool/Methodology,TRUE
+REAL_00017,Flutter,Flutter,Framework/Library,TRUE
+REAL_00017,Dart,Dart,Programming Language,TRUE
+REAL_00017,REST APIs,REST API,Tool/Methodology,TRUE
+REAL_00017,State Management,Flutter,Framework/Library,TRUE
+REAL_00018,Python,Python,Programming Language,TRUE
+REAL_00018,OpenCV,OpenCV,Framework/Library,TRUE
+REAL_00018,PyTorch,PyTorch,Framework/Library,TRUE
+REAL_00018,TensorFlow,TensorFlow,Framework/Library,FALSE
+REAL_00019,Docker,Docker,Cloud/DevOps,TRUE
+REAL_00019,Kubernetes,Kubernetes,Cloud/DevOps,TRUE
+REAL_00019,Prometheus,Prometheus,Tool/Methodology,TRUE
+REAL_00019,Grafana,Grafana,Tool/Methodology,TRUE
+REAL_00019,Linux Shell Scripting,Linux,Tool/Methodology,TRUE
+REAL_00020,Figma,Figma,Tool/Methodology,TRUE
+REAL_00020,UI Design,UI/UX,Domain/Other,TRUE
+REAL_00020,Prototyping,Prototyping,Tool/Methodology,TRUE
+REAL_00021,Golang,Go,Programming Language,TRUE
+REAL_00021,gRPC,gRPC,Framework/Library,TRUE
+REAL_00021,Microservices Architecture,Microservices,Tool/Methodology,TRUE
+REAL_00021,PostgreSQL,PostgreSQL,Database,TRUE
+REAL_00022,Manual QA,Manual Testing,Tool/Methodology,TRUE
+REAL_00022,Bug Reporting,JIRA,Tool/Methodology,TRUE
+REAL_00022,Test Cases,Manual Testing,Tool/Methodology,TRUE
+REAL_00023,Burp Suite,Burp Suite,Tool/Methodology,TRUE
+REAL_00023,OWASP Top 10,OWASP,Domain/Other,TRUE
+REAL_00023,Kali Linux,Linux,Tool/Methodology,TRUE
+REAL_00023,Vulnerability Assessment,Vulnerability Assessment,Domain/Other,TRUE
+REAL_00024,Desktop Support,Hardware,Domain/Other,TRUE
+REAL_00024,Active Directory,Active Directory,Tool/Methodology,TRUE
+REAL_00024,LAN/WAN Troubleshooting,Network Security,Domain/Other,TRUE
+REAL_00025,React Native,React Native,Framework/Library,TRUE
+REAL_00025,TypeScript,TypeScript,Programming Language,TRUE
+REAL_00025,Redux,Redux,Framework/Library,TRUE
+REAL_00025,Mobile CI/CD,CI/CD,Tool/Methodology,FALSE
+REAL_00026,Power BI,Power BI,Tool/Methodology,TRUE
+REAL_00026,SQL Server,Microsoft SQL Server,Database,TRUE
+REAL_00026,Excel,Excel,Tool/Methodology,TRUE
+REAL_00026,Data Modeling,Data Modeling,Domain/Other,TRUE
+REAL_00027,Product Backlog Management,Product Management,Domain/Other,TRUE
+REAL_00027,User Stories,Agile,Tool/Methodology,TRUE
+REAL_00027,Agile Methodologies,Agile,Tool/Methodology,TRUE
+REAL_00028,Microsoft Azure,Azure,Cloud/DevOps,TRUE
+REAL_00028,Terraform,Terraform,Cloud/DevOps,TRUE
+REAL_00028,Kubernetes (AKS),Kubernetes,Cloud/DevOps,TRUE
+REAL_00028,CI/CD Pipelines,CI/CD,Tool/Methodology,TRUE
+REAL_00029,Playwright,Playwright,Tool/Methodology,TRUE
+REAL_00029,TypeScript,TypeScript,Programming Language,TRUE
+REAL_00029,Selenium,Selenium,Tool/Methodology,TRUE
+REAL_00029,Test Automation Architecture,Manual Testing,Domain/Other,TRUE
+REAL_00030,Java,Java,Programming Language,TRUE
+REAL_00030,OOP Concepts,Java,Domain/Other,TRUE
+REAL_00030,SQL,SQL,Database,TRUE
+REAL_00030,Git,Git,Tool/Methodology,TRUE
+REAL_00031,Figma,Figma,Tool/Methodology,TRUE
+REAL_00031,Design Tokens,Design Systems,Tool/Methodology,TRUE
+REAL_00031,Mobile & Web UI,UI/UX,Domain/Other,TRUE
+REAL_00032,SOC Management,SOC,Domain/Other,TRUE
+REAL_00032,Threat Hunting,Network Security,Domain/Other,TRUE
+REAL_00032,Incident Response,Network Security,Domain/Other,TRUE
+REAL_00033,PHP,PHP,Programming Language,TRUE
+REAL_00033,Laravel 10,Laravel,Framework/Library,TRUE
+REAL_00033,Vue.js,Vue,Framework/Library,TRUE
+REAL_00033,MySQL,MySQL,Database,TRUE
+REAL_00034,Python,Python,Programming Language,TRUE
+REAL_00034,LangChain,LangChain,Framework/Library,TRUE
+REAL_00034,RAG,NLP,Domain/Other,TRUE
+REAL_00034,Pinecone / ChromaDB,Vector Database,Database,TRUE
+REAL_00035,NOC Monitoring,Cisco,Domain/Other,TRUE
+REAL_00035,SolarWinds / Zabbix,Linux,Tool/Methodology,TRUE
+REAL_00035,TCP/IP,Network Security,Domain/Other,TRUE
+REAL_00036,ERP Systems,Business Analysis,Domain/Other,TRUE
+REAL_00036,Requirements Analysis,Business Analysis,Domain/Other,TRUE
+REAL_00036,BPMN,Agile,Tool/Methodology,TRUE
+REAL_00037,Python 3,Python,Programming Language,TRUE
+REAL_00037,Django,Django,Framework/Library,TRUE
+REAL_00037,ReactJS,React,Framework/Library,TRUE
+REAL_00037,PostgreSQL,PostgreSQL,Database,TRUE
+REAL_00038,JMeter,JMeter,Tool/Methodology,TRUE
+REAL_00038,K6,K6,Tool/Methodology,TRUE
+REAL_00038,Performance Testing,Manual Testing,Domain/Other,TRUE
+REAL_00039,DevSecOps,DevSecOps,Cloud/DevOps,TRUE
+REAL_00039,SonarQube,SonarQube,Tool/Methodology,TRUE
+REAL_00039,CI/CD Security,CI/CD,Tool/Methodology,TRUE
+REAL_00040,Power BI,Power BI,Tool/Methodology,TRUE
+REAL_00040,DAX,DAX,Programming Language,TRUE
+REAL_00040,Azure Data Factory,Azure,Cloud/DevOps,FALSE
+REAL_00041,Manual QA,Manual Testing,Tool/Methodology,TRUE
+REAL_00041,Test Case Writing,Manual Testing,Tool/Methodology,TRUE
+REAL_00041,JIRA,JIRA,Tool/Methodology,TRUE
+REAL_00042,C++17/20,C++,Programming Language,TRUE
+REAL_00042,Low Latency Architecture,C++,Domain/Other,TRUE
+REAL_00042,Multithreading,C++,Domain/Other,TRUE
+REAL_00042,Linux,Linux,Tool/Methodology,TRUE
+REAL_00043,Windows Server 2022,Windows Server,Tool/Methodology,TRUE
+REAL_00043,Active Directory,Active Directory,Tool/Methodology,TRUE
+REAL_00043,VMware vSphere,Windows Server,Tool/Methodology,TRUE
+REAL_00044,Figma,Figma,Tool/Methodology,TRUE
+REAL_00044,Design Leadership,Design Systems,Domain/Other,TRUE
+REAL_00044,User Journey Mapping,UI/UX,Domain/Other,TRUE
+REAL_00045,ISO 27001,ISO 27001,Domain/Other,TRUE
+REAL_00045,GRC,GRC,Domain/Other,TRUE
+REAL_00045,Security Audit,Security Audit,Domain/Other,TRUE
+REAL_00046,Agile Coaching,Agile,Domain/Other,TRUE
+REAL_00046,Scrum Framework,Agile,Tool/Methodology,TRUE
+REAL_00046,JIRA,JIRA,Tool/Methodology,TRUE
+REAL_00047,Ruby,Ruby,Programming Language,TRUE
+REAL_00047,Ruby on Rails,Rails,Framework/Library,TRUE
+REAL_00047,PostgreSQL,PostgreSQL,Database,TRUE
+REAL_00048,Apache Spark,Spark,Framework/Library,TRUE
+REAL_00048,Apache Kafka,Kafka,Tool/Methodology,TRUE
+REAL_00048,Scala,Scala,Programming Language,TRUE
+REAL_00048,Hadoop/Data Lake,Spark,Domain/Other,TRUE
+REAL_00049,Google Cloud Platform (GCP),GCP,Cloud/DevOps,TRUE
+REAL_00049,Kubernetes (GKE),Kubernetes,Cloud/DevOps,TRUE
+REAL_00049,Terraform,Terraform,Cloud/DevOps,TRUE
+REAL_00050,React,React,Framework/Library,TRUE
+REAL_00050,Next.js,Next.js,Framework/Library,TRUE
+REAL_00050,TypeScript,TypeScript,Programming Language,TRUE
+REAL_00050,TailwindCSS,Tailwind CSS,Framework/Library,FALSE
+REAL_00051,Linux,Linux,Tool/Methodology,TRUE
+REAL_00051,Docker,Docker,Cloud/DevOps,TRUE
+REAL_00051,GitLab CI / GitHub Actions,CI/CD,Tool/Methodology,TRUE
+REAL_00052,Playwright,Playwright,Tool/Methodology,TRUE
+REAL_00052,TypeScript,TypeScript,Programming Language,TRUE
+REAL_00052,Appium,Playwright,Tool/Methodology,FALSE
+REAL_00053,Enterprise Architecture,Microservices,Domain/Other,TRUE
+REAL_00053,Microservices,Microservices,Tool/Methodology,TRUE
+REAL_00053,Cloud Architecture,AWS,Domain/Other,TRUE
+REAL_00054,Python,Python,Programming Language,TRUE
+REAL_00054,Pandas,Pandas,Framework/Library,TRUE
+REAL_00054,Scikit-Learn,Scikit-Learn,Framework/Library,TRUE
+REAL_00054,SQL,SQL,Database,TRUE
+REAL_00055,Fortinet Firewalls,Network Security,Tool/Methodology,TRUE
+REAL_00055,Palo Alto Networks,Network Security,Tool/Methodology,TRUE
+REAL_00055,VPN / IPSec,Network Security,Domain/Other,TRUE
+REAL_00056,Figma,Figma,Tool/Methodology,TRUE
+REAL_00056,User Research,User Research,Domain/Other,TRUE
+REAL_00056,Wireframing & Prototyping,Wireframing,Tool/Methodology,TRUE
+REAL_00057,Helpdesk Support,Hardware,Domain/Other,TRUE
+REAL_00057,JIRA Service Management,JIRA,Tool/Methodology,TRUE
+REAL_00057,Hardware Troubleshooting,Hardware,Domain/Other,TRUE
+REAL_00058,Requirements Gathering,Business Analysis,Domain/Other,TRUE
+REAL_00058,Functional Specifications,Business Analysis,Domain/Other,TRUE
+REAL_00058,Agile/Scrum,Agile,Tool/Methodology,TRUE
+REAL_00059,C#,C#,Programming Language,TRUE
+REAL_00059,.NET 8,.NET,Framework/Library,TRUE
+REAL_00059,SQL Server,Microsoft SQL Server,Database,TRUE
+REAL_00060,AWS / GCP,AWS,Domain/Other,TRUE
+REAL_00060,Kubernetes,Kubernetes,Cloud/DevOps,TRUE
+REAL_00060,Infrastructure as Code,Terraform,Tool/Methodology,TRUE
+REAL_00060,Team Leadership,Project Management,Domain/Other,TRUE
+REAL_00061,Java 17,Java,Programming Language,TRUE
+REAL_00061,Spring Boot,Spring Boot,Framework/Library,TRUE
+REAL_00061,Microservices,Microservices,Tool/Methodology,TRUE
+REAL_00061,Kafka,Kafka,Tool/Methodology,FALSE
+REAL_00062,AWS Cloud,AWS,Cloud/DevOps,TRUE
+REAL_00062,Terraform,Terraform,Cloud/DevOps,TRUE
+REAL_00062,Kubernetes,Kubernetes,Cloud/DevOps,TRUE
+REAL_00062,Cloud Architecture,AWS,Domain/Other,TRUE
+REAL_00063,Power BI,Power BI,Tool/Methodology,TRUE
+REAL_00063,SQL,SQL,Database,TRUE
+REAL_00063,Excel,Excel,Tool/Methodology,TRUE
+REAL_00064,TypeScript,TypeScript,Programming Language,TRUE
+REAL_00064,React,React,Framework/Library,TRUE
+REAL_00064,Node.js,Node.js,Framework/Library,TRUE
+REAL_00064,PostgreSQL,PostgreSQL,Database,TRUE
+REAL_00065,Cypress.io,Cypress,Tool/Methodology,TRUE
+REAL_00065,JavaScript,JavaScript,Programming Language,TRUE
+REAL_00065,API Testing,API Testing,Tool/Methodology,TRUE
+REAL_00066,Linux,Linux,Tool/Methodology,TRUE
+REAL_00066,Vulnerability Assessment,Vulnerability Assessment,Domain/Other,TRUE
+REAL_00066,Network Security,Network Security,Domain/Other,TRUE
+REAL_00067,Figma,Figma,Tool/Methodology,TRUE
+REAL_00067,UI Design,UI/UX,Domain/Other,TRUE
+REAL_00067,Prototyping,Prototyping,Tool/Methodology,TRUE
+REAL_00068,Kubernetes,Kubernetes,Cloud/DevOps,TRUE
+REAL_00068,ArgoCD,CI/CD,Tool/Methodology,TRUE
+REAL_00068,Terraform,Terraform,Cloud/DevOps,TRUE
+REAL_00068,AWS,AWS,Cloud/DevOps,TRUE
+REAL_00069,Python,Python,Programming Language,TRUE
+REAL_00069,FastAPI,Django,Framework/Library,TRUE
+REAL_00069,AWS,AWS,Cloud/DevOps,FALSE
+REAL_00069,PostgreSQL,PostgreSQL,Database,TRUE
+REAL_00070,Snowflake,Database,Database,TRUE
+REAL_00070,DBT,Tool/Methodology,Tool/Methodology,TRUE
+REAL_00070,Python,Python,Programming Language,TRUE
+REAL_00070,SQL,SQL,Database,TRUE
+REAL_00071,Windows Server,Windows Server,Tool/Methodology,TRUE
+REAL_00071,Active Directory,Active Directory,Tool/Methodology,TRUE
+REAL_00071,Networking,Networking,Domain/Other,TRUE
+REAL_00072,Agile,Agile,Tool/Methodology,TRUE
+REAL_00072,Scrum,Agile,Tool/Methodology,TRUE
+REAL_00072,JIRA,JIRA,Tool/Methodology,TRUE
+REAL_00073,JMeter,JMeter,Tool/Methodology,TRUE
+REAL_00073,Performance Testing,Manual Testing,Domain/Other,TRUE
+REAL_00073,Java,Java,Programming Language,FALSE
+REAL_00074,Java,Java,Programming Language,TRUE
+REAL_00074,Spring Boot,Spring Boot,Framework/Library,TRUE
+REAL_00074,OOP Concepts,Java,Domain/Other,TRUE
+REAL_00074,Git,Git,Tool/Methodology,TRUE
+REAL_00075,Figma,Figma,Tool/Methodology,TRUE
+REAL_00075,User Research,User Research,Domain/Other,TRUE
+REAL_00075,Design Systems,Design Systems,Tool/Methodology,TRUE
+REAL_00076,Linux,Linux,Tool/Methodology,TRUE
+REAL_00076,Bash Scripting,Linux,Tool/Methodology,TRUE
+REAL_00076,Docker,Docker,Cloud/DevOps,TRUE
+REAL_00077,SIEM,SIEM,Tool/Methodology,TRUE
+REAL_00077,Splunk,Splunk,Tool/Methodology,TRUE
+REAL_00077,Threat Intel,Network Security,Domain/Other,TRUE
+REAL_00078,Python,Python,Programming Language,TRUE
+REAL_00078,R,Programming Language,Programming Language,TRUE
+REAL_00078,Machine Learning,Data & AI / ML,Domain/Other,TRUE
+REAL_00078,SQL,SQL,Database,TRUE
+REAL_00079,C#,C#,Programming Language,TRUE
+REAL_00079,.NET Core,.NET,Framework/Library,TRUE
+REAL_00079,React,React,Framework/Library,TRUE
+REAL_00079,SQL Server,Microsoft SQL Server,Database,TRUE
+REAL_00080,Kubernetes,Kubernetes,Cloud/DevOps,TRUE
+REAL_00080,Prometheus,Prometheus,Tool/Methodology,TRUE
+REAL_00080,Ansible,Terraform,Tool/Methodology,TRUE
+REAL_00080,Linux,Linux,Tool/Methodology,TRUE

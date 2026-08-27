@@ -1,0 +1,175 @@
+"Skill_Name","Entry_Count","Entry_Penetration_Pct","Exp_Count","Exp_Penetration_Pct","Total_Occurrences"
+"Active Directory",3,14.29,1,1.69,4
+"Git",3,14.29,0,0,3
+"Java",3,14.29,3,5.08,6
+"Linux",3,14.29,4,6.78,7
+"SQL",3,14.29,4,6.78,7
+"Docker",2,9.52,2,3.39,4
+"Excel",2,9.52,0,0,2
+"Figma",2,9.52,5,8.47,7
+"JIRA",2,9.52,4,6.78,6
+"Manual Testing",2,9.52,1,1.69,3
+"Microsoft SQL Server",2,9.52,3,5.08,5
+"Network Security",2,9.52,0,0,2
+"OOP Concepts",2,9.52,0,0,2
+"Power BI",2,9.52,1,1.69,3
+"Prototyping",2,9.52,0,0,2
+"UI Design",2,9.52,0,0,2
+".NET",1,4.76,2,3.39,3
+"Bash Scripting",1,4.76,0,0,1
+"Bug Reporting",1,4.76,0,0,1
+"C#",1,4.76,1,1.69,2
+"Cypress",1,4.76,1,1.69,2
+"Data Modeling",1,4.76,0,0,1
+"Desktop Support",1,4.76,0,0,1
+"GitLab CI / GitHub Actions",1,4.76,0,0,1
+"Hardware Support",1,4.76,0,0,1
+"Hardware Troubleshooting",1,4.76,0,0,1
+"Helpdesk Support",1,4.76,0,0,1
+"HTML/CSS",1,4.76,0,0,1
+"JavaScript",1,4.76,1,1.69,2
+"JIRA Service Management",1,4.76,0,0,1
+"LAN/WAN Troubleshooting",1,4.76,0,0,1
+"Networking",1,4.76,0,0,1
+"NOC Monitoring",1,4.76,0,0,1
+"Pandas",1,4.76,0,0,1
+"Python",1,4.76,8,13.56,9
+"React",1,4.76,5,8.47,6
+"Scikit-Learn",1,4.76,0,0,1
+"Selenium",1,4.76,1,1.69,2
+"SIEM",1,4.76,1,1.69,2
+"SOC Operations",1,4.76,0,0,1
+"SolarWinds / Zabbix",1,4.76,0,0,1
+"Splunk",1,4.76,1,1.69,2
+"Spring Boot",1,4.76,2,3.39,3
+"TCP/IP",1,4.76,0,0,1
+"Test Case Writing",1,4.76,0,0,1
+"Test Cases",1,4.76,0,0,1
+"TestNG",1,4.76,0,0,1
+"Troubleshooting",1,4.76,0,0,1
+"Vulnerability Assessment",1,4.76,1,1.69,2
+"Windows 10/11",1,4.76,0,0,1
+"Windows Server",1,4.76,1,1.69,2
+"Agile",0,0,3,5.08,3
+"Agile Coaching",0,0,1,1.69,1
+"Agile Methodologies",0,0,1,1.69,1
+"Angular",0,0,1,1.69,1
+"Ansible",0,0,1,1.69,1
+"Apache Kafka",0,0,1,1.69,1
+"API Testing",0,0,2,3.39,2
+"Appium",0,0,1,1.69,1
+"ArgoCD",0,0,1,1.69,1
+"AWS",0,0,5,8.47,5
+"AWS / GCP",0,0,1,1.69,1
+"AWS Security",0,0,1,1.69,1
+"Azure",0,0,1,1.69,1
+"Azure Cloud",0,0,1,1.69,1
+"Azure Data Factory",0,0,1,1.69,1
+"Azure Synapse",0,0,1,1.69,1
+"BPMN",0,0,1,1.69,1
+"Burp Suite",0,0,1,1.69,1
+"Business Analysis",0,0,1,1.69,1
+"C# .net Core",0,0,1,1.69,1
+"C++",0,0,1,1.69,1
+"CI/CD",0,0,1,1.69,1
+"CI/CD Pipelines",0,0,1,1.69,1
+"CI/CD Security",0,0,1,1.69,1
+"Cisco Routing & Switching",0,0,1,1.69,1
+"Cloud Architecture",0,0,2,3.39,2
+"Dart",0,0,1,1.69,1
+"DAX",0,0,1,1.69,1
+"DBT",0,0,1,1.69,1
+"Design Leadership",0,0,1,1.69,1
+"Design Systems",0,0,2,3.39,2
+"Design Tokens",0,0,1,1.69,1
+"DevSecOps",0,0,1,1.69,1
+"Django",0,0,1,1.69,1
+"Enterprise Architecture",0,0,1,1.69,1
+"ERP Systems",0,0,1,1.69,1
+"ETL Pipelines",0,0,1,1.69,1
+"FastAPI",0,0,1,1.69,1
+"Firewall Management",0,0,1,1.69,1
+"Flutter",0,0,1,1.69,1
+"Fortinet Firewalls",0,0,1,1.69,1
+"Functional Specifications",0,0,1,1.69,1
+"GCP",0,0,1,1.69,1
+"Go",0,0,1,1.69,1
+"Grafana",0,0,1,1.69,1
+"GRC",0,0,1,1.69,1
+"gRPC",0,0,1,1.69,1
+"Hadoop/Data Lake",0,0,1,1.69,1
+"IAM",0,0,1,1.69,1
+"Incident Response",0,0,1,1.69,1
+"Infrastructure as Code",0,0,1,1.69,1
+"ISO 27001",0,0,1,1.69,1
+"JMeter",0,0,2,3.39,2
+"K6",0,0,1,1.69,1
+"Kafka",0,0,1,1.69,1
+"Kali Linux",0,0,1,1.69,1
+"Kubernetes",0,0,8,13.56,8
+"Kubernetes Security",0,0,1,1.69,1
+"LangChain",0,0,2,3.39,2
+"Laravel",0,0,1,1.69,1
+"Linux Shell Scripting",0,0,1,1.69,1
+"Low Latency Architecture",0,0,1,1.69,1
+"Machine Learning",0,0,1,1.69,1
+"Microservices",0,0,3,5.08,3
+"Microservices Architecture",0,0,1,1.69,1
+"Mobile & Web UI",0,0,1,1.69,1
+"Mobile CI/CD",0,0,1,1.69,1
+"Multithreading",0,0,1,1.69,1
+"MySQL",0,0,1,1.69,1
+"Next.js",0,0,1,1.69,1
+"NLP",0,0,1,1.69,1
+"Node.js",0,0,2,3.39,2
+"OpenCV",0,0,1,1.69,1
+"OWASP Top 10",0,0,1,1.69,1
+"Palo Alto Networks",0,0,1,1.69,1
+"Performance Testing",0,0,2,3.39,2
+"PHP",0,0,1,1.69,1
+"Playwright",0,0,2,3.39,2
+"PostgreSQL",0,0,7,11.86,7
+"Postman",0,0,1,1.69,1
+"Product Backlog Management",0,0,1,1.69,1
+"Project Management",0,0,1,1.69,1
+"Prometheus",0,0,2,3.39,2
+"PySpark",0,0,1,1.69,1
+"PyTorch",0,0,2,3.39,2
+"R",0,0,1,1.69,1
+"RAG",0,0,1,1.69,1
+"Rails",0,0,1,1.69,1
+"React Native",0,0,1,1.69,1
+"Redux",0,0,1,1.69,1
+"Requirements Analysis",0,0,1,1.69,1
+"Requirements Gathering",0,0,1,1.69,1
+"REST API",0,0,1,1.69,1
+"RestAssured",0,0,1,1.69,1
+"Ruby",0,0,1,1.69,1
+"Scala",0,0,1,1.69,1
+"Scrum / Agile",0,0,1,1.69,1
+"Scrum Framework",0,0,1,1.69,1
+"Security Audit",0,0,1,1.69,1
+"Snowflake",0,0,1,1.69,1
+"SOC Management",0,0,1,1.69,1
+"SonarQube",0,0,1,1.69,1
+"Spark",0,0,1,1.69,1
+"Sprint Planning",0,0,1,1.69,1
+"State Management",0,0,1,1.69,1
+"Tailwind CSS",0,0,1,1.69,1
+"Team Leadership",0,0,1,1.69,1
+"TensorFlow",0,0,1,1.69,1
+"Terraform",0,0,5,8.47,5
+"Test Automation Architecture",0,0,1,1.69,1
+"Threat Hunting",0,0,1,1.69,1
+"Threat Intel",0,0,1,1.69,1
+"TypeScript",0,0,6,10.17,6
+"User Journey Mapping",0,0,1,1.69,1
+"User Research",0,0,3,5.08,3
+"User Stories",0,0,1,1.69,1
+"Vector Database",0,0,1,1.69,1
+"VMware vSphere",0,0,1,1.69,1
+"VPN / IPSec",0,0,1,1.69,1
+"Vue",0,0,1,1.69,1
+"Windows Server 2022",0,0,1,1.69,1
+"Wireframing",0,0,1,1.69,1
+"Wireframing & Prototyping",0,0,1,1.69,1

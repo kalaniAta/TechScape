@@ -1,0 +1,32 @@
+indicator_id,indicator_name,year,quarter,population_group,value,unit,source
+IND_UNEMP_TOT_2016,National Unemployment Rate,2016,Annual,National Total,4.4,Percentage (%),DCS_LFS_Annual_2016
+IND_UNEMP_TOT_2017,National Unemployment Rate,2017,Annual,National Total,4.2,Percentage (%),DCS_LFS_Annual_2017
+IND_UNEMP_TOT_2018,National Unemployment Rate,2018,Annual,National Total,4.4,Percentage (%),DCS_LFS_Annual_2018
+IND_UNEMP_TOT_2019,National Unemployment Rate,2019,Annual,National Total,4.8,Percentage (%),DCS_LFS_Annual_2019
+IND_UNEMP_TOT_2020,National Unemployment Rate,2020,Annual,National Total,5.5,Percentage (%),DCS_LFS_Annual_2020
+IND_UNEMP_TOT_2021,National Unemployment Rate,2021,Annual,National Total,5.4,Percentage (%),DCS_LFS_Annual_2021
+IND_UNEMP_TOT_2022,National Unemployment Rate,2022,Annual,National Total,4.7,Percentage (%),DCS_LFS_Annual_2022
+IND_UNEMP_TOT_2023,National Unemployment Rate,2023,Annual,National Total,4.7,Percentage (%),DCS_LFS_Annual_2023
+IND_UNEMP_TOT_2024,National Unemployment Rate,2024,Annual,National Total,4.4,Percentage (%),DCS_LFS_Annual_2024
+IND_UNEMP_TOT_2025,National Unemployment Rate,2025,Annual,National Total,3.9,Percentage (%),DCS_LFS_Annual_2025
+IND_UNEMP_TOT_2026,National Unemployment Rate,2026,Q1,National Total,3.7,Percentage (%),DCS_LFS_Q1_2026
+IND_UNEMP_YOUTH_2019,Youth Unemployment Rate (20-29),2019,Annual,Youth (20-29),15.6,Percentage (%),DCS_LFS_Annual_2019
+IND_UNEMP_YOUTH_2020,Youth Unemployment Rate (20-29),2020,Annual,Youth (20-29),17.2,Percentage (%),DCS_LFS_Annual_2020
+IND_UNEMP_YOUTH_2021,Youth Unemployment Rate (20-29),2021,Annual,Youth (20-29),16.8,Percentage (%),DCS_LFS_Annual_2021
+IND_UNEMP_YOUTH_2022,Youth Unemployment Rate (20-29),2022,Annual,Youth (20-29),15.1,Percentage (%),DCS_LFS_Annual_2022
+IND_UNEMP_YOUTH_2023,Youth Unemployment Rate (20-29),2023,Annual,Youth (20-29),14.8,Percentage (%),DCS_LFS_Annual_2023
+IND_UNEMP_YOUTH_2024,Youth Unemployment Rate (20-29),2024,Annual,Youth (20-29),13.9,Percentage (%),DCS_LFS_Annual_2024
+IND_UNEMP_YOUTH_2025,Youth Unemployment Rate (20-29),2025,Annual,Youth (20-29),12.8,Percentage (%),DCS_LFS_Annual_2025
+IND_LFPR_FEMALE_2023,Female Labour Force Participation Rate,2023,Annual,Female,31.2,Percentage (%),DCS_LFS_Annual_2023
+IND_LFPR_FEMALE_2024,Female Labour Force Participation Rate,2024,Annual,Female,32.4,Percentage (%),DCS_LFS_Annual_2024
+IND_LFPR_FEMALE_2025,Female Labour Force Participation Rate,2025,Annual,Female,33.1,Percentage (%),DCS_LFS_Annual_2025
+IND_CBSL_ICT_EXP_2019,Telecommunications Computer & Info Export Earnings,2019,Annual,ICT Sector,985,USD Millions,CBSL_Annual_Report_2019
+IND_CBSL_ICT_EXP_2020,Telecommunications Computer & Info Export Earnings,2020,Annual,ICT Sector,1024,USD Millions,CBSL_Annual_Report_2020
+IND_CBSL_ICT_EXP_2021,Telecommunications Computer & Info Export Earnings,2021,Annual,ICT Sector,1198,USD Millions,CBSL_Annual_Report_2021
+IND_CBSL_ICT_EXP_2022,Telecommunications Computer & Info Export Earnings,2022,Annual,ICT Sector,1260,USD Millions,CBSL_Annual_Report_2022
+IND_CBSL_ICT_EXP_2023,Telecommunications Computer & Info Export Earnings,2023,Annual,ICT Sector,1250,USD Millions,CBSL_Annual_Report_2023
+IND_CBSL_ICT_EXP_2024,Telecommunications Computer & Info Export Earnings,2024,Annual,ICT Sector,1380,USD Millions,CBSL_Annual_Report_2024
+IND_CBSL_ICT_EXP_2025,Telecommunications Computer & Info Export Earnings,2025,Annual,ICT Sector,1520,USD Millions,CBSL_Annual_Report_2025
+IND_SLASSCOM_WF_2019,Estimated IT-BPM Workforce Size,2019,Annual,ICT Sector,113000,Headcount,SLASSCOM_Workforce_Survey_2019
+IND_SLASSCOM_WF_2024,Estimated IT-BPM Workforce Size,2024,Annual,ICT Sector,145000,Headcount,SLASSCOM_Workforce_Survey_2024
+IND_SLASSCOM_WF_2025,Estimated IT-BPM Workforce Size,2025,Annual,ICT Sector,160000,Headcount,SLASSCOM_Workforce_Survey_2025

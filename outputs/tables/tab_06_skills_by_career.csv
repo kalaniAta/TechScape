@@ -1,0 +1,41 @@
+"Career_Category","Skill_Name","Occurrences","Category_Penetration_Pct"
+"Cyber Security","Linux",11,91.7
+"Cyber Security","Vulnerability Assessment",10,83.3
+"Cyber Security","ISO 27001",5,41.7
+"Cyber Security","Firewall Configuration",4,33.3
+"Cyber Security","Network Security",4,33.3
+"QA & Test Automation","Java",36,58.1
+"QA & Test Automation","Manual Testing",36,58.1
+"QA & Test Automation","Playwright",35,56.5
+"QA & Test Automation","Cypress",34,54.8
+"QA & Test Automation","JMeter",32,51.6
+"Software Engineering","Node.js",57,44.5
+"Software Engineering",".NET",56,43.8
+"Software Engineering","Spring Boot",53,41.4
+"Software Engineering","Docker",51,39.8
+"Software Engineering","TypeScript",48,37.5
+"Data & AI / ML","PyTorch",22,84.6
+"Data & AI / ML","Python",16,61.5
+"Data & AI / ML","Power BI",15,57.7
+"Data & AI / ML","SQL",15,57.7
+"Data & AI / ML","Pandas",14,53.8
+"UI/UX & Product Design","Figma",10,71.4
+"UI/UX & Product Design","Wireframes",9,64.3
+"UI/UX & Product Design","Design Systems",7,50
+"UI/UX & Product Design","User Research",7,50
+"UI/UX & Product Design","Interactive Prototypes",6,42.9
+"Management & Business Analysis","JIRA",15,93.8
+"Management & Business Analysis","Agile",14,87.5
+"Management & Business Analysis","SQL",14,87.5
+"Management & Business Analysis","Business Analysis",9,56.2
+"Management & Business Analysis","Project Management",7,43.8
+"IT Systems & Infrastructure","Linux",8,100
+"IT Systems & Infrastructure","Active Directory",4,50
+"IT Systems & Infrastructure","CCNA",4,50
+"IT Systems & Infrastructure","Cisco",4,50
+"IT Systems & Infrastructure","Windows Server",4,50
+"Cloud & DevOps","Linux",24,70.6
+"Cloud & DevOps","Terraform",24,70.6
+"Cloud & DevOps","AWS",22,64.7
+"Cloud & DevOps","Azure",22,64.7
+"Cloud & DevOps","Kubernetes",21,61.8

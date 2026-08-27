@@ -1,0 +1,65 @@
+"Skill_Name","Entry_Count","Entry_Penetration_Pct","Exp_Count","Exp_Penetration_Pct","Total_Occurrences"
+"Java",24,24.5,59,29.2,83
+"Docker",23,23.5,47,23.3,70
+"Python",19,19.4,42,20.8,61
+"Node.js",19,19.4,38,18.8,57
+".NET",19,19.4,37,18.3,56
+"Spring Boot",14,14.3,39,19.3,53
+"TypeScript",11,11.2,37,18.3,48
+"MySQL",21,21.4,26,12.9,47
+"React",15,15.3,32,15.8,47
+"JIRA",13,13.3,33,16.3,46
+"PostgreSQL",15,15.3,31,15.3,46
+"Linux",15,15.3,28,13.9,43
+"C#",13,13.3,27,13.4,40
+"Manual Testing",8,8.2,28,13.9,36
+"Playwright",7,7.1,28,13.9,35
+"Cypress",10,10.2,24,11.9,34
+"JMeter",3,3.1,29,14.4,32
+"Postman",7,7.1,25,12.4,32
+"Selenium",8,8.2,24,11.9,32
+"REST API",12,12.2,19,9.4,31
+"SQL",11,11.2,18,8.9,29
+"Terraform",8,8.2,16,7.9,24
+"AWS",7,7.1,15,7.4,22
+"Azure",5,5.1,17,8.4,22
+"PyTorch",7,7.1,15,7.4,22
+"Kubernetes",6,6.1,15,7.4,21
+"CI/CD",7,7.1,13,6.4,20
+"Power BI",6,6.1,9,4.5,15
+"Agile",5,5.1,9,4.5,14
+"Pandas",5,5.1,9,4.5,14
+"TensorFlow",5,5.1,9,4.5,14
+"Figma",4,4.1,6,3,10
+"Vulnerability Assessment",5,5.1,5,2.5,10
+"Business Analysis",4,4.1,5,2.5,9
+"REST",5,5.1,4,2,9
+"Wireframes",2,2,7,3.5,9
+"PySpark",2,2,6,3,8
+"Design Systems",2,2,5,2.5,7
+"Project Management",1,1,6,3,7
+"Spark",4,4.1,3,1.5,7
+"User Research",2,2,5,2.5,7
+"Interactive Prototypes",2,2,4,2,6
+"Requirements Analysis",3,3.1,3,1.5,6
+"ISO 27001",2,2,3,1.5,5
+"Prototyping",3,3.1,2,1,5
+"Active Directory",2,2,2,1,4
+"CCNA",1,1,3,1.5,4
+"Cisco",1,1,3,1.5,4
+"Design Tokens",1,1,3,1.5,4
+"Firewall Configuration",3,3.1,1,0.5,4
+"Network Security",0,0,4,2,4
+"Sprint Planning",3,3.1,1,0.5,4
+"UX Research",2,2,2,1,4
+"Windows Server",0,0,4,2,4
+"Wireframing",4,4.1,0,0,4
+"Desktop Troubleshooting",0,0,3,1.5,3
+"Hardware Support",1,1,2,1,3
+"ISO27001",2,2,1,0.5,3
+"Networking",1,1,2,1,3
+"QRadar",0,0,3,1.5,3
+"Splunk",2,2,1,0.5,3
+"TCP/IP",1,1,2,1,3
+"SIEM",2,2,0,0,2
+"VAPT",1,1,1,0.5,2

@@ -1,0 +1,193 @@
+"Skill_Name","Era","Count"
+".NET","2016-2019",27
+"Active Directory","2016-2019",1
+"Agile","2016-2019",5
+"AWS","2016-2019",11
+"Azure","2016-2019",10
+"Business Analysis","2016-2019",3
+"C#","2016-2019",19
+"CCNA","2016-2019",2
+"CI/CD","2016-2019",8
+"Cisco","2016-2019",1
+"Cypress","2016-2019",15
+"Design Systems","2016-2019",6
+"Design Tokens","2016-2019",1
+"Desktop Troubleshooting","2016-2019",0
+"Docker","2016-2019",30
+"Figma","2016-2019",8
+"Firewall Configuration","2016-2019",2
+"Hardware Support","2016-2019",2
+"Interactive Prototypes","2016-2019",4
+"ISO 27001","2016-2019",4
+"ISO27001","2016-2019",1
+"Java","2016-2019",37
+"JIRA","2016-2019",18
+"JMeter","2016-2019",17
+"Kubernetes","2016-2019",10
+"Linux","2016-2019",21
+"Manual Testing","2016-2019",16
+"MySQL","2016-2019",29
+"Network Security","2016-2019",4
+"Networking","2016-2019",1
+"Node.js","2016-2019",26
+"Pandas","2016-2019",6
+"Playwright","2016-2019",18
+"PostgreSQL","2016-2019",18
+"Postman","2016-2019",14
+"Power BI","2016-2019",7
+"Project Management","2016-2019",3
+"Prototyping","2016-2019",3
+"PySpark","2016-2019",2
+"Python","2016-2019",23
+"PyTorch","2016-2019",8
+"QRadar","2016-2019",3
+"React","2016-2019",21
+"Requirements Analysis","2016-2019",3
+"REST","2016-2019",3
+"REST API","2016-2019",13
+"Selenium","2016-2019",17
+"SIEM","2016-2019",0
+"Spark","2016-2019",3
+"Splunk","2016-2019",3
+"Spring Boot","2016-2019",20
+"Sprint Planning","2016-2019",3
+"SQL","2016-2019",13
+"TCP/IP","2016-2019",0
+"TensorFlow","2016-2019",6
+"Terraform","2016-2019",9
+"TypeScript","2016-2019",15
+"User Research","2016-2019",5
+"UX Research","2016-2019",2
+"VAPT","2016-2019",2
+"Vulnerability Assessment","2016-2019",6
+"Windows Server","2016-2019",2
+"Wireframes","2016-2019",7
+"Wireframing","2016-2019",3
+".NET","2020-2022",11
+"Active Directory","2020-2022",2
+"Agile","2020-2022",5
+"AWS","2020-2022",5
+"Azure","2020-2022",8
+"Business Analysis","2020-2022",2
+"C#","2020-2022",8
+"CCNA","2020-2022",1
+"CI/CD","2020-2022",8
+"Cisco","2020-2022",2
+"Cypress","2020-2022",12
+"Design Systems","2020-2022",1
+"Design Tokens","2020-2022",2
+"Desktop Troubleshooting","2020-2022",1
+"Docker","2020-2022",16
+"Figma","2020-2022",1
+"Firewall Configuration","2020-2022",0
+"Hardware Support","2020-2022",1
+"Interactive Prototypes","2020-2022",1
+"ISO 27001","2020-2022",0
+"ISO27001","2020-2022",1
+"Java","2020-2022",21
+"JIRA","2020-2022",15
+"JMeter","2020-2022",10
+"Kubernetes","2020-2022",6
+"Linux","2020-2022",11
+"Manual Testing","2020-2022",11
+"MySQL","2020-2022",8
+"Network Security","2020-2022",0
+"Networking","2020-2022",1
+"Node.js","2020-2022",10
+"Pandas","2020-2022",7
+"Playwright","2020-2022",7
+"PostgreSQL","2020-2022",11
+"Postman","2020-2022",10
+"Power BI","2020-2022",4
+"Project Management","2020-2022",2
+"Prototyping","2020-2022",2
+"PySpark","2020-2022",4
+"Python","2020-2022",15
+"PyTorch","2020-2022",8
+"QRadar","2020-2022",0
+"React","2020-2022",9
+"Requirements Analysis","2020-2022",3
+"REST","2020-2022",2
+"REST API","2020-2022",10
+"Selenium","2020-2022",8
+"SIEM","2020-2022",1
+"Spark","2020-2022",2
+"Splunk","2020-2022",0
+"Spring Boot","2020-2022",9
+"Sprint Planning","2020-2022",1
+"SQL","2020-2022",7
+"TCP/IP","2020-2022",2
+"TensorFlow","2020-2022",6
+"Terraform","2020-2022",9
+"TypeScript","2020-2022",14
+"User Research","2020-2022",2
+"UX Research","2020-2022",1
+"VAPT","2020-2022",0
+"Vulnerability Assessment","2020-2022",1
+"Windows Server","2020-2022",1
+"Wireframes","2020-2022",1
+"Wireframing","2020-2022",1
+".NET","2023-2026",18
+"Active Directory","2023-2026",1
+"Agile","2023-2026",4
+"AWS","2023-2026",6
+"Azure","2023-2026",4
+"Business Analysis","2023-2026",4
+"C#","2023-2026",13
+"CCNA","2023-2026",1
+"CI/CD","2023-2026",4
+"Cisco","2023-2026",1
+"Cypress","2023-2026",7
+"Design Systems","2023-2026",0
+"Design Tokens","2023-2026",1
+"Desktop Troubleshooting","2023-2026",2
+"Docker","2023-2026",24
+"Figma","2023-2026",1
+"Firewall Configuration","2023-2026",2
+"Hardware Support","2023-2026",0
+"Interactive Prototypes","2023-2026",1
+"ISO 27001","2023-2026",1
+"ISO27001","2023-2026",1
+"Java","2023-2026",25
+"JIRA","2023-2026",13
+"JMeter","2023-2026",5
+"Kubernetes","2023-2026",5
+"Linux","2023-2026",11
+"Manual Testing","2023-2026",9
+"MySQL","2023-2026",10
+"Network Security","2023-2026",0
+"Networking","2023-2026",1
+"Node.js","2023-2026",21
+"Pandas","2023-2026",1
+"Playwright","2023-2026",10
+"PostgreSQL","2023-2026",17
+"Postman","2023-2026",8
+"Power BI","2023-2026",4
+"Project Management","2023-2026",2
+"Prototyping","2023-2026",0
+"PySpark","2023-2026",2
+"Python","2023-2026",23
+"PyTorch","2023-2026",6
+"QRadar","2023-2026",0
+"React","2023-2026",17
+"Requirements Analysis","2023-2026",0
+"REST","2023-2026",4
+"REST API","2023-2026",8
+"Selenium","2023-2026",7
+"SIEM","2023-2026",1
+"Spark","2023-2026",2
+"Splunk","2023-2026",0
+"Spring Boot","2023-2026",24
+"Sprint Planning","2023-2026",0
+"SQL","2023-2026",9
+"TCP/IP","2023-2026",1
+"TensorFlow","2023-2026",2
+"Terraform","2023-2026",6
+"TypeScript","2023-2026",19
+"User Research","2023-2026",0
+"UX Research","2023-2026",1
+"VAPT","2023-2026",0
+"Vulnerability Assessment","2023-2026",3
+"Windows Server","2023-2026",1
+"Wireframes","2023-2026",1
+"Wireframing","2023-2026",0

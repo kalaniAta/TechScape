@@ -1,0 +1,1317 @@
+"job_id","skill_raw","skill_name","skill_category","is_required"
+"SYN_00001","linux","Linux","Tool/Methodology",FALSE
+"SYN_00001","Vulnerability Assessment","Vulnerability Assessment","Domain/Other",FALSE
+"SYN_00001","ISO 27001","ISO 27001","Domain/Other",TRUE
+"SYN_00002","Java","Java","Programming Language",TRUE
+"SYN_00002","Cypress.io","Cypress","Tool/Methodology",TRUE
+"SYN_00002","postman","Postman","Tool/Methodology",TRUE
+"SYN_00002","jira","JIRA","Tool/Methodology",TRUE
+"SYN_00002","Manual Testing","Manual Testing","Tool/Methodology",TRUE
+"SYN_00003","C#","C#","Programming Language",TRUE
+"SYN_00003","TypeScript","TypeScript","Programming Language",TRUE
+"SYN_00003","mysql","MySQL","Database",TRUE
+"SYN_00003",".NET",".NET","Framework/Library",TRUE
+"SYN_00004","TensorFlow","TensorFlow","Framework/Library",FALSE
+"SYN_00004","Advanced SQL","SQL","Database",TRUE
+"SYN_00004","Pandas","Pandas","Framework/Library",TRUE
+"SYN_00004","PySpark","PySpark","Framework/Library",TRUE
+"SYN_00004","Python 3","Python","Programming Language",TRUE
+"SYN_00004","pytorch","PyTorch","Framework/Library",TRUE
+"SYN_00005","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00005","postgres","PostgreSQL","Database",TRUE
+"SYN_00005","MySQL","MySQL","Database",TRUE
+"SYN_00005",".NET Core",".NET","Framework/Library",TRUE
+"SYN_00006","FIGMA","Figma","Tool/Methodology",TRUE
+"SYN_00006","wireframes","Wireframing","Tool/Methodology",TRUE
+"SYN_00006","Design Tokens","Design Systems","Tool/Methodology",TRUE
+"SYN_00006","interactive prototypes","Prototyping","Tool/Methodology",TRUE
+"SYN_00006","User Research","User Research","Domain/Other",TRUE
+"SYN_00007","Design Systems","Design Systems","Tool/Methodology",TRUE
+"SYN_00007","wireframes","Wireframing","Tool/Methodology",FALSE
+"SYN_00007","interactive prototypes","Prototyping","Tool/Methodology",FALSE
+"SYN_00007","FIGMA","Figma","Tool/Methodology",TRUE
+"SYN_00008","Requirements Analysis","Business Analysis","Domain/Other",FALSE
+"SYN_00008","Sprint Planning","Project Management","Domain/Other",TRUE
+"SYN_00008","SQL","SQL","Database",TRUE
+"SYN_00008","JIRA","JIRA","Tool/Methodology",TRUE
+"SYN_00009","Core Java","Java","Programming Language",TRUE
+"SYN_00009","PostgreSQL","PostgreSQL","Database",TRUE
+"SYN_00009","RESTful API","REST API","Tool/Methodology",TRUE
+"SYN_00009","mysql","MySQL","Database",TRUE
+"SYN_00009","node","Node.js","Framework/Library",TRUE
+"SYN_00010","Python","Python","Programming Language",TRUE
+"SYN_00010","power bi","Power BI","Tool/Methodology",TRUE
+"SYN_00010","SQL","SQL","Database",TRUE
+"SYN_00011","Java","Java","Programming Language",TRUE
+"SYN_00011","Manual Testing","Manual Testing","Tool/Methodology",TRUE
+"SYN_00011","Cypress","Cypress","Tool/Methodology",FALSE
+"SYN_00011","JMeter","JMeter","Tool/Methodology",FALSE
+"SYN_00011","Selenium","Selenium","Tool/Methodology",FALSE
+"SYN_00012","NodeJS","Node.js","Framework/Library",TRUE
+"SYN_00012","TS","TypeScript","Programming Language",TRUE
+"SYN_00012","react.js","React","Framework/Library",TRUE
+"SYN_00012","Spring Boot","Spring Boot","Framework/Library",TRUE
+"SYN_00013","JIRA","JIRA","Tool/Methodology",FALSE
+"SYN_00013","Business Analysis","Business Analysis","Domain/Other",TRUE
+"SYN_00013","Agile/Scrum","Agile","Tool/Methodology",FALSE
+"SYN_00013","sql","SQL","Database",TRUE
+"SYN_00014","spring-boot","Spring Boot","Framework/Library",FALSE
+"SYN_00014","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00014","ReactJS","React","Framework/Library",TRUE
+"SYN_00014",".NET Core",".NET","Framework/Library",TRUE
+"SYN_00014","NodeJS","Node.js","Framework/Library",TRUE
+"SYN_00015","MySQL","MySQL","Database",FALSE
+"SYN_00015","TS","TypeScript","Programming Language",TRUE
+"SYN_00015","spring-boot","Spring Boot","Framework/Library",TRUE
+"SYN_00015","Python3","Python","Programming Language",TRUE
+"SYN_00015","Core Java","Java","Programming Language",TRUE
+"SYN_00016","java","Java","Programming Language",FALSE
+"SYN_00016","Spring Boot","Spring Boot","Framework/Library",TRUE
+"SYN_00016","Python3","Python","Programming Language",FALSE
+"SYN_00016","RESTful API","REST API","Tool/Methodology",TRUE
+"SYN_00016","typescript","TypeScript","Programming Language",TRUE
+"SYN_00017","Design Systems","Design Systems","Tool/Methodology",TRUE
+"SYN_00017","Figma","Figma","Tool/Methodology",TRUE
+"SYN_00017","wireframes","Wireframing","Tool/Methodology",TRUE
+"SYN_00017","UX Research","User Research","Domain/Other",TRUE
+"SYN_00018","PostgreSQL","PostgreSQL","Database",TRUE
+"SYN_00018","React","React","Framework/Library",TRUE
+"SYN_00018","python","Python","Programming Language",TRUE
+"SYN_00018","NodeJS","Node.js","Framework/Library",TRUE
+"SYN_00018","TypeScript","TypeScript","Programming Language",TRUE
+"SYN_00019","node","Node.js","Framework/Library",TRUE
+"SYN_00019","TS","TypeScript","Programming Language",TRUE
+"SYN_00019","react.js","React","Framework/Library",TRUE
+"SYN_00020","sql queries","SQL","Database",FALSE
+"SYN_00020","pytorch","PyTorch","Framework/Library",TRUE
+"SYN_00020","Python","Python","Programming Language",TRUE
+"SYN_00020","Power BI","Power BI","Tool/Methodology",TRUE
+"SYN_00020","tensorflow","TensorFlow","Framework/Library",TRUE
+"SYN_00021","PyTorch","PyTorch","Framework/Library",TRUE
+"SYN_00021","Power BI","Power BI","Tool/Methodology",TRUE
+"SYN_00021","Advanced SQL","SQL","Database",TRUE
+"SYN_00021","Python","Python","Programming Language",TRUE
+"SYN_00021","pandas","Pandas","Framework/Library",TRUE
+"SYN_00021","PySpark","PySpark","Framework/Library",TRUE
+"SYN_00022","Cisco Routing","Cisco","Tool/Methodology",TRUE
+"SYN_00022","Windows Server","Windows Server","Tool/Methodology",TRUE
+"SYN_00022","Linux","Linux","Tool/Methodology",TRUE
+"SYN_00022","TCP/IP","Networking","Domain/Other",TRUE
+"SYN_00022","Hardware Support","Hardware","Domain/Other",TRUE
+"SYN_00023","TS","TypeScript","Programming Language",TRUE
+"SYN_00023",".NET Core",".NET","Framework/Library",FALSE
+"SYN_00023","MySQL","MySQL","Database",TRUE
+"SYN_00023","NodeJS","Node.js","Framework/Library",TRUE
+"SYN_00024","REACT","React","Framework/Library",TRUE
+"SYN_00024","c#","C#","Programming Language",TRUE
+"SYN_00024","dot net",".NET","Framework/Library",TRUE
+"SYN_00025","JIRA","JIRA","Tool/Methodology",FALSE
+"SYN_00025","Playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00025","Cypress.io","Cypress","Tool/Methodology",TRUE
+"SYN_00025","Java","Java","Programming Language",TRUE
+"SYN_00025","manual QA","Manual Testing","Tool/Methodology",TRUE
+"SYN_00026","NodeJS","Node.js","Framework/Library",FALSE
+"SYN_00026","RESTful API","REST API","Tool/Methodology",TRUE
+"SYN_00026","mysql","MySQL","Database",TRUE
+"SYN_00026","Java","Java","Programming Language",TRUE
+"SYN_00027","NodeJS","Node.js","Framework/Library",TRUE
+"SYN_00027","MySQL","MySQL","Database",TRUE
+"SYN_00027","Python3","Python","Programming Language",TRUE
+"SYN_00027","spring-boot","Spring Boot","Framework/Library",TRUE
+"SYN_00028","Java","Java","Programming Language",TRUE
+"SYN_00028","C#.NET","C#","Programming Language",TRUE
+"SYN_00028","React","React","Framework/Library",TRUE
+"SYN_00028","Python3","Python","Programming Language",TRUE
+"SYN_00028","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00029","Terraform","Terraform","Cloud/DevOps",TRUE
+"SYN_00029","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00029","Azure","Azure","Cloud/DevOps",TRUE
+"SYN_00029","Amazon Web Services","AWS","Cloud/DevOps",FALSE
+"SYN_00030","jmeter","JMeter","Tool/Methodology",TRUE
+"SYN_00030","Postman","Postman","Tool/Methodology",TRUE
+"SYN_00030","playwright","Playwright","Tool/Methodology",FALSE
+"SYN_00030","selenium","Selenium","Tool/Methodology",TRUE
+"SYN_00031","Selenium WebDriver","Selenium","Tool/Methodology",FALSE
+"SYN_00031","Cypress.io","Cypress","Tool/Methodology",TRUE
+"SYN_00031","Java","Java","Programming Language",TRUE
+"SYN_00031","Playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00031","jira","JIRA","Tool/Methodology",TRUE
+"SYN_00032","Java 17","Java","Programming Language",TRUE
+"SYN_00032","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00032","RESTful API","REST API","Tool/Methodology",TRUE
+"SYN_00032","mysql","MySQL","Database",TRUE
+"SYN_00032",".NET Core",".NET","Framework/Library",TRUE
+"SYN_00033","Manual Testing","Manual Testing","Tool/Methodology",TRUE
+"SYN_00033","Cypress","Cypress","Tool/Methodology",FALSE
+"SYN_00033","selenium","Selenium","Tool/Methodology",TRUE
+"SYN_00034","jira","JIRA","Tool/Methodology",TRUE
+"SYN_00034","Selenium WebDriver","Selenium","Tool/Methodology",TRUE
+"SYN_00034","Cypress.io","Cypress","Tool/Methodology",TRUE
+"SYN_00034","Manual Testing","Manual Testing","Tool/Methodology",FALSE
+"SYN_00035","Firewall Configuration","Network Security","Domain/Other",TRUE
+"SYN_00035","Vulnerability Assessment","Vulnerability Assessment","Domain/Other",FALSE
+"SYN_00035","Splunk","SIEM","Tool/Methodology",FALSE
+"SYN_00036","REST APIs","REST API","Tool/Methodology",FALSE
+"SYN_00036","Postgresql","PostgreSQL","Database",TRUE
+"SYN_00036","dot net",".NET","Framework/Library",TRUE
+"SYN_00036","Python","Python","Programming Language",TRUE
+"SYN_00036","docker","Docker","Cloud/DevOps",FALSE
+"SYN_00036","SpringBoot","Spring Boot","Framework/Library",TRUE
+"SYN_00037","Advanced SQL","SQL","Database",TRUE
+"SYN_00037","Python","Python","Programming Language",FALSE
+"SYN_00037","PyTorch","PyTorch","Framework/Library",TRUE
+"SYN_00037","power bi","Power BI","Tool/Methodology",FALSE
+"SYN_00037","pandas","Pandas","Framework/Library",FALSE
+"SYN_00038","postman","Postman","Tool/Methodology",TRUE
+"SYN_00038","playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00038","JMeter","JMeter","Tool/Methodology",TRUE
+"SYN_00038","Java","Java","Programming Language",TRUE
+"SYN_00038","Selenium","Selenium","Tool/Methodology",TRUE
+"SYN_00039","SQL","SQL","Database",TRUE
+"SYN_00039","Requirements Analysis","Business Analysis","Domain/Other",TRUE
+"SYN_00039","Sprint Planning","Project Management","Domain/Other",TRUE
+"SYN_00039","Scrum","Agile","Tool/Methodology",TRUE
+"SYN_00039","JIRA","JIRA","Tool/Methodology",TRUE
+"SYN_00040","Java","Java","Programming Language",TRUE
+"SYN_00040","Cypress","Cypress","Tool/Methodology",TRUE
+"SYN_00040","jira","JIRA","Tool/Methodology",FALSE
+"SYN_00040","Selenium WebDriver","Selenium","Tool/Methodology",FALSE
+"SYN_00041","Java","Java","Programming Language",TRUE
+"SYN_00041","jmeter","JMeter","Tool/Methodology",TRUE
+"SYN_00041","Selenium","Selenium","Tool/Methodology",TRUE
+"SYN_00041","postman","Postman","Tool/Methodology",FALSE
+"SYN_00041","manual QA","Manual Testing","Tool/Methodology",FALSE
+"SYN_00041","Playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00042","C#","C#","Programming Language",FALSE
+"SYN_00042","MySQL","MySQL","Database",TRUE
+"SYN_00042","TypeScript","TypeScript","Programming Language",TRUE
+"SYN_00042","Node.js","Node.js","Framework/Library",TRUE
+"SYN_00043","Amazon Web Services","AWS","Cloud/DevOps",TRUE
+"SYN_00043","Microsoft Azure","Azure","Cloud/DevOps",TRUE
+"SYN_00043","K8s","Kubernetes","Cloud/DevOps",TRUE
+"SYN_00044","Postgresql","PostgreSQL","Database",FALSE
+"SYN_00044","typescript","TypeScript","Programming Language",TRUE
+"SYN_00044","dot net",".NET","Framework/Library",FALSE
+"SYN_00045","Manual Testing","Manual Testing","Tool/Methodology",TRUE
+"SYN_00045","Cypress.io","Cypress","Tool/Methodology",TRUE
+"SYN_00045","JIRA","JIRA","Tool/Methodology",TRUE
+"SYN_00046","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00046","REST APIs","REST API","Tool/Methodology",TRUE
+"SYN_00046","Python","Python","Programming Language",TRUE
+"SYN_00047","Node.js","Node.js","Framework/Library",TRUE
+"SYN_00047","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00047","Java","Java","Programming Language",TRUE
+"SYN_00047","MySQL","MySQL","Database",TRUE
+"SYN_00047","TS","TypeScript","Programming Language",TRUE
+"SYN_00048","PyTorch","PyTorch","Framework/Library",FALSE
+"SYN_00048","Python 3","Python","Programming Language",TRUE
+"SYN_00048","PySpark","PySpark","Framework/Library",TRUE
+"SYN_00048","power bi","Power BI","Tool/Methodology",TRUE
+"SYN_00049","Java","Java","Programming Language",TRUE
+"SYN_00049","mysql","MySQL","Database",TRUE
+"SYN_00049","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00049",".NET Core",".NET","Framework/Library",TRUE
+"SYN_00050","node","Node.js","Framework/Library",TRUE
+"SYN_00050","C#.NET","C#","Programming Language",TRUE
+"SYN_00050","typescript","TypeScript","Programming Language",TRUE
+"SYN_00050","mysql","MySQL","Database",TRUE
+"SYN_00050","react.js","React","Framework/Library",TRUE
+"SYN_00051","Linux","Linux","Tool/Methodology",FALSE
+"SYN_00051","CI/CD","CI/CD","Tool/Methodology",TRUE
+"SYN_00051","azure","Azure","Cloud/DevOps",TRUE
+"SYN_00051","terraform","Terraform","Cloud/DevOps",TRUE
+"SYN_00052","C#","C#","Programming Language",TRUE
+"SYN_00052","dot net",".NET","Framework/Library",TRUE
+"SYN_00052","Postgresql","PostgreSQL","Database",TRUE
+"SYN_00052","python","Python","Programming Language",TRUE
+"SYN_00052","SpringBoot","Spring Boot","Framework/Library",TRUE
+"SYN_00052","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00053","node","Node.js","Framework/Library",TRUE
+"SYN_00053",".NET Core",".NET","Framework/Library",TRUE
+"SYN_00053","mysql","MySQL","Database",TRUE
+"SYN_00053","TS","TypeScript","Programming Language",TRUE
+"SYN_00053","Core Java","Java","Programming Language",FALSE
+"SYN_00054","node","Node.js","Framework/Library",TRUE
+"SYN_00054","java","Java","Programming Language",FALSE
+"SYN_00054","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00054","MySQL","MySQL","Database",TRUE
+"SYN_00054","C#.NET","C#","Programming Language",TRUE
+"SYN_00054","Spring Boot","Spring Boot","Framework/Library",FALSE
+"SYN_00055",".NET Core",".NET","Framework/Library",TRUE
+"SYN_00055","RESTful API","REST API","Tool/Methodology",TRUE
+"SYN_00055","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00055","NodeJS","Node.js","Framework/Library",TRUE
+"SYN_00056","docker","Docker","Cloud/DevOps",FALSE
+"SYN_00056","SpringBoot","Spring Boot","Framework/Library",TRUE
+"SYN_00056","java","Java","Programming Language",TRUE
+"SYN_00057","dot net",".NET","Framework/Library",TRUE
+"SYN_00057","MySQL","MySQL","Database",TRUE
+"SYN_00057","spring-boot","Spring Boot","Framework/Library",TRUE
+"SYN_00058","Java 17","Java","Programming Language",TRUE
+"SYN_00058","REST APIs","REST API","Tool/Methodology",TRUE
+"SYN_00058","MySQL","MySQL","Database",TRUE
+"SYN_00059","node","Node.js","Framework/Library",TRUE
+"SYN_00059","REACT","React","Framework/Library",TRUE
+"SYN_00059","Python3","Python","Programming Language",TRUE
+"SYN_00059",".NET Core",".NET","Framework/Library",TRUE
+"SYN_00059","C#","C#","Programming Language",TRUE
+"SYN_00060","RESTful API","REST API","Tool/Methodology",TRUE
+"SYN_00060","Python3","Python","Programming Language",TRUE
+"SYN_00060","react.js","React","Framework/Library",TRUE
+"SYN_00060","C#","C#","Programming Language",TRUE
+"SYN_00060","typescript","TypeScript","Programming Language",TRUE
+"SYN_00061","Amazon Web Services","AWS","Cloud/DevOps",TRUE
+"SYN_00061","k8s","Kubernetes","Cloud/DevOps",TRUE
+"SYN_00061","IaC","Terraform","Cloud/DevOps",FALSE
+"SYN_00061","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00062","Agile/Scrum","Agile","Tool/Methodology",TRUE
+"SYN_00062","JIRA","JIRA","Tool/Methodology",TRUE
+"SYN_00062","Business Analysis","Business Analysis","Domain/Other",TRUE
+"SYN_00062","sql","SQL","Database",TRUE
+"SYN_00062","Project Management","Project Management","Domain/Other",TRUE
+"SYN_00063","jira","JIRA","Tool/Methodology",FALSE
+"SYN_00063","Manual Testing","Manual Testing","Tool/Methodology",FALSE
+"SYN_00063","jmeter","JMeter","Tool/Methodology",TRUE
+"SYN_00063","Java","Java","Programming Language",TRUE
+"SYN_00063","postman","Postman","Tool/Methodology",TRUE
+"SYN_00063","Cypress","Cypress","Tool/Methodology",TRUE
+"SYN_00064","Java","Java","Programming Language",TRUE
+"SYN_00064","python","Python","Programming Language",TRUE
+"SYN_00064","RESTful API","REST API","Tool/Methodology",TRUE
+"SYN_00064","SpringBoot","Spring Boot","Framework/Library",TRUE
+"SYN_00064",".NET Core",".NET","Framework/Library",TRUE
+"SYN_00064","react.js","React","Framework/Library",TRUE
+"SYN_00065","PyTorch","PyTorch","Framework/Library",TRUE
+"SYN_00065","TensorFlow","TensorFlow","Framework/Library",TRUE
+"SYN_00065","Power BI","Power BI","Tool/Methodology",FALSE
+"SYN_00065","Pandas","Pandas","Framework/Library",TRUE
+"SYN_00065","Python 3","Python","Programming Language",TRUE
+"SYN_00066","Spring Boot","Spring Boot","Framework/Library",TRUE
+"SYN_00066","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00066","REACT","React","Framework/Library",FALSE
+"SYN_00066","C#","C#","Programming Language",TRUE
+"SYN_00066","PostgreSQL","PostgreSQL","Database",FALSE
+"SYN_00067","postgres","PostgreSQL","Database",FALSE
+"SYN_00067","REST APIs","REST API","Tool/Methodology",FALSE
+"SYN_00067","Python3","Python","Programming Language",TRUE
+"SYN_00067","dot net",".NET","Framework/Library",TRUE
+"SYN_00067","REACT","React","Framework/Library",TRUE
+"SYN_00068","TensorFlow","TensorFlow","Framework/Library",TRUE
+"SYN_00068","Pandas","Pandas","Framework/Library",TRUE
+"SYN_00068","Python 3","Python","Programming Language",FALSE
+"SYN_00069","C#","C#","Programming Language",TRUE
+"SYN_00069","dot net",".NET","Framework/Library",TRUE
+"SYN_00069","Spring Boot","Spring Boot","Framework/Library",TRUE
+"SYN_00069","MySQL","MySQL","Database",FALSE
+"SYN_00070","GitLab CI","CI/CD","Tool/Methodology",TRUE
+"SYN_00070","linux administration","Linux","Tool/Methodology",TRUE
+"SYN_00070","Kubernetes","Kubernetes","Cloud/DevOps",TRUE
+"SYN_00070","Azure","Azure","Cloud/DevOps",TRUE
+"SYN_00070","Amazon Web Services","AWS","Cloud/DevOps",FALSE
+"SYN_00071","manual QA","Manual Testing","Tool/Methodology",TRUE
+"SYN_00071","JIRA","JIRA","Tool/Methodology",TRUE
+"SYN_00071","Selenium WebDriver","Selenium","Tool/Methodology",TRUE
+"SYN_00071","Postman","Postman","Tool/Methodology",TRUE
+"SYN_00071","Java","Java","Programming Language",TRUE
+"SYN_00072","Ubuntu/RHEL","Linux","Tool/Methodology",FALSE
+"SYN_00072","CI/CD","CI/CD","Tool/Methodology",TRUE
+"SYN_00072","terraform","Terraform","Cloud/DevOps",FALSE
+"SYN_00073","playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00073","JIRA","JIRA","Tool/Methodology",TRUE
+"SYN_00073","Java","Java","Programming Language",TRUE
+"SYN_00073","selenium","Selenium","Tool/Methodology",TRUE
+"SYN_00074","Linux","Linux","Tool/Methodology",TRUE
+"SYN_00074","TCP/IP","Networking","Domain/Other",TRUE
+"SYN_00074","Active Directory","Windows Server","Tool/Methodology",TRUE
+"SYN_00074","Desktop Troubleshooting","Hardware","Domain/Other",TRUE
+"SYN_00074","Cisco Routing","Cisco","Tool/Methodology",TRUE
+"SYN_00075","AWS Cloud","AWS","Cloud/DevOps",TRUE
+"SYN_00075","IaC","Terraform","Cloud/DevOps",TRUE
+"SYN_00075","docker","Docker","Cloud/DevOps",FALSE
+"SYN_00076","Power BI","Power BI","Tool/Methodology",TRUE
+"SYN_00076","Advanced SQL","SQL","Database",FALSE
+"SYN_00076","pytorch","PyTorch","Framework/Library",FALSE
+"SYN_00076","pandas","Pandas","Framework/Library",FALSE
+"SYN_00076","TensorFlow","TensorFlow","Framework/Library",FALSE
+"SYN_00076","PySpark","PySpark","Framework/Library",TRUE
+"SYN_00077","python","Python","Programming Language",TRUE
+"SYN_00077","spring-boot","Spring Boot","Framework/Library",FALSE
+"SYN_00077","MySQL","MySQL","Database",TRUE
+"SYN_00077","Node.js","Node.js","Framework/Library",FALSE
+"SYN_00077","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00078","jira / confluence","JIRA","Tool/Methodology",TRUE
+"SYN_00078","Business Analysis","Business Analysis","Domain/Other",TRUE
+"SYN_00078","sql","SQL","Database",TRUE
+"SYN_00079","REST","REST API","Tool/Methodology",TRUE
+"SYN_00079","postgres","PostgreSQL","Database",TRUE
+"SYN_00079","c#","C#","Programming Language",TRUE
+"SYN_00079","Spring Boot","Spring Boot","Framework/Library",TRUE
+"SYN_00079","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00080","PostgreSQL","PostgreSQL","Database",TRUE
+"SYN_00080",".NET Core",".NET","Framework/Library",TRUE
+"SYN_00080","REST","REST API","Tool/Methodology",FALSE
+"SYN_00080","SpringBoot","Spring Boot","Framework/Library",TRUE
+"SYN_00080","Docker","Docker","Cloud/DevOps",FALSE
+"SYN_00080","C#.NET","C#","Programming Language",TRUE
+"SYN_00081","python","Python","Programming Language",TRUE
+"SYN_00081","Postgresql","PostgreSQL","Database",TRUE
+"SYN_00081","C#.NET","C#","Programming Language",TRUE
+"SYN_00082","ISO 27001","ISO 27001","Domain/Other",FALSE
+"SYN_00082","QRadar","SIEM","Tool/Methodology",TRUE
+"SYN_00082","Network Security","Network Security","Domain/Other",TRUE
+"SYN_00082","Vulnerability Assessment","Vulnerability Assessment","Domain/Other",TRUE
+"SYN_00082","linux","Linux","Tool/Methodology",TRUE
+"SYN_00083","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00083","Spring Boot","Spring Boot","Framework/Library",FALSE
+"SYN_00083","python","Python","Programming Language",TRUE
+"SYN_00083",".NET",".NET","Framework/Library",TRUE
+"SYN_00083","MySQL","MySQL","Database",TRUE
+"SYN_00083","ReactJS","React","Framework/Library",TRUE
+"SYN_00084","Cypress","Cypress","Tool/Methodology",TRUE
+"SYN_00084","Postman","Postman","Tool/Methodology",TRUE
+"SYN_00084","Manual Testing","Manual Testing","Tool/Methodology",TRUE
+"SYN_00084","Playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00084","Selenium WebDriver","Selenium","Tool/Methodology",TRUE
+"SYN_00085","Pandas","Pandas","Framework/Library",FALSE
+"SYN_00085","power bi","Power BI","Tool/Methodology",TRUE
+"SYN_00085","sql queries","SQL","Database",TRUE
+"SYN_00086","CCNA","Cisco","Tool/Methodology",TRUE
+"SYN_00086","linux","Linux","Tool/Methodology",TRUE
+"SYN_00086","Windows Server","Windows Server","Tool/Methodology",TRUE
+"SYN_00087","spring-boot","Spring Boot","Framework/Library",FALSE
+"SYN_00087","Postgresql","PostgreSQL","Database",TRUE
+"SYN_00087","REACT","React","Framework/Library",TRUE
+"SYN_00087","node","Node.js","Framework/Library",TRUE
+"SYN_00087","dot net",".NET","Framework/Library",FALSE
+"SYN_00087","REST APIs","REST API","Tool/Methodology",TRUE
+"SYN_00088","Wireframing","Wireframing","Tool/Methodology",TRUE
+"SYN_00088","Design Systems","Design Systems","Tool/Methodology",TRUE
+"SYN_00088","Figma","Figma","Tool/Methodology",TRUE
+"SYN_00088","Prototyping","Prototyping","Tool/Methodology",TRUE
+"SYN_00088","UX Research","User Research","Domain/Other",TRUE
+"SYN_00089","python","Python","Programming Language",TRUE
+"SYN_00089","Power BI","Power BI","Tool/Methodology",TRUE
+"SYN_00089","pytorch","PyTorch","Framework/Library",TRUE
+"SYN_00089","TensorFlow","TensorFlow","Framework/Library",TRUE
+"SYN_00089","Advanced SQL","SQL","Database",FALSE
+"SYN_00090","QRadar","SIEM","Tool/Methodology",TRUE
+"SYN_00090","ISO 27001","ISO 27001","Domain/Other",TRUE
+"SYN_00090","Vulnerability Assessment","Vulnerability Assessment","Domain/Other",TRUE
+"SYN_00090","Linux","Linux","Tool/Methodology",TRUE
+"SYN_00090","Network Security","Network Security","Domain/Other",TRUE
+"SYN_00091","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00091","k8s","Kubernetes","Cloud/DevOps",TRUE
+"SYN_00091","CI-CD Pipelines","CI/CD","Tool/Methodology",TRUE
+"SYN_00091","Linux","Linux","Tool/Methodology",TRUE
+"SYN_00091","terraform","Terraform","Cloud/DevOps",TRUE
+"SYN_00091","AWS Cloud","AWS","Cloud/DevOps",TRUE
+"SYN_00092","TypeScript","TypeScript","Programming Language",TRUE
+"SYN_00092","PostgreSQL","PostgreSQL","Database",TRUE
+"SYN_00092","python","Python","Programming Language",FALSE
+"SYN_00092","spring-boot","Spring Boot","Framework/Library",FALSE
+"SYN_00092","RESTful API","REST API","Tool/Methodology",TRUE
+"SYN_00092","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00093","manual QA","Manual Testing","Tool/Methodology",TRUE
+"SYN_00093","jmeter","JMeter","Tool/Methodology",TRUE
+"SYN_00093","Postman","Postman","Tool/Methodology",TRUE
+"SYN_00094","VAPT","Vulnerability Assessment","Domain/Other",FALSE
+"SYN_00094","Splunk","SIEM","Tool/Methodology",TRUE
+"SYN_00094","linux","Linux","Tool/Methodology",TRUE
+"SYN_00094","Firewall Configuration","Network Security","Domain/Other",TRUE
+"SYN_00095","Linux","Linux","Tool/Methodology",TRUE
+"SYN_00095","CCNA","Cisco","Tool/Methodology",TRUE
+"SYN_00095","Windows Server","Windows Server","Tool/Methodology",TRUE
+"SYN_00095","Hardware Support","Hardware","Domain/Other",TRUE
+"SYN_00096","ISO 27001","ISO 27001","Domain/Other",TRUE
+"SYN_00096","Vulnerability Assessment","Vulnerability Assessment","Domain/Other",TRUE
+"SYN_00096","Linux","Linux","Tool/Methodology",TRUE
+"SYN_00097","Python3","Python","Programming Language",TRUE
+"SYN_00097","REST APIs","REST API","Tool/Methodology",TRUE
+"SYN_00097","C#","C#","Programming Language",TRUE
+"SYN_00097","TypeScript","TypeScript","Programming Language",TRUE
+"SYN_00097","Postgresql","PostgreSQL","Database",TRUE
+"SYN_00098","Agile","Agile","Tool/Methodology",FALSE
+"SYN_00098","JIRA","JIRA","Tool/Methodology",TRUE
+"SYN_00098","Project Management","Project Management","Domain/Other",FALSE
+"SYN_00098","sql","SQL","Database",TRUE
+"SYN_00098","Business Analysis","Business Analysis","Domain/Other",TRUE
+"SYN_00099","linux","Linux","Tool/Methodology",TRUE
+"SYN_00099","Desktop Troubleshooting","Hardware","Domain/Other",TRUE
+"SYN_00099","Active Directory","Windows Server","Tool/Methodology",FALSE
+"SYN_00099","Cisco Routing","Cisco","Tool/Methodology",TRUE
+"SYN_00099","Networking","Networking","Domain/Other",FALSE
+"SYN_00100","Node.js","Node.js","Framework/Library",TRUE
+"SYN_00100","c#","C#","Programming Language",TRUE
+"SYN_00100","postgres","PostgreSQL","Database",FALSE
+"SYN_00100","Spring Boot","Spring Boot","Framework/Library",TRUE
+"SYN_00100","Python3","Python","Programming Language",TRUE
+"SYN_00101","react.js","React","Framework/Library",TRUE
+"SYN_00101","PostgreSQL","PostgreSQL","Database",TRUE
+"SYN_00101","RESTful API","REST API","Tool/Methodology",TRUE
+"SYN_00101","mysql","MySQL","Database",TRUE
+"SYN_00101","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00101","C#","C#","Programming Language",FALSE
+"SYN_00102","selenium","Selenium","Tool/Methodology",TRUE
+"SYN_00102","Playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00102","Postman","Postman","Tool/Methodology",TRUE
+"SYN_00102","Cypress","Cypress","Tool/Methodology",TRUE
+"SYN_00103","interactive prototypes","Prototyping","Tool/Methodology",FALSE
+"SYN_00103","figma","Figma","Tool/Methodology",FALSE
+"SYN_00103","Wireframing","Wireframing","Tool/Methodology",TRUE
+"SYN_00104","jmeter","JMeter","Tool/Methodology",FALSE
+"SYN_00104","selenium","Selenium","Tool/Methodology",TRUE
+"SYN_00104","manual QA","Manual Testing","Tool/Methodology",TRUE
+"SYN_00104","jira","JIRA","Tool/Methodology",TRUE
+"SYN_00104","playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00104","Cypress","Cypress","Tool/Methodology",TRUE
+"SYN_00105","pytorch","PyTorch","Framework/Library",TRUE
+"SYN_00105","Apache Spark","PySpark","Framework/Library",TRUE
+"SYN_00105","Advanced SQL","SQL","Database",TRUE
+"SYN_00105","Python","Python","Programming Language",TRUE
+"SYN_00106","PyTorch","PyTorch","Framework/Library",TRUE
+"SYN_00106","PySpark","PySpark","Framework/Library",TRUE
+"SYN_00106","pandas","Pandas","Framework/Library",FALSE
+"SYN_00107","postman","Postman","Tool/Methodology",TRUE
+"SYN_00107","Playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00107","Java","Java","Programming Language",TRUE
+"SYN_00108","python","Python","Programming Language",TRUE
+"SYN_00108","Pandas","Pandas","Framework/Library",TRUE
+"SYN_00108","PyTorch","PyTorch","Framework/Library",TRUE
+"SYN_00108","tensorflow","TensorFlow","Framework/Library",FALSE
+"SYN_00109","Firewall Configuration","Network Security","Domain/Other",TRUE
+"SYN_00109","linux","Linux","Tool/Methodology",TRUE
+"SYN_00109","Vulnerability Assessment","Vulnerability Assessment","Domain/Other",FALSE
+"SYN_00110","JIRA","JIRA","Tool/Methodology",TRUE
+"SYN_00110","postman","Postman","Tool/Methodology",TRUE
+"SYN_00110","JMeter","JMeter","Tool/Methodology",TRUE
+"SYN_00110","Cypress","Cypress","Tool/Methodology",TRUE
+"SYN_00110","Manual Testing","Manual Testing","Tool/Methodology",FALSE
+"SYN_00111","Java","Java","Programming Language",TRUE
+"SYN_00111","postman","Postman","Tool/Methodology",TRUE
+"SYN_00111","JIRA","JIRA","Tool/Methodology",TRUE
+"SYN_00111","JMeter","JMeter","Tool/Methodology",TRUE
+"SYN_00111","playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00112","jmeter","JMeter","Tool/Methodology",TRUE
+"SYN_00112","jira","JIRA","Tool/Methodology",TRUE
+"SYN_00112","Manual Testing","Manual Testing","Tool/Methodology",FALSE
+"SYN_00113","Python3","Python","Programming Language",TRUE
+"SYN_00113","dot net",".NET","Framework/Library",TRUE
+"SYN_00113","Java 17","Java","Programming Language",TRUE
+"SYN_00113","PostgreSQL","PostgreSQL","Database",TRUE
+"SYN_00113","react.js","React","Framework/Library",TRUE
+"SYN_00113","NodeJS","Node.js","Framework/Library",TRUE
+"SYN_00114","MySQL","MySQL","Database",FALSE
+"SYN_00114","Java 17","Java","Programming Language",TRUE
+"SYN_00114","dot net",".NET","Framework/Library",TRUE
+"SYN_00114","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00114","SpringBoot","Spring Boot","Framework/Library",TRUE
+"SYN_00114","react.js","React","Framework/Library",FALSE
+"SYN_00115","REST","REST API","Tool/Methodology",FALSE
+"SYN_00115","TypeScript","TypeScript","Programming Language",TRUE
+"SYN_00115","Spring Boot","Spring Boot","Framework/Library",FALSE
+"SYN_00115","NodeJS","Node.js","Framework/Library",TRUE
+"SYN_00116","Core Java","Java","Programming Language",FALSE
+"SYN_00116","SpringBoot","Spring Boot","Framework/Library",FALSE
+"SYN_00116","MySQL","MySQL","Database",TRUE
+"SYN_00116","RESTful API","REST API","Tool/Methodology",TRUE
+"SYN_00116","PostgreSQL","PostgreSQL","Database",FALSE
+"SYN_00116","dot net",".NET","Framework/Library",FALSE
+"SYN_00117","Java","Java","Programming Language",TRUE
+"SYN_00117","Node.js","Node.js","Framework/Library",TRUE
+"SYN_00117",".NET Core",".NET","Framework/Library",TRUE
+"SYN_00117","REACT","React","Framework/Library",FALSE
+"SYN_00117","Python","Python","Programming Language",TRUE
+"SYN_00117","postgres","PostgreSQL","Database",TRUE
+"SYN_00118","selenium","Selenium","Tool/Methodology",TRUE
+"SYN_00118","Playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00118","JMeter","JMeter","Tool/Methodology",TRUE
+"SYN_00118","manual QA","Manual Testing","Tool/Methodology",TRUE
+"SYN_00118","Cypress","Cypress","Tool/Methodology",TRUE
+"SYN_00119","playwright","Playwright","Tool/Methodology",FALSE
+"SYN_00119","Cypress","Cypress","Tool/Methodology",TRUE
+"SYN_00119","postman","Postman","Tool/Methodology",TRUE
+"SYN_00119","Selenium WebDriver","Selenium","Tool/Methodology",TRUE
+"SYN_00120","spring-boot","Spring Boot","Framework/Library",TRUE
+"SYN_00120","Node.js","Node.js","Framework/Library",TRUE
+"SYN_00120","Python","Python","Programming Language",FALSE
+"SYN_00121","Postman","Postman","Tool/Methodology",TRUE
+"SYN_00121","selenium","Selenium","Tool/Methodology",TRUE
+"SYN_00121","JMeter","JMeter","Tool/Methodology",TRUE
+"SYN_00121","Java","Java","Programming Language",FALSE
+"SYN_00122","TS","TypeScript","Programming Language",TRUE
+"SYN_00122","python","Python","Programming Language",TRUE
+"SYN_00122","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00123","Selenium","Selenium","Tool/Methodology",TRUE
+"SYN_00123","manual QA","Manual Testing","Tool/Methodology",TRUE
+"SYN_00123","JMeter","JMeter","Tool/Methodology",TRUE
+"SYN_00123","jira","JIRA","Tool/Methodology",TRUE
+"SYN_00123","Java","Java","Programming Language",FALSE
+"SYN_00123","playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00124","Microsoft Azure","Azure","Cloud/DevOps",TRUE
+"SYN_00124","Terraform","Terraform","Cloud/DevOps",TRUE
+"SYN_00124","CI/CD","CI/CD","Tool/Methodology",TRUE
+"SYN_00124","Linux","Linux","Tool/Methodology",TRUE
+"SYN_00125","Requirements Analysis","Business Analysis","Domain/Other",TRUE
+"SYN_00125","Sprint Planning","Project Management","Domain/Other",TRUE
+"SYN_00125","jira / confluence","JIRA","Tool/Methodology",TRUE
+"SYN_00125","Agile/Scrum","Agile","Tool/Methodology",TRUE
+"SYN_00126","playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00126","Cypress.io","Cypress","Tool/Methodology",TRUE
+"SYN_00126","jmeter","JMeter","Tool/Methodology",TRUE
+"SYN_00126","selenium","Selenium","Tool/Methodology",FALSE
+"SYN_00126","Java","Java","Programming Language",TRUE
+"SYN_00127","Spring Boot","Spring Boot","Framework/Library",FALSE
+"SYN_00127","ReactJS","React","Framework/Library",TRUE
+"SYN_00127","dot net",".NET","Framework/Library",TRUE
+"SYN_00127","typescript","TypeScript","Programming Language",TRUE
+"SYN_00128","dot net",".NET","Framework/Library",TRUE
+"SYN_00128","postgres","PostgreSQL","Database",TRUE
+"SYN_00128","Core Java","Java","Programming Language",TRUE
+"SYN_00129","wireframes","Wireframing","Tool/Methodology",TRUE
+"SYN_00129","User Research","User Research","Domain/Other",TRUE
+"SYN_00129","Prototyping","Prototyping","Tool/Methodology",TRUE
+"SYN_00130","jmeter","JMeter","Tool/Methodology",FALSE
+"SYN_00130","Playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00130","jira","JIRA","Tool/Methodology",TRUE
+"SYN_00131","python","Python","Programming Language",TRUE
+"SYN_00131","ReactJS","React","Framework/Library",TRUE
+"SYN_00131","PostgreSQL","PostgreSQL","Database",TRUE
+"SYN_00131","dot net",".NET","Framework/Library",FALSE
+"SYN_00131","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00131","node","Node.js","Framework/Library",TRUE
+"SYN_00132","pytorch","PyTorch","Framework/Library",TRUE
+"SYN_00132","pandas","Pandas","Framework/Library",TRUE
+"SYN_00132","SQL","SQL","Database",TRUE
+"SYN_00133","ISO27001","ISO 27001","Domain/Other",TRUE
+"SYN_00133","Firewall Configuration","Network Security","Domain/Other",TRUE
+"SYN_00133","Vulnerability Assessment","Vulnerability Assessment","Domain/Other",TRUE
+"SYN_00133","SIEM","SIEM","Tool/Methodology",FALSE
+"SYN_00133","linux","Linux","Tool/Methodology",TRUE
+"SYN_00134","REST","REST API","Tool/Methodology",FALSE
+"SYN_00134","MySQL","MySQL","Database",TRUE
+"SYN_00134","ReactJS","React","Framework/Library",FALSE
+"SYN_00134","Python3","Python","Programming Language",FALSE
+"SYN_00134","TS","TypeScript","Programming Language",FALSE
+"SYN_00134","dot net",".NET","Framework/Library",TRUE
+"SYN_00135","RESTful API","REST API","Tool/Methodology",TRUE
+"SYN_00135","node","Node.js","Framework/Library",TRUE
+"SYN_00135","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00135","mysql","MySQL","Database",TRUE
+"SYN_00136","java","Java","Programming Language",FALSE
+"SYN_00136","Postgresql","PostgreSQL","Database",TRUE
+"SYN_00136","Python","Python","Programming Language",TRUE
+"SYN_00136","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00137","ReactJS","React","Framework/Library",FALSE
+"SYN_00137","node","Node.js","Framework/Library",TRUE
+"SYN_00137","java","Java","Programming Language",TRUE
+"SYN_00138","Core Java","Java","Programming Language",TRUE
+"SYN_00138","typescript","TypeScript","Programming Language",TRUE
+"SYN_00138","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00139",".NET Core",".NET","Framework/Library",FALSE
+"SYN_00139","c#","C#","Programming Language",TRUE
+"SYN_00139","spring-boot","Spring Boot","Framework/Library",TRUE
+"SYN_00140","Power BI","Power BI","Tool/Methodology",TRUE
+"SYN_00140","Spark","PySpark","Framework/Library",TRUE
+"SYN_00140","SQL","SQL","Database",TRUE
+"SYN_00140","PyTorch","PyTorch","Framework/Library",TRUE
+"SYN_00140","Pandas","Pandas","Framework/Library",TRUE
+"SYN_00140","tensorflow","TensorFlow","Framework/Library",TRUE
+"SYN_00141","manual QA","Manual Testing","Tool/Methodology",TRUE
+"SYN_00141","Selenium WebDriver","Selenium","Tool/Methodology",TRUE
+"SYN_00141","playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00142","ISO27001","ISO 27001","Domain/Other",TRUE
+"SYN_00142","Splunk","SIEM","Tool/Methodology",TRUE
+"SYN_00142","Network Security","Network Security","Domain/Other",FALSE
+"SYN_00142","Linux","Linux","Tool/Methodology",TRUE
+"SYN_00142","Vulnerability Assessment","Vulnerability Assessment","Domain/Other",TRUE
+"SYN_00143","docker","Docker","Cloud/DevOps",FALSE
+"SYN_00143","NodeJS","Node.js","Framework/Library",TRUE
+"SYN_00143","C#.NET","C#","Programming Language",TRUE
+"SYN_00143","typescript","TypeScript","Programming Language",TRUE
+"SYN_00144","UX Research","User Research","Domain/Other",TRUE
+"SYN_00144","Design Tokens","Design Systems","Tool/Methodology",TRUE
+"SYN_00144","interactive prototypes","Prototyping","Tool/Methodology",FALSE
+"SYN_00144","wireframes","Wireframing","Tool/Methodology",FALSE
+"SYN_00144","FIGMA","Figma","Tool/Methodology",TRUE
+"SYN_00145","Spring Boot","Spring Boot","Framework/Library",FALSE
+"SYN_00145","typescript","TypeScript","Programming Language",TRUE
+"SYN_00145",".NET Core",".NET","Framework/Library",TRUE
+"SYN_00145","react.js","React","Framework/Library",TRUE
+"SYN_00146","React","React","Framework/Library",TRUE
+"SYN_00146","NodeJS","Node.js","Framework/Library",TRUE
+"SYN_00146","typescript","TypeScript","Programming Language",TRUE
+"SYN_00146","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00146","MySQL","MySQL","Database",TRUE
+"SYN_00146","Core Java","Java","Programming Language",FALSE
+"SYN_00147","react.js","React","Framework/Library",TRUE
+"SYN_00147","c#","C#","Programming Language",TRUE
+"SYN_00147","NodeJS","Node.js","Framework/Library",TRUE
+"SYN_00148","tensorflow","TensorFlow","Framework/Library",FALSE
+"SYN_00148","PyTorch","PyTorch","Framework/Library",TRUE
+"SYN_00148","PySpark","PySpark","Framework/Library",FALSE
+"SYN_00149","Spark","PySpark","Framework/Library",FALSE
+"SYN_00149","pytorch","PyTorch","Framework/Library",TRUE
+"SYN_00149","pandas","Pandas","Framework/Library",TRUE
+"SYN_00149","PowerBI","Power BI","Tool/Methodology",TRUE
+"SYN_00149","tensorflow","TensorFlow","Framework/Library",TRUE
+"SYN_00150","node","Node.js","Framework/Library",TRUE
+"SYN_00150","SpringBoot","Spring Boot","Framework/Library",TRUE
+"SYN_00150","dot net",".NET","Framework/Library",TRUE
+"SYN_00151",".NET Core",".NET","Framework/Library",TRUE
+"SYN_00151","Java","Java","Programming Language",TRUE
+"SYN_00151","REST APIs","REST API","Tool/Methodology",FALSE
+"SYN_00151","NodeJS","Node.js","Framework/Library",TRUE
+"SYN_00152","IaC","Terraform","Cloud/DevOps",TRUE
+"SYN_00152","Linux","Linux","Tool/Methodology",TRUE
+"SYN_00152","AWS","AWS","Cloud/DevOps",TRUE
+"SYN_00152","Azure","Azure","Cloud/DevOps",TRUE
+"SYN_00152","k8s","Kubernetes","Cloud/DevOps",TRUE
+"SYN_00152","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00153","Network Security","Network Security","Domain/Other",TRUE
+"SYN_00153","VAPT","Vulnerability Assessment","Domain/Other",TRUE
+"SYN_00153","Linux","Linux","Tool/Methodology",FALSE
+"SYN_00153","QRadar","SIEM","Tool/Methodology",TRUE
+"SYN_00154","Ubuntu/RHEL","Linux","Tool/Methodology",TRUE
+"SYN_00154","Amazon Web Services","AWS","Cloud/DevOps",TRUE
+"SYN_00154","Azure","Azure","Cloud/DevOps",TRUE
+"SYN_00154","k8s","Kubernetes","Cloud/DevOps",TRUE
+"SYN_00154","GitLab CI","CI/CD","Tool/Methodology",TRUE
+"SYN_00155","SIEM","SIEM","Tool/Methodology",TRUE
+"SYN_00155","Linux","Linux","Tool/Methodology",TRUE
+"SYN_00155","Vulnerability Assessment","Vulnerability Assessment","Domain/Other",TRUE
+"SYN_00155","ISO27001","ISO 27001","Domain/Other",TRUE
+"SYN_00156","k8s","Kubernetes","Cloud/DevOps",FALSE
+"SYN_00156","azure","Azure","Cloud/DevOps",TRUE
+"SYN_00156","AWS","AWS","Cloud/DevOps",TRUE
+"SYN_00156","GitLab CI","CI/CD","Tool/Methodology",TRUE
+"SYN_00157","Playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00157","manual QA","Manual Testing","Tool/Methodology",TRUE
+"SYN_00157","Java","Java","Programming Language",TRUE
+"SYN_00157","Cypress.io","Cypress","Tool/Methodology",FALSE
+"SYN_00158","Project Management","Project Management","Domain/Other",TRUE
+"SYN_00158","jira / confluence","JIRA","Tool/Methodology",FALSE
+"SYN_00158","Agile","Agile","Tool/Methodology",TRUE
+"SYN_00158","SQL","SQL","Database",TRUE
+"SYN_00158","Business Analysis","Business Analysis","Domain/Other",TRUE
+"SYN_00159","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00159","Azure","Azure","Cloud/DevOps",TRUE
+"SYN_00159","Terraform","Terraform","Cloud/DevOps",TRUE
+"SYN_00159","K8s","Kubernetes","Cloud/DevOps",TRUE
+"SYN_00159","linux administration","Linux","Tool/Methodology",TRUE
+"SYN_00160","Java","Java","Programming Language",TRUE
+"SYN_00160","Selenium","Selenium","Tool/Methodology",TRUE
+"SYN_00160","postman","Postman","Tool/Methodology",TRUE
+"SYN_00160","Cypress.io","Cypress","Tool/Methodology",FALSE
+"SYN_00160","jmeter","JMeter","Tool/Methodology",TRUE
+"SYN_00160","playwright","Playwright","Tool/Methodology",FALSE
+"SYN_00161","AWS","AWS","Cloud/DevOps",TRUE
+"SYN_00161","Linux","Linux","Tool/Methodology",FALSE
+"SYN_00161","K8s","Kubernetes","Cloud/DevOps",TRUE
+"SYN_00161","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00161","azure","Azure","Cloud/DevOps",TRUE
+"SYN_00161","terraform","Terraform","Cloud/DevOps",FALSE
+"SYN_00162","MySQL","MySQL","Database",TRUE
+"SYN_00162","NodeJS","Node.js","Framework/Library",TRUE
+"SYN_00162","REACT","React","Framework/Library",TRUE
+"SYN_00162","python","Python","Programming Language",TRUE
+"SYN_00163","Postgresql","PostgreSQL","Database",TRUE
+"SYN_00163","NodeJS","Node.js","Framework/Library",FALSE
+"SYN_00163","MySQL","MySQL","Database",TRUE
+"SYN_00163","REST","REST API","Tool/Methodology",TRUE
+"SYN_00163","java","Java","Programming Language",TRUE
+"SYN_00164","Business Analysis","Business Analysis","Domain/Other",FALSE
+"SYN_00164","Agile","Agile","Tool/Methodology",TRUE
+"SYN_00164","SQL","SQL","Database",TRUE
+"SYN_00165","Java","Java","Programming Language",FALSE
+"SYN_00165","Postman","Postman","Tool/Methodology",TRUE
+"SYN_00165","jmeter","JMeter","Tool/Methodology",TRUE
+"SYN_00165","Manual Testing","Manual Testing","Tool/Methodology",FALSE
+"SYN_00166","Prototyping","Prototyping","Tool/Methodology",FALSE
+"SYN_00166","User Research","User Research","Domain/Other",TRUE
+"SYN_00166","Design Tokens","Design Systems","Tool/Methodology",TRUE
+"SYN_00167","Selenium","Selenium","Tool/Methodology",TRUE
+"SYN_00167","postman","Postman","Tool/Methodology",TRUE
+"SYN_00167","manual QA","Manual Testing","Tool/Methodology",TRUE
+"SYN_00168","postgres","PostgreSQL","Database",FALSE
+"SYN_00168","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00168","c#","C#","Programming Language",TRUE
+"SYN_00168","Java","Java","Programming Language",FALSE
+"SYN_00168","react.js","React","Framework/Library",TRUE
+"SYN_00168","Node.js","Node.js","Framework/Library",TRUE
+"SYN_00169","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00169","terraform","Terraform","Cloud/DevOps",TRUE
+"SYN_00169","GitLab CI","CI/CD","Tool/Methodology",TRUE
+"SYN_00169","Kubernetes","Kubernetes","Cloud/DevOps",TRUE
+"SYN_00169","Azure","Azure","Cloud/DevOps",FALSE
+"SYN_00170","Postgresql","PostgreSQL","Database",FALSE
+"SYN_00170","python","Python","Programming Language",TRUE
+"SYN_00170","node","Node.js","Framework/Library",FALSE
+"SYN_00170","Java 17","Java","Programming Language",TRUE
+"SYN_00171","REACT","React","Framework/Library",TRUE
+"SYN_00171","Spring Boot","Spring Boot","Framework/Library",FALSE
+"SYN_00171","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00172","Linux","Linux","Tool/Methodology",FALSE
+"SYN_00172","terraform","Terraform","Cloud/DevOps",TRUE
+"SYN_00172","GitLab CI","CI/CD","Tool/Methodology",TRUE
+"SYN_00173","spring-boot","Spring Boot","Framework/Library",TRUE
+"SYN_00173","typescript","TypeScript","Programming Language",FALSE
+"SYN_00173","REACT","React","Framework/Library",TRUE
+"SYN_00174","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00174","CI/CD","CI/CD","Tool/Methodology",TRUE
+"SYN_00174","k8s","Kubernetes","Cloud/DevOps",TRUE
+"SYN_00174","terraform","Terraform","Cloud/DevOps",TRUE
+"SYN_00174","Microsoft Azure","Azure","Cloud/DevOps",TRUE
+"SYN_00174","linux administration","Linux","Tool/Methodology",TRUE
+"SYN_00175","postman","Postman","Tool/Methodology",TRUE
+"SYN_00175","Java","Java","Programming Language",TRUE
+"SYN_00175","Manual Testing","Manual Testing","Tool/Methodology",TRUE
+"SYN_00176","Python","Python","Programming Language",FALSE
+"SYN_00176","Power BI","Power BI","Tool/Methodology",TRUE
+"SYN_00176","Pandas","Pandas","Framework/Library",TRUE
+"SYN_00176","PyTorch","PyTorch","Framework/Library",TRUE
+"SYN_00177","Playwright","Playwright","Tool/Methodology",FALSE
+"SYN_00177","Java","Java","Programming Language",TRUE
+"SYN_00177","Manual Testing","Manual Testing","Tool/Methodology",TRUE
+"SYN_00177","Postman","Postman","Tool/Methodology",TRUE
+"SYN_00178","Networking","Networking","Domain/Other",TRUE
+"SYN_00178","Hardware Support","Hardware","Domain/Other",TRUE
+"SYN_00178","Active Directory","Windows Server","Tool/Methodology",TRUE
+"SYN_00178","Cisco Routing","Cisco","Tool/Methodology",TRUE
+"SYN_00178","linux","Linux","Tool/Methodology",TRUE
+"SYN_00179","linux","Linux","Tool/Methodology",TRUE
+"SYN_00179","Desktop Troubleshooting","Hardware","Domain/Other",TRUE
+"SYN_00179","CCNA","Cisco","Tool/Methodology",TRUE
+"SYN_00179","Windows Server","Windows Server","Tool/Methodology",TRUE
+"SYN_00179","Networking","Networking","Domain/Other",TRUE
+"SYN_00180","Java","Java","Programming Language",TRUE
+"SYN_00180","jira","JIRA","Tool/Methodology",TRUE
+"SYN_00180","Cypress","Cypress","Tool/Methodology",TRUE
+"SYN_00181","Java 17","Java","Programming Language",TRUE
+"SYN_00181","C#.NET","C#","Programming Language",TRUE
+"SYN_00181","MySQL","MySQL","Database",TRUE
+"SYN_00181","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00182","manual QA","Manual Testing","Tool/Methodology",TRUE
+"SYN_00182","jmeter","JMeter","Tool/Methodology",TRUE
+"SYN_00182","postman","Postman","Tool/Methodology",FALSE
+"SYN_00182","selenium","Selenium","Tool/Methodology",TRUE
+"SYN_00182","Playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00182","Java","Java","Programming Language",TRUE
+"SYN_00183","manual QA","Manual Testing","Tool/Methodology",TRUE
+"SYN_00183","Cypress.io","Cypress","Tool/Methodology",TRUE
+"SYN_00183","Selenium","Selenium","Tool/Methodology",FALSE
+"SYN_00184","JIRA","JIRA","Tool/Methodology",TRUE
+"SYN_00184","Java","Java","Programming Language",FALSE
+"SYN_00184","Postman","Postman","Tool/Methodology",FALSE
+"SYN_00185","Python","Python","Programming Language",TRUE
+"SYN_00185",".NET",".NET","Framework/Library",TRUE
+"SYN_00185","Postgresql","PostgreSQL","Database",FALSE
+"SYN_00186","Design Systems","Design Systems","Tool/Methodology",TRUE
+"SYN_00186","interactive prototypes","Prototyping","Tool/Methodology",TRUE
+"SYN_00186","wireframes","Wireframing","Tool/Methodology",TRUE
+"SYN_00186","figma","Figma","Tool/Methodology",TRUE
+"SYN_00187","postgres","PostgreSQL","Database",TRUE
+"SYN_00187","Spring Boot","Spring Boot","Framework/Library",TRUE
+"SYN_00187","Docker","Docker","Cloud/DevOps",FALSE
+"SYN_00187","node","Node.js","Framework/Library",TRUE
+"SYN_00187","TypeScript","TypeScript","Programming Language",TRUE
+"SYN_00187","Python","Python","Programming Language",TRUE
+"SYN_00188","jira / confluence","JIRA","Tool/Methodology",TRUE
+"SYN_00188","Agile","Agile","Tool/Methodology",TRUE
+"SYN_00188","Requirements Analysis","Business Analysis","Domain/Other",TRUE
+"SYN_00189","Sprint Planning","Project Management","Domain/Other",TRUE
+"SYN_00189","jira / confluence","JIRA","Tool/Methodology",TRUE
+"SYN_00189","Agile","Agile","Tool/Methodology",TRUE
+"SYN_00189","Requirements Analysis","Business Analysis","Domain/Other",TRUE
+"SYN_00189","sql","SQL","Database",TRUE
+"SYN_00190","Terraform","Terraform","Cloud/DevOps",TRUE
+"SYN_00190","Ubuntu/RHEL","Linux","Tool/Methodology",TRUE
+"SYN_00190","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00190","AWS Cloud","AWS","Cloud/DevOps",TRUE
+"SYN_00191","AWS","AWS","Cloud/DevOps",TRUE
+"SYN_00191","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00191","linux administration","Linux","Tool/Methodology",FALSE
+"SYN_00192","node","Node.js","Framework/Library",TRUE
+"SYN_00192","typescript","TypeScript","Programming Language",FALSE
+"SYN_00192","Java","Java","Programming Language",TRUE
+"SYN_00192","SpringBoot","Spring Boot","Framework/Library",TRUE
+"SYN_00192","docker","Docker","Cloud/DevOps",FALSE
+"SYN_00192","Postgresql","PostgreSQL","Database",FALSE
+"SYN_00193","interactive prototypes","Prototyping","Tool/Methodology",TRUE
+"SYN_00193","User Research","User Research","Domain/Other",TRUE
+"SYN_00193","Design Systems","Design Systems","Tool/Methodology",TRUE
+"SYN_00193","wireframes","Wireframing","Tool/Methodology",FALSE
+"SYN_00193","figma","Figma","Tool/Methodology",TRUE
+"SYN_00194","Python3","Python","Programming Language",FALSE
+"SYN_00194","mysql","MySQL","Database",FALSE
+"SYN_00194","C#.NET","C#","Programming Language",TRUE
+"SYN_00195","ReactJS","React","Framework/Library",TRUE
+"SYN_00195","spring-boot","Spring Boot","Framework/Library",TRUE
+"SYN_00195","c#","C#","Programming Language",TRUE
+"SYN_00195","REST","REST API","Tool/Methodology",TRUE
+"SYN_00195",".NET Core",".NET","Framework/Library",TRUE
+"SYN_00196","spring-boot","Spring Boot","Framework/Library",TRUE
+"SYN_00196","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00196","C#","C#","Programming Language",TRUE
+"SYN_00196","Core Java","Java","Programming Language",TRUE
+"SYN_00197","playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00197","Cypress","Cypress","Tool/Methodology",TRUE
+"SYN_00197","Java","Java","Programming Language",TRUE
+"SYN_00197","JIRA","JIRA","Tool/Methodology",TRUE
+"SYN_00197","Manual Testing","Manual Testing","Tool/Methodology",FALSE
+"SYN_00197","JMeter","JMeter","Tool/Methodology",TRUE
+"SYN_00198","TS","TypeScript","Programming Language",TRUE
+"SYN_00198","MySQL","MySQL","Database",TRUE
+"SYN_00198","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00198","SpringBoot","Spring Boot","Framework/Library",TRUE
+"SYN_00199","postgres","PostgreSQL","Database",TRUE
+"SYN_00199","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00199","dot net",".NET","Framework/Library",TRUE
+"SYN_00200","node","Node.js","Framework/Library",TRUE
+"SYN_00200","dot net",".NET","Framework/Library",TRUE
+"SYN_00200","PostgreSQL","PostgreSQL","Database",FALSE
+"SYN_00201","JIRA","JIRA","Tool/Methodology",TRUE
+"SYN_00201","sql","SQL","Database",TRUE
+"SYN_00201","Business Analysis","Business Analysis","Domain/Other",TRUE
+"SYN_00201","Agile/Scrum","Agile","Tool/Methodology",TRUE
+"SYN_00201","Project Management","Project Management","Domain/Other",TRUE
+"SYN_00202","manual QA","Manual Testing","Tool/Methodology",TRUE
+"SYN_00202","Java","Java","Programming Language",TRUE
+"SYN_00202","JIRA","JIRA","Tool/Methodology",TRUE
+"SYN_00202","selenium","Selenium","Tool/Methodology",TRUE
+"SYN_00202","Playwright","Playwright","Tool/Methodology",FALSE
+"SYN_00202","JMeter","JMeter","Tool/Methodology",FALSE
+"SYN_00203","PostgreSQL","PostgreSQL","Database",TRUE
+"SYN_00203","node","Node.js","Framework/Library",TRUE
+"SYN_00203","TS","TypeScript","Programming Language",TRUE
+"SYN_00204","NodeJS","Node.js","Framework/Library",TRUE
+"SYN_00204","mysql","MySQL","Database",TRUE
+"SYN_00204","REST APIs","REST API","Tool/Methodology",TRUE
+"SYN_00204","Java","Java","Programming Language",FALSE
+"SYN_00204","postgres","PostgreSQL","Database",TRUE
+"SYN_00205","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00205","AWS","AWS","Cloud/DevOps",TRUE
+"SYN_00205","Terraform","Terraform","Cloud/DevOps",FALSE
+"SYN_00206","Cypress.io","Cypress","Tool/Methodology",TRUE
+"SYN_00206","Playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00206","Java","Java","Programming Language",FALSE
+"SYN_00206","Selenium WebDriver","Selenium","Tool/Methodology",FALSE
+"SYN_00207","Postman","Postman","Tool/Methodology",TRUE
+"SYN_00207","Manual Testing","Manual Testing","Tool/Methodology",FALSE
+"SYN_00207","Selenium","Selenium","Tool/Methodology",FALSE
+"SYN_00207","Cypress.io","Cypress","Tool/Methodology",TRUE
+"SYN_00207","JMeter","JMeter","Tool/Methodology",TRUE
+"SYN_00207","Java","Java","Programming Language",TRUE
+"SYN_00208","spring-boot","Spring Boot","Framework/Library",TRUE
+"SYN_00208","java","Java","Programming Language",FALSE
+"SYN_00208","node","Node.js","Framework/Library",TRUE
+"SYN_00208","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00209","REACT","React","Framework/Library",TRUE
+"SYN_00209","C#","C#","Programming Language",TRUE
+"SYN_00209","TS","TypeScript","Programming Language",TRUE
+"SYN_00210","JMeter","JMeter","Tool/Methodology",TRUE
+"SYN_00210","JIRA","JIRA","Tool/Methodology",FALSE
+"SYN_00210","Playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00211","Python 3","Python","Programming Language",FALSE
+"SYN_00211","pandas","Pandas","Framework/Library",TRUE
+"SYN_00211","PowerBI","Power BI","Tool/Methodology",TRUE
+"SYN_00211","TensorFlow","TensorFlow","Framework/Library",FALSE
+"SYN_00211","sql queries","SQL","Database",TRUE
+"SYN_00211","pytorch","PyTorch","Framework/Library",FALSE
+"SYN_00212","dot net",".NET","Framework/Library",TRUE
+"SYN_00212","python","Python","Programming Language",TRUE
+"SYN_00212","Java 17","Java","Programming Language",FALSE
+"SYN_00212","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00212","mysql","MySQL","Database",TRUE
+"SYN_00213","TypeScript","TypeScript","Programming Language",TRUE
+"SYN_00213",".NET Core",".NET","Framework/Library",TRUE
+"SYN_00213","docker","Docker","Cloud/DevOps",FALSE
+"SYN_00213","postgres","PostgreSQL","Database",TRUE
+"SYN_00214","Playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00214","JIRA","JIRA","Tool/Methodology",FALSE
+"SYN_00214","postman","Postman","Tool/Methodology",TRUE
+"SYN_00215","jira","JIRA","Tool/Methodology",TRUE
+"SYN_00215","Cypress.io","Cypress","Tool/Methodology",FALSE
+"SYN_00215","postman","Postman","Tool/Methodology",TRUE
+"SYN_00216","JIRA","JIRA","Tool/Methodology",TRUE
+"SYN_00216","Scrum","Agile","Tool/Methodology",FALSE
+"SYN_00216","Project Management","Project Management","Domain/Other",TRUE
+"SYN_00216","sql","SQL","Database",TRUE
+"SYN_00216","Business Analysis","Business Analysis","Domain/Other",TRUE
+"SYN_00217","Cypress.io","Cypress","Tool/Methodology",TRUE
+"SYN_00217","Postman","Postman","Tool/Methodology",TRUE
+"SYN_00217","playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00217","JIRA","JIRA","Tool/Methodology",TRUE
+"SYN_00218","c#","C#","Programming Language",TRUE
+"SYN_00218","mysql","MySQL","Database",TRUE
+"SYN_00218","Spring Boot","Spring Boot","Framework/Library",FALSE
+"SYN_00218","NodeJS","Node.js","Framework/Library",FALSE
+"SYN_00219","c#","C#","Programming Language",TRUE
+"SYN_00219","NodeJS","Node.js","Framework/Library",FALSE
+"SYN_00219","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00219","Core Java","Java","Programming Language",TRUE
+"SYN_00219","python","Python","Programming Language",TRUE
+"SYN_00220","React","React","Framework/Library",TRUE
+"SYN_00220","REST APIs","REST API","Tool/Methodology",TRUE
+"SYN_00220",".NET Core",".NET","Framework/Library",TRUE
+"SYN_00220","Postgresql","PostgreSQL","Database",TRUE
+"SYN_00220","node","Node.js","Framework/Library",TRUE
+"SYN_00221","playwright","Playwright","Tool/Methodology",FALSE
+"SYN_00221","Cypress.io","Cypress","Tool/Methodology",TRUE
+"SYN_00221","JMeter","JMeter","Tool/Methodology",TRUE
+"SYN_00222","Selenium WebDriver","Selenium","Tool/Methodology",TRUE
+"SYN_00222","Playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00222","Java","Java","Programming Language",FALSE
+"SYN_00222","jmeter","JMeter","Tool/Methodology",TRUE
+"SYN_00223","c#","C#","Programming Language",TRUE
+"SYN_00223","SpringBoot","Spring Boot","Framework/Library",TRUE
+"SYN_00223","TypeScript","TypeScript","Programming Language",TRUE
+"SYN_00223","PostgreSQL","PostgreSQL","Database",TRUE
+"SYN_00223",".NET Core",".NET","Framework/Library",TRUE
+"SYN_00224","playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00224","Manual Testing","Manual Testing","Tool/Methodology",TRUE
+"SYN_00224","Java","Java","Programming Language",FALSE
+"SYN_00224","Postman","Postman","Tool/Methodology",TRUE
+"SYN_00225","Ubuntu/RHEL","Linux","Tool/Methodology",TRUE
+"SYN_00225","Microsoft Azure","Azure","Cloud/DevOps",FALSE
+"SYN_00225","Kubernetes","Kubernetes","Cloud/DevOps",FALSE
+"SYN_00226","CI-CD Pipelines","CI/CD","Tool/Methodology",TRUE
+"SYN_00226","Kubernetes","Kubernetes","Cloud/DevOps",FALSE
+"SYN_00226","Amazon Web Services","AWS","Cloud/DevOps",TRUE
+"SYN_00226","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00227","UX Research","User Research","Domain/Other",FALSE
+"SYN_00227","Wireframing","Wireframing","Tool/Methodology",TRUE
+"SYN_00227","Prototyping","Prototyping","Tool/Methodology",TRUE
+"SYN_00227","Design Tokens","Design Systems","Tool/Methodology",TRUE
+"SYN_00228","REST APIs","REST API","Tool/Methodology",TRUE
+"SYN_00228","REACT","React","Framework/Library",TRUE
+"SYN_00228","Spring Boot","Spring Boot","Framework/Library",TRUE
+"SYN_00228","Postgresql","PostgreSQL","Database",TRUE
+"SYN_00228","Python3","Python","Programming Language",TRUE
+"SYN_00228","node","Node.js","Framework/Library",TRUE
+"SYN_00229","Prototyping","Prototyping","Tool/Methodology",TRUE
+"SYN_00229","wireframes","Wireframing","Tool/Methodology",TRUE
+"SYN_00229","User Research","User Research","Domain/Other",TRUE
+"SYN_00229","Design Systems","Design Systems","Tool/Methodology",TRUE
+"SYN_00229","FIGMA","Figma","Tool/Methodology",TRUE
+"SYN_00230","Power BI","Power BI","Tool/Methodology",TRUE
+"SYN_00230","Python","Python","Programming Language",TRUE
+"SYN_00230","Apache Spark","PySpark","Framework/Library",FALSE
+"SYN_00231","Java","Java","Programming Language",TRUE
+"SYN_00231","mysql","MySQL","Database",TRUE
+"SYN_00231","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00231","c#","C#","Programming Language",TRUE
+"SYN_00232","NodeJS","Node.js","Framework/Library",FALSE
+"SYN_00232",".NET Core",".NET","Framework/Library",TRUE
+"SYN_00232","spring-boot","Spring Boot","Framework/Library",TRUE
+"SYN_00232","REST APIs","REST API","Tool/Methodology",TRUE
+"SYN_00232","MySQL","MySQL","Database",TRUE
+"SYN_00233","dot net",".NET","Framework/Library",TRUE
+"SYN_00233","Python","Python","Programming Language",TRUE
+"SYN_00233","PostgreSQL","PostgreSQL","Database",TRUE
+"SYN_00233","typescript","TypeScript","Programming Language",TRUE
+"SYN_00233","java","Java","Programming Language",TRUE
+"SYN_00234","manual QA","Manual Testing","Tool/Methodology",TRUE
+"SYN_00234","jmeter","JMeter","Tool/Methodology",TRUE
+"SYN_00234","Java","Java","Programming Language",TRUE
+"SYN_00234","JIRA","JIRA","Tool/Methodology",TRUE
+"SYN_00234","Cypress","Cypress","Tool/Methodology",TRUE
+"SYN_00235","pytorch","PyTorch","Framework/Library",TRUE
+"SYN_00235","tensorflow","TensorFlow","Framework/Library",TRUE
+"SYN_00235","Apache Spark","PySpark","Framework/Library",TRUE
+"SYN_00235","Advanced SQL","SQL","Database",TRUE
+"SYN_00236","JMeter","JMeter","Tool/Methodology",FALSE
+"SYN_00236","Selenium WebDriver","Selenium","Tool/Methodology",TRUE
+"SYN_00236","JIRA","JIRA","Tool/Methodology",TRUE
+"SYN_00236","Cypress","Cypress","Tool/Methodology",TRUE
+"SYN_00236","Java","Java","Programming Language",TRUE
+"SYN_00237","AWS Cloud","AWS","Cloud/DevOps",FALSE
+"SYN_00237","IaC","Terraform","Cloud/DevOps",TRUE
+"SYN_00237","Azure","Azure","Cloud/DevOps",TRUE
+"SYN_00237","linux administration","Linux","Tool/Methodology",TRUE
+"SYN_00237","CI-CD Pipelines","CI/CD","Tool/Methodology",TRUE
+"SYN_00238","Postgresql","PostgreSQL","Database",FALSE
+"SYN_00238","dot net",".NET","Framework/Library",FALSE
+"SYN_00238","TypeScript","TypeScript","Programming Language",FALSE
+"SYN_00239","linux administration","Linux","Tool/Methodology",FALSE
+"SYN_00239","Azure","Azure","Cloud/DevOps",TRUE
+"SYN_00239","docker","Docker","Cloud/DevOps",FALSE
+"SYN_00239","GitLab CI","CI/CD","Tool/Methodology",TRUE
+"SYN_00240","PostgreSQL","PostgreSQL","Database",TRUE
+"SYN_00240","Python","Python","Programming Language",FALSE
+"SYN_00240","react.js","React","Framework/Library",TRUE
+"SYN_00240","spring-boot","Spring Boot","Framework/Library",TRUE
+"SYN_00240","C#","C#","Programming Language",TRUE
+"SYN_00240","NodeJS","Node.js","Framework/Library",TRUE
+"SYN_00241","PyTorch","PyTorch","Framework/Library",TRUE
+"SYN_00241","sql queries","SQL","Database",TRUE
+"SYN_00241","Apache Spark","PySpark","Framework/Library",TRUE
+"SYN_00241","Python 3","Python","Programming Language",TRUE
+"SYN_00242","Cypress.io","Cypress","Tool/Methodology",TRUE
+"SYN_00242","JIRA","JIRA","Tool/Methodology",TRUE
+"SYN_00242","jmeter","JMeter","Tool/Methodology",TRUE
+"SYN_00242","postman","Postman","Tool/Methodology",TRUE
+"SYN_00242","Manual Testing","Manual Testing","Tool/Methodology",TRUE
+"SYN_00243","Linux","Linux","Tool/Methodology",FALSE
+"SYN_00243","ISO 27001","ISO 27001","Domain/Other",TRUE
+"SYN_00243","Vulnerability Assessment","Vulnerability Assessment","Domain/Other",TRUE
+"SYN_00244","react.js","React","Framework/Library",FALSE
+"SYN_00244",".NET",".NET","Framework/Library",TRUE
+"SYN_00244","mysql","MySQL","Database",TRUE
+"SYN_00245","AWS","AWS","Cloud/DevOps",TRUE
+"SYN_00245","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00245","Linux","Linux","Tool/Methodology",TRUE
+"SYN_00245","K8s","Kubernetes","Cloud/DevOps",TRUE
+"SYN_00245","terraform","Terraform","Cloud/DevOps",TRUE
+"SYN_00246","MySQL","MySQL","Database",TRUE
+"SYN_00246","C#","C#","Programming Language",TRUE
+"SYN_00246","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00246","node","Node.js","Framework/Library",TRUE
+"SYN_00246",".NET",".NET","Framework/Library",FALSE
+"SYN_00247","mysql","MySQL","Database",TRUE
+"SYN_00247","Core Java","Java","Programming Language",FALSE
+"SYN_00247",".NET",".NET","Framework/Library",TRUE
+"SYN_00247","REACT","React","Framework/Library",TRUE
+"SYN_00247","RESTful API","REST API","Tool/Methodology",TRUE
+"SYN_00248","terraform","Terraform","Cloud/DevOps",TRUE
+"SYN_00248","K8s","Kubernetes","Cloud/DevOps",FALSE
+"SYN_00248","Linux","Linux","Tool/Methodology",TRUE
+"SYN_00248","Microsoft Azure","Azure","Cloud/DevOps",TRUE
+"SYN_00248","CI/CD","CI/CD","Tool/Methodology",TRUE
+"SYN_00249","REST APIs","REST API","Tool/Methodology",FALSE
+"SYN_00249","C#.NET","C#","Programming Language",TRUE
+"SYN_00249","TS","TypeScript","Programming Language",TRUE
+"SYN_00249","Java 17","Java","Programming Language",TRUE
+"SYN_00249","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00250","Postgresql","PostgreSQL","Database",TRUE
+"SYN_00250","MySQL","MySQL","Database",TRUE
+"SYN_00250","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00250","TypeScript","TypeScript","Programming Language",TRUE
+"SYN_00251","PostgreSQL","PostgreSQL","Database",TRUE
+"SYN_00251","SpringBoot","Spring Boot","Framework/Library",TRUE
+"SYN_00251",".NET",".NET","Framework/Library",TRUE
+"SYN_00251","TypeScript","TypeScript","Programming Language",TRUE
+"SYN_00251","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00251","python","Python","Programming Language",TRUE
+"SYN_00252","Spring Boot","Spring Boot","Framework/Library",TRUE
+"SYN_00252","TypeScript","TypeScript","Programming Language",TRUE
+"SYN_00252","REST","REST API","Tool/Methodology",TRUE
+"SYN_00253","Cypress","Cypress","Tool/Methodology",TRUE
+"SYN_00253","Playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00253","Java","Java","Programming Language",FALSE
+"SYN_00253","JMeter","JMeter","Tool/Methodology",TRUE
+"SYN_00253","postman","Postman","Tool/Methodology",TRUE
+"SYN_00253","Manual Testing","Manual Testing","Tool/Methodology",TRUE
+"SYN_00254","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00254","Python","Python","Programming Language",FALSE
+"SYN_00254","NodeJS","Node.js","Framework/Library",FALSE
+"SYN_00254","ReactJS","React","Framework/Library",TRUE
+"SYN_00255","REACT","React","Framework/Library",TRUE
+"SYN_00255","Core Java","Java","Programming Language",TRUE
+"SYN_00255","NodeJS","Node.js","Framework/Library",TRUE
+"SYN_00255","Postgresql","PostgreSQL","Database",TRUE
+"SYN_00255","Python3","Python","Programming Language",TRUE
+"SYN_00256","Postman","Postman","Tool/Methodology",TRUE
+"SYN_00256","Manual Testing","Manual Testing","Tool/Methodology",TRUE
+"SYN_00256","Cypress","Cypress","Tool/Methodology",TRUE
+"SYN_00256","playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00257","k8s","Kubernetes","Cloud/DevOps",TRUE
+"SYN_00257","azure","Azure","Cloud/DevOps",TRUE
+"SYN_00257","Amazon Web Services","AWS","Cloud/DevOps",TRUE
+"SYN_00258","Manual Testing","Manual Testing","Tool/Methodology",TRUE
+"SYN_00258","JIRA","JIRA","Tool/Methodology",TRUE
+"SYN_00258","Cypress","Cypress","Tool/Methodology",TRUE
+"SYN_00258","Postman","Postman","Tool/Methodology",TRUE
+"SYN_00258","JMeter","JMeter","Tool/Methodology",TRUE
+"SYN_00259","Requirements Analysis","Business Analysis","Domain/Other",FALSE
+"SYN_00259","SQL","SQL","Database",TRUE
+"SYN_00259","Project Management","Project Management","Domain/Other",TRUE
+"SYN_00259","Agile","Agile","Tool/Methodology",TRUE
+"SYN_00259","jira / confluence","JIRA","Tool/Methodology",TRUE
+"SYN_00260","IaC","Terraform","Cloud/DevOps",TRUE
+"SYN_00260","Microsoft Azure","Azure","Cloud/DevOps",FALSE
+"SYN_00260","Linux","Linux","Tool/Methodology",TRUE
+"SYN_00260","CI-CD Pipelines","CI/CD","Tool/Methodology",FALSE
+"SYN_00260","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00260","k8s","Kubernetes","Cloud/DevOps",FALSE
+"SYN_00261","Kubernetes","Kubernetes","Cloud/DevOps",TRUE
+"SYN_00261","AWS","AWS","Cloud/DevOps",TRUE
+"SYN_00261","Terraform","Terraform","Cloud/DevOps",FALSE
+"SYN_00261","CI-CD Pipelines","CI/CD","Tool/Methodology",TRUE
+"SYN_00261","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00261","azure","Azure","Cloud/DevOps",TRUE
+"SYN_00262","typescript","TypeScript","Programming Language",TRUE
+"SYN_00262","python","Python","Programming Language",TRUE
+"SYN_00262",".NET",".NET","Framework/Library",TRUE
+"SYN_00262","REST APIs","REST API","Tool/Methodology",TRUE
+"SYN_00263","spring-boot","Spring Boot","Framework/Library",TRUE
+"SYN_00263","node","Node.js","Framework/Library",TRUE
+"SYN_00263","docker","Docker","Cloud/DevOps",FALSE
+"SYN_00263","TypeScript","TypeScript","Programming Language",TRUE
+"SYN_00264","REST APIs","REST API","Tool/Methodology",TRUE
+"SYN_00264","TypeScript","TypeScript","Programming Language",TRUE
+"SYN_00264","python","Python","Programming Language",TRUE
+"SYN_00264","Node.js","Node.js","Framework/Library",TRUE
+"SYN_00264","MySQL","MySQL","Database",TRUE
+"SYN_00265","typescript","TypeScript","Programming Language",FALSE
+"SYN_00265","Spring Boot","Spring Boot","Framework/Library",TRUE
+"SYN_00265","C#.NET","C#","Programming Language",TRUE
+"SYN_00265","Java","Java","Programming Language",FALSE
+"SYN_00265","RESTful API","REST API","Tool/Methodology",TRUE
+"SYN_00265","Postgresql","PostgreSQL","Database",TRUE
+"SYN_00266","TypeScript","TypeScript","Programming Language",TRUE
+"SYN_00266","Spring Boot","Spring Boot","Framework/Library",TRUE
+"SYN_00266","node","Node.js","Framework/Library",TRUE
+"SYN_00266","postgres","PostgreSQL","Database",FALSE
+"SYN_00266","Java","Java","Programming Language",TRUE
+"SYN_00267","Spring Boot","Spring Boot","Framework/Library",TRUE
+"SYN_00267","node","Node.js","Framework/Library",TRUE
+"SYN_00267","REACT","React","Framework/Library",TRUE
+"SYN_00267","Python","Python","Programming Language",TRUE
+"SYN_00268","RESTful API","REST API","Tool/Methodology",TRUE
+"SYN_00268","c#","C#","Programming Language",TRUE
+"SYN_00268","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00268","Spring Boot","Spring Boot","Framework/Library",TRUE
+"SYN_00268","dot net",".NET","Framework/Library",FALSE
+"SYN_00269","CI/CD","CI/CD","Tool/Methodology",TRUE
+"SYN_00269","K8s","Kubernetes","Cloud/DevOps",FALSE
+"SYN_00269","terraform","Terraform","Cloud/DevOps",TRUE
+"SYN_00269","AWS","AWS","Cloud/DevOps",FALSE
+"SYN_00269","Ubuntu/RHEL","Linux","Tool/Methodology",TRUE
+"SYN_00269","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00270","playwright","Playwright","Tool/Methodology",FALSE
+"SYN_00270","selenium","Selenium","Tool/Methodology",TRUE
+"SYN_00270","Java","Java","Programming Language",FALSE
+"SYN_00270","jmeter","JMeter","Tool/Methodology",TRUE
+"SYN_00270","manual QA","Manual Testing","Tool/Methodology",TRUE
+"SYN_00270","Postman","Postman","Tool/Methodology",TRUE
+"SYN_00271","Apache Spark","PySpark","Framework/Library",FALSE
+"SYN_00271","sql queries","SQL","Database",TRUE
+"SYN_00271","PyTorch","PyTorch","Framework/Library",TRUE
+"SYN_00272","ReactJS","React","Framework/Library",TRUE
+"SYN_00272","Java","Java","Programming Language",FALSE
+"SYN_00272",".NET",".NET","Framework/Library",TRUE
+"SYN_00272","NodeJS","Node.js","Framework/Library",TRUE
+"SYN_00272","python","Python","Programming Language",TRUE
+"SYN_00272","REST","REST API","Tool/Methodology",TRUE
+"SYN_00273",".NET Core",".NET","Framework/Library",TRUE
+"SYN_00273","Spring Boot","Spring Boot","Framework/Library",TRUE
+"SYN_00273","MySQL","MySQL","Database",TRUE
+"SYN_00273","C#","C#","Programming Language",TRUE
+"SYN_00273","Java 17","Java","Programming Language",TRUE
+"SYN_00273","Postgresql","PostgreSQL","Database",TRUE
+"SYN_00274","TS","TypeScript","Programming Language",TRUE
+"SYN_00274","MySQL","MySQL","Database",TRUE
+"SYN_00274","c#","C#","Programming Language",TRUE
+"SYN_00274","REST APIs","REST API","Tool/Methodology",TRUE
+"SYN_00275",".NET",".NET","Framework/Library",FALSE
+"SYN_00275","Java","Java","Programming Language",TRUE
+"SYN_00275","REACT","React","Framework/Library",FALSE
+"SYN_00275","REST APIs","REST API","Tool/Methodology",TRUE
+"SYN_00275","c#","C#","Programming Language",FALSE
+"SYN_00276","linux administration","Linux","Tool/Methodology",TRUE
+"SYN_00276","Microsoft Azure","Azure","Cloud/DevOps",TRUE
+"SYN_00276","CI-CD Pipelines","CI/CD","Tool/Methodology",TRUE
+"SYN_00276","k8s","Kubernetes","Cloud/DevOps",FALSE
+"SYN_00277","react.js","React","Framework/Library",TRUE
+"SYN_00277","Java 17","Java","Programming Language",TRUE
+"SYN_00277","postgres","PostgreSQL","Database",FALSE
+"SYN_00277","TS","TypeScript","Programming Language",FALSE
+"SYN_00278","AWS","AWS","Cloud/DevOps",TRUE
+"SYN_00278","Kubernetes","Kubernetes","Cloud/DevOps",TRUE
+"SYN_00278","docker","Docker","Cloud/DevOps",FALSE
+"SYN_00278","terraform","Terraform","Cloud/DevOps",TRUE
+"SYN_00278","linux administration","Linux","Tool/Methodology",FALSE
+"SYN_00279","REST APIs","REST API","Tool/Methodology",FALSE
+"SYN_00279","MySQL","MySQL","Database",TRUE
+"SYN_00279","SpringBoot","Spring Boot","Framework/Library",TRUE
+"SYN_00279","TS","TypeScript","Programming Language",TRUE
+"SYN_00279","java","Java","Programming Language",TRUE
+"SYN_00280","mysql","MySQL","Database",FALSE
+"SYN_00280","Spring Boot","Spring Boot","Framework/Library",TRUE
+"SYN_00280","typescript","TypeScript","Programming Language",TRUE
+"SYN_00280","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00280","Java","Java","Programming Language",TRUE
+"SYN_00281","PySpark","PySpark","Framework/Library",FALSE
+"SYN_00281","Python 3","Python","Programming Language",TRUE
+"SYN_00281","tensorflow","TensorFlow","Framework/Library",TRUE
+"SYN_00281","PyTorch","PyTorch","Framework/Library",TRUE
+"SYN_00282","C#.NET","C#","Programming Language",FALSE
+"SYN_00282","NodeJS","Node.js","Framework/Library",TRUE
+"SYN_00282","Docker","Docker","Cloud/DevOps",TRUE
+"SYN_00282",".NET Core",".NET","Framework/Library",FALSE
+"SYN_00282","MySQL","MySQL","Database",TRUE
+"SYN_00282","Python","Python","Programming Language",TRUE
+"SYN_00283","Agile/Scrum","Agile","Tool/Methodology",TRUE
+"SYN_00283","sql","SQL","Database",TRUE
+"SYN_00283","Project Management","Project Management","Domain/Other",TRUE
+"SYN_00283","jira / confluence","JIRA","Tool/Methodology",TRUE
+"SYN_00284","jmeter","JMeter","Tool/Methodology",TRUE
+"SYN_00284","jira","JIRA","Tool/Methodology",TRUE
+"SYN_00284","Postman","Postman","Tool/Methodology",TRUE
+"SYN_00284","Cypress","Cypress","Tool/Methodology",TRUE
+"SYN_00284","Java","Java","Programming Language",TRUE
+"SYN_00284","Manual Testing","Manual Testing","Tool/Methodology",TRUE
+"SYN_00285","node","Node.js","Framework/Library",TRUE
+"SYN_00285","Spring Boot","Spring Boot","Framework/Library",TRUE
+"SYN_00285","Python","Python","Programming Language",TRUE
+"SYN_00285","mysql","MySQL","Database",FALSE
+"SYN_00285",".NET Core",".NET","Framework/Library",TRUE
+"SYN_00285","ReactJS","React","Framework/Library",TRUE
+"SYN_00286","playwright","Playwright","Tool/Methodology",FALSE
+"SYN_00286","Manual Testing","Manual Testing","Tool/Methodology",TRUE
+"SYN_00286","jira","JIRA","Tool/Methodology",TRUE
+"SYN_00286","Selenium WebDriver","Selenium","Tool/Methodology",TRUE
+"SYN_00287","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00287",".NET Core",".NET","Framework/Library",TRUE
+"SYN_00287","python","Python","Programming Language",TRUE
+"SYN_00287","TS","TypeScript","Programming Language",TRUE
+"SYN_00287","react.js","React","Framework/Library",TRUE
+"SYN_00288","CI-CD Pipelines","CI/CD","Tool/Methodology",FALSE
+"SYN_00288","Amazon Web Services","AWS","Cloud/DevOps",FALSE
+"SYN_00288","Microsoft Azure","Azure","Cloud/DevOps",TRUE
+"SYN_00288","IaC","Terraform","Cloud/DevOps",TRUE
+"SYN_00288","Ubuntu/RHEL","Linux","Tool/Methodology",TRUE
+"SYN_00289","React","React","Framework/Library",TRUE
+"SYN_00289","TypeScript","TypeScript","Programming Language",FALSE
+"SYN_00289","docker","Docker","Cloud/DevOps",TRUE
+"SYN_00290","Linux","Linux","Tool/Methodology",TRUE
+"SYN_00290","TCP/IP","Networking","Domain/Other",TRUE
+"SYN_00290","Active Directory","Windows Server","Tool/Methodology",TRUE
+"SYN_00290","CCNA","Cisco","Tool/Methodology",TRUE
+"SYN_00291","React","React","Framework/Library",TRUE
+"SYN_00291","MySQL","MySQL","Database",TRUE
+"SYN_00291","SpringBoot","Spring Boot","Framework/Library",TRUE
+"SYN_00291","REST","REST API","Tool/Methodology",TRUE
+"SYN_00292","c#","C#","Programming Language",TRUE
+"SYN_00292","Core Java","Java","Programming Language",TRUE
+"SYN_00292","react.js","React","Framework/Library",TRUE
+"SYN_00292","Node.js","Node.js","Framework/Library",TRUE
+"SYN_00292",".NET Core",".NET","Framework/Library",TRUE
+"SYN_00293","playwright","Playwright","Tool/Methodology",TRUE
+"SYN_00293","selenium","Selenium","Tool/Methodology",FALSE
+"SYN_00293","Cypress","Cypress","Tool/Methodology",FALSE
+"SYN_00294","Amazon Web Services","AWS","Cloud/DevOps",TRUE
+"SYN_00294","GitLab CI","CI/CD","Tool/Methodology",TRUE
+"SYN_00294","azure","Azure","Cloud/DevOps",TRUE
+"SYN_00294","IaC","Terraform","Cloud/DevOps",TRUE
+"SYN_00294","Linux","Linux","Tool/Methodology",TRUE
+"SYN_00295","power bi","Power BI","Tool/Methodology",TRUE
+"SYN_00295","TensorFlow","TensorFlow","Framework/Library",TRUE
+"SYN_00295","pytorch","PyTorch","Framework/Library",TRUE
+"SYN_00295","PySpark","PySpark","Framework/Library",TRUE
+"SYN_00296","wireframes","Wireframing","Tool/Methodology",TRUE
+"SYN_00296","Design Systems","Design Systems","Tool/Methodology",TRUE
+"SYN_00296","User Research","User Research","Domain/Other",TRUE
+"SYN_00297","jira / confluence","JIRA","Tool/Methodology",FALSE
+"SYN_00297","Business Analysis","Business Analysis","Domain/Other",TRUE
+"SYN_00297","SQL","SQL","Database",TRUE
+"SYN_00297","Agile","Agile","Tool/Methodology",TRUE
+"SYN_00298","User Research","User Research","Domain/Other",TRUE
+"SYN_00298","Wireframing","Wireframing","Tool/Methodology",TRUE
+"SYN_00298","Figma","Figma","Tool/Methodology",FALSE
+"SYN_00299","JIRA","JIRA","Tool/Methodology",TRUE
+"SYN_00299","jmeter","JMeter","Tool/Methodology",FALSE
+"SYN_00299","Java","Java","Programming Language",TRUE
+"SYN_00300","Selenium WebDriver","Selenium","Tool/Methodology",TRUE
+"SYN_00300","Java","Java","Programming Language",TRUE
+"SYN_00300","JIRA","JIRA","Tool/Methodology",TRUE

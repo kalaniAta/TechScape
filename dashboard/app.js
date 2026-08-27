@@ -101,17 +101,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const entryPct = totalCount > 0 ? ((entryCount / totalCount) * 100).toFixed(1) : '0.0';
     document.getElementById('kpi-entry-pct').textContent = `${entryPct}%`;
 
-    const lkrJobs = filteredJobs.filter(j => j.currency === 'LKR' && j.salary_midpoint !== null);
+    const lkrJobs = filteredJobs.filter(j => j.currency === 'LKR' && j.salary_midpoint !== null && j.salary_midpoint !== undefined);
     if (lkrJobs.length > 0) {
-      const sortedMids = lkrJobs.map(j => j.salary_midpoint).sort((a, b) => a - b);
-      const medianLKR = sortedMids[Math.floor(sortedMids.length / 2)];
+      const sortedMids = lkrJobs.map(j => Number(j.salary_midpoint)).sort((a, b) => a - b);
+      const midIdx = Math.floor(sortedMids.length / 2);
+      const medianLKR = sortedMids.length % 2 !== 0 ? sortedMids[midIdx] : (sortedMids[midIdx - 1] + sortedMids[midIdx]) / 2;
       document.getElementById('kpi-median-salary').textContent = `LKR ${Math.round(medianLKR / 1000)}k`;
     } else {
       document.getElementById('kpi-median-salary').textContent = 'N/A';
     }
 
+    const disclosedJobs = filteredJobs.filter(j => j.salary_disclosed === true || j.salary_disclosed === 'true' || j.salary_midpoint !== null);
     const usdCount = filteredJobs.filter(j => j.currency === 'USD').length;
-    const usdPct = totalCount > 0 ? ((usdCount / totalCount) * 100).toFixed(1) : '0.0';
+    const usdPct = disclosedJobs.length > 0 ? ((usdCount / disclosedJobs.length) * 100).toFixed(1) : (totalCount > 0 ? ((usdCount / totalCount) * 100).toFixed(1) : '0.0');
     document.getElementById('kpi-usd-ratio').textContent = `${usdPct}%`;
 
     renderCurrentTab();

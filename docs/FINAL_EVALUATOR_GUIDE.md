@@ -2,7 +2,12 @@
 
 ## 1. Project Purpose & Scope
 
-**TechScape** is an empirical, R-based analytical ecosystem that examines the structural evolution of the **Sri Lankan IT labour market**. Sourced from verified online job postings and official macroeconomic datasets, it delivers descriptive and inferential statistical insights without conflating synthetic models with empirical reality.
+**TechScape** is an empirical, hybrid **Python + R** analytical platform that examines the structural evolution of the **Sri Lankan IT labour market**. Sourced from verified online job postings and official macroeconomic datasets, the system employs an upstream Python layer for multi-format ingestion, encoding hygiene, and schema provenance assertions, alongside a core R engine for econometric modeling, non-parametric inferential hypothesis testing, publication-grade `ggplot2` visualization, and interactive dashboards.
+
+### Architecture Evolution & Governance:
+- **Original Plan Baseline:** The original project plan (`IT_Labour_Market_Analytics_Implementation_Plan (1).md`) established R as the core statistical and econometric environment.
+- **Subsequent Architectural Enhancement:** An upstream Python ingestion and validation layer (`python/ingestion/`, `python/preprocessing/`, `python/runner.py`) was subsequently approved to handle external source adaptations, format transformations, text sanitization, and cross-platform orchestration.
+- **Final Implemented System:** **Python Ingestion & Preprocessing $\rightarrow$ Standardized CSV Datasets $\rightarrow$ R Econometric Modeling & Statistics $\rightarrow$ Dashboards & Visualizations**.
 
 ---
 

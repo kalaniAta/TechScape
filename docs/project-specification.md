@@ -56,4 +56,4 @@ To ensure methodological rigour and credibility, the boundaries of Version 1 are
    PRESENTATION LAYER (Static ggplot2 & Interactive Shiny Dashboard)
    ```
 3. **Traceability & Provenance:** Every real record must maintain full auditability from the original advertisement down to the normalized analytical metric.
-4. **Reproducibility:** All data transformations, metrics, tables, and figures must be 100% reproducible through deterministic R scripts.
+4. **Reproducibility:** All data ingestions, transformations, metrics, tables, and figures must be 100% reproducible through deterministic Python pre-flight validation and R analytical scripts.

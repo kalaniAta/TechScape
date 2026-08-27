@@ -17,7 +17,19 @@ This manifest enumerates all primary assets, scripts, data tiers, test suites, f
 
 ---
 
-## 2. Core Analysis & Statistical Pipeline Scripts
+## 2. Python Ingestion & Preprocessing Layer
+
+| File Path | Description / Purpose |
+|---|---|
+| `python/runner.py` | Master cross-platform CLI orchestrator coordinating Python preflight → R analytics → Artifact verification |
+| `python/ingestion/api_fetcher.py` | Modular API ingestion interface with Base and Mock API fetcher implementations |
+| `python/ingestion/source_adapters.py` | Heterogeneous multi-format adapters (JSON feeds, TSV dumps, CSV column remapping, Macro series) |
+| `python/preprocessing/text_hygiene.py` | Encoding health analyzer, UTF-8 BOM detector, line-ending normalizer, and control character sanitizer |
+| `python/preprocessing/raw_validator.py` | Pre-flight provenance checker, schema validator, date/URL format verifier, and foreign-key integrity guard |
+
+---
+
+## 3. Core R Analysis & Statistical Pipeline Scripts
 
 | File Path | Description / Purpose |
 |---|---|
@@ -37,10 +49,11 @@ This manifest enumerates all primary assets, scripts, data tiers, test suites, f
 
 ---
 
-## 3. Automated Test Suites
+## 4. Automated Test Suites
 
 | File Path | Purpose | Assertions / Stages | Pass Status |
 |---|---|:---:|:---:|
+| `tests/test_python_pipeline.py` | Python unit tests (text hygiene, multi-format adapters, mock API, schema validator, Rscript discovery) | 13 test cases | **100% PASS** |
 | `tests/data_quality/test_real_and_inferential.R` | Provenance, bounds, referential integrity, and macro bounds | 16 assertions | **100% PASS** |
 | `tests/data_quality/test_cleaning_transform.R` | End-to-end cleaning and transformation regression suite | 5 pipeline stages | **100% PASS** |
 | `tests/data_quality/test_validation.R` | Schema and validation function constraint tests | 4 test cases | **100% PASS** |

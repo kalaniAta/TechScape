@@ -59,7 +59,9 @@ This checklist confirms the verification, provenance, statistical integrity, and
 
 ## 4. Software & Dashboard Platform
 
+- [x] **Python Ingestion & Preprocessing Layer:** Modular API interface (`api_fetcher.py`), heterogeneous adapters (`source_adapters.py`), encoding hygiene (`text_hygiene.py`), and pre-flight schema provenance assertions (`raw_validator.py`).
+- [x] **Master Cross-Platform CLI Orchestrator:** `python python/runner.py` coordinates Python pre-flight validation, R econometric execution, and artifact verification.
 - [x] **Interactive Web Dashboard:** Standalone responsive application in `dashboard/index.html` with dynamic cross-filtering, live KPI ribbons, and raw posting explorer.
 - [x] **R Shiny App:** Native R Shiny implementation in `dashboard/app.R`.
-- [x] **Automated Test Suites:** 4 test suites in `tests/data_quality/` with 100% pass rate.
-- [x] **Single Command Reproducibility:** Master runner `R/13_run_complete_ecosystem.R` regenerates all outputs from clean state with exit code 0.
+- [x] **Automated Test Suites:** Python unit test suite (`tests/test_python_pipeline.py`, 13 assertions) and 4 R data quality suites in `tests/data_quality/` with 100% pass rate.
+- [x] **Single Command Reproducibility:** Master runners (`python python/runner.py` and `R/13_run_complete_ecosystem.R`) regenerate all outputs from clean state with exit code 0.

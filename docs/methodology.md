@@ -7,22 +7,19 @@ TechScape employs an **empirical descriptive and exploratory research design** t
 ```text
 DATA REQUIREMENTS & TAXONOMIES
               ↓
-  INFERRED REFERENCE SCHEMAS
-  (Terminology & Normalization Dev Only)
+  PYTHON INGESTION & FORMAT ADAPTATION (JSON, TSV, CSV, Macro)
               ↓
-  STRUCTURAL SYNTHETIC GENERATOR
-  (Deterministic Seed & Pipeline Stress Testing)
+  PYTHON PREPROCESSING & SCHEMA PROVENANCE GUARD (UTF-8, Integrity)
               ↓
   R DATA IMPORT & VALIDATION ENGINE
               ↓
-  CLEANING & TRANSFORMATION PIPELINE
-  (Designed to seamlessly accept Verified Real Data)
+  R CLEANING & CANONICAL TRANSFORMATION PIPELINE
               ↓
-  DESCRIPTIVE & CO-OCCURRENCE ANALYTICS
+  R DESCRIPTIVE & INFERENTIAL STATISTICAL MODELING
               ↓
-  [FUTURE] VERIFIED REAL DATA ACQUISITION & MACRO INTEGRATION
+  MACROECONOMIC CONTEXT INTEGRATION (DCS & CBSL)
               ↓
-  SYNTHESIS & VISUALIZATION
+  GGPLOT2 VISUALIZATIONS & INTERACTIVE DASHBOARDS
 ```
 
 ---
@@ -44,7 +41,7 @@ Every record and finding in TechScape is explicitly categorized into one of thre
 3. **`VERIFIED REAL` (`data/real_sample/`):**
    - Reserved strictly for genuine postings with verified, live, auditable provenance (`source`, `source_url`, `collection_date`, `source_job_id`).
    - Sourced with unmodified raw fields (`original_title`, `original_salary`, `original_experience`) preserved alongside analytical variables.
-   - Currently **pending ingestion**.
+   - **Empirical Base:** $n = 80$ verified postings across 39 IT employers and 290 canonical skill associations. All empirical conclusions and inferential tests are derived exclusively from this tier and official DCS/CBSL statistics.
 
 ---
 

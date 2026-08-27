@@ -17,7 +17,8 @@ CONCEPTUAL METHODOLOGICAL ARCHITECTURE
                                      ▼
 ┌─────────────────────────────────────────────────────────────────────────┐
 │ 2. DATA PROCESSING & NORMALIZATION PIPELINE                             │
-│    • Ingestion & Structural Validation (01_import.R, 02_validate.R)     │
+│    • Python Ingestion & Encoding Sanitation (api_fetcher.py, hygiene)   │
+│    • Pre-Flight & Schema Validation (raw_validator.py, 02_validate.R)   │
 │    • Canonical Mapping & Deduplication (03_clean.R)                     │
 │    • Feature Engineering & Banding (04_transform.R)                     │
 │    • Preservation of Raw Text (original_title, original_salary)         │

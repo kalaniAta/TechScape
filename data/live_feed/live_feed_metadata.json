@@ -1,0 +1,15 @@
+{
+  "retrieved_at": "2026-09-29 14:23:55",
+  "total_retrieved": 23,
+  "skills_extracted": 3,
+  "source_counts": {
+    "TopJobs_LK": 18,
+    "ITPro_LK": 5
+  },
+  "sources_attempted": [
+    "topjobs",
+    "itpro"
+  ],
+  "mode": "Periodic Public Web Retrieval",
+  "disclaimer": "Source-Retrieved feed. Vacancies are subject to employer removal."
+}

@@ -27,28 +27,41 @@ TechScape transforms fragmented job market data into actionable insights for IT 
 
 ## Quick Start
 
-### Prerequisites
-- **Python 3.x** (standard library only, no external packages)
-- **R 4.6.1+** with tidyverse, ggplot2, stringr, lubridate
+### 1. Setup Environment
+```bash
+# Unix / macOS / WSL:
+make setup
 
-### Run Complete Pipeline
+# Windows PowerShell:
+.\make.ps1 setup
+```
+
+### 2. Run Pipeline
 ```bash
 # Master orchestrator (Python preflight + R analysis + verification)
 python python/runner.py
 
-# Or run R pipeline directly
-Rscript R/13_run_complete_ecosystem.R
+# Or via task runner:
+make pipeline        # Unix / WSL
+.\make.ps1 pipeline  # Windows PowerShell
 ```
 
-**Output:** Generates 27 figures, 35 tables, and interactive dashboard in `outputs/` and `dashboard/`
-
-### Explore Dashboard
+### 3. Run Tests & Audits
 ```bash
-# Standalone web interface (no installation required)
-open dashboard/index.html
+# Run pytest + R testthat suites:
+make test            # Unix / WSL
+.\make.ps1 test      # Windows PowerShell
 
-# Or run R Shiny app
-Rscript -e "shiny::runApp('dashboard')"
+# Run claims & link audit:
+make audit           # Unix / WSL
+.\make.ps1 audit     # Windows PowerShell
+```
+
+### 4. Explore Dashboard
+```bash
+# Start local dashboard server:
+python -m http.server 3000 --directory dashboard
+# Open http://localhost:3000 in your browser
 ```
 
 ---

@@ -15,15 +15,15 @@ import shutil
 import subprocess
 import sys
 import time
-from typing import List, Optional, Tuple
+from typing import Optional
 
 # Add parent directory to sys.path to allow absolute imports within the package
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
-from python.preprocessing.text_hygiene import check_file_encoding, verify_directory_encodings
 from python.preprocessing.raw_validator import validate_dataset_pair
+from python.preprocessing.text_hygiene import verify_directory_encodings
 
 
 def find_rscript_executable() -> Optional[str]:
@@ -190,7 +190,7 @@ def verify_academic_artifacts() -> bool:
     tables = glob.glob(os.path.join(tab_dir, "*.csv")) + glob.glob(os.path.join(tab_dir, "*.txt"))
     findings = glob.glob(os.path.join(find_dir, "*.md"))
 
-    print(f"[*] Verifying Generated Artifacts:")
+    print("[*] Verifying Generated Artifacts:")
     print(f"    - Publication Figures: {len(figures)} PNG files in outputs/figures/")
     print(f"    - Tabular Datasets:    {len(tables)} files in outputs/tables/")
     print(f"    - Academic Findings:   {len(findings)} Markdown reports in outputs/findings/")

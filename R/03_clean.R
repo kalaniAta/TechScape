@@ -16,9 +16,11 @@ source("R/01_import.R")
 # ------------------------------------------------------------------------------
 
 CAREER_CATEGORY_LOOKUP <- list(
-  "Software Engineering" = c("software", "full stack", "full-stack", "frontend", "front end", 
-                             "backend", "back end", "mobile", "ios", "android", "flutter", 
-                             "react native", "developer", "se", "sse", "architect", "golang", "c++", ".net", "java"),
+  "Management & Business Analysis" = c("business analyst", "ba", "project manager", "scrum master", 
+                                       "product owner", "product manager", "agile", "delivery lead", 
+                                       "engineering manager", "technical lead", "tech lead", "team lead",
+                                       "program manager", "delivery manager", "it manager", "development manager",
+                                       "release manager", "operations manager", "pmo", "head of", "director", "cto", "cio"),
   "QA & Test Automation" = c("qa", "quality assurance", "test", "tester", "sdet", "automation", 
                              "playwright", "selenium", "cypress", "jmeter", "manual testing"),
   "Cloud & DevOps" = c("devops", "cloud", "sre", "site reliability", "platform", "infrastructure", 
@@ -31,8 +33,9 @@ CAREER_CATEGORY_LOOKUP <- list(
                                "figma", "prototyping", "design"),
   "IT Systems & Infrastructure" = c("system admin", "systems", "network", "noc", "desktop support", 
                                    "it support", "helpdesk", "active directory", "cisco", "hardware"),
-  "Management & Business Analysis" = c("business analyst", "ba", "project manager", "scrum master", 
-                                       "product owner", "agile", "delivery lead", "engineering manager")
+  "Software Engineering" = c("software", "full stack", "full-stack", "frontend", "front end", 
+                             "backend", "back end", "mobile", "ios", "android", "flutter", 
+                             "react native", "developer", "se", "sse", "architect", "golang", "c++", ".net", "java")
 )
 
 SKILL_CANONICAL_LOOKUP <- list(

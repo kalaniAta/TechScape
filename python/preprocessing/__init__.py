@@ -4,17 +4,17 @@ TechScape Preprocessing Subpackage
 Text hygiene, encoding normalization, and schema provenance validation.
 """
 
-from .text_hygiene import (
-    check_file_encoding,
-    sanitize_string,
-    verify_directory_encodings,
-    EncodingReport
-)
 from .raw_validator import (
+    ValidationResult,
     validate_dataset_pair,
     validate_jobs_table,
     validate_skills_table,
-    ValidationResult
+)
+from .text_hygiene import (
+    EncodingReport,
+    check_file_encoding,
+    sanitize_string,
+    verify_directory_encodings,
 )
 
 __all__ = [

@@ -169,20 +169,20 @@ findings_text <- sprintf(
 - **Mean Minimum Experience:** %.2f years.
 - **Median Minimum Experience:** %d years (IQR: %d years).
 - **Zero Experience (Intern/Trainee) Share:** %.1f%% (%d postings).
-- **Output Artifacts:** [tab_08_experience_summary_statistics.csv](file:///d:/projects/TechScape/outputs/tables/tab_08_experience_summary_statistics.csv), [fig_08_experience_min_distribution.png](file:///d:/projects/TechScape/outputs/figures/fig_08_experience_min_distribution.png).
+- **Output Artifacts:** [tab_08_experience_summary_statistics.csv](outputs/tables/tab_08_experience_summary_statistics.csv), [fig_08_experience_min_distribution.png](outputs/figures/fig_08_experience_min_distribution.png).
 
 ---
 
 ## 2. Category-Level Experience Demands
 - **Highest Mean Experience:** `%s` (Mean: %.2f years).
 - **Lowest Mean Experience:** `%s` (Mean: %.2f years).
-- **Output Artifacts:** [tab_08_experience_by_career.csv](file:///d:/projects/TechScape/outputs/tables/tab_08_experience_by_career.csv), [fig_08_experience_by_career.png](file:///d:/projects/TechScape/outputs/figures/fig_08_experience_by_career.png).
+- **Output Artifacts:** [tab_08_experience_by_career.csv](outputs/tables/tab_08_experience_by_career.csv), [fig_08_experience_by_career.png](outputs/figures/fig_08_experience_by_career.png).
 
 ---
 
 ## 3. Experience vs. Compensation Correlation
 - **Pearson Correlation (Experience vs LKR Salary):** r = %.2f.
-- **Output Artifacts:** [fig_08_experience_vs_salary_lkr.png](file:///d:/projects/TechScape/outputs/figures/fig_08_experience_vs_salary_lkr.png).
+- **Output Artifacts:** [fig_08_experience_vs_salary_lkr.png](outputs/figures/fig_08_experience_vs_salary_lkr.png).
 ",
   n_total,
   mean(jobs$experience_min, na.rm=TRUE),

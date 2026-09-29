@@ -174,14 +174,14 @@ findings_text <- sprintf(
 ## 1. Skill Compensation Associations (LKR)
 - **Top Compensated Skill in Testing Set:** `%s` (Median: LKR %s).
 - **Secondary Compensated Skills:** `%s` (LKR %s), `%s` (LKR %s).
-- **Output Artifacts:** [tab_09_skills_vs_salary.csv](file:///d:/projects/TechScape/outputs/tables/tab_09_skills_vs_salary.csv), [fig_09_skills_vs_salary.png](file:///d:/projects/TechScape/outputs/figures/fig_09_skills_vs_salary.png).
+- **Output Artifacts:** [tab_09_skills_vs_salary.csv](outputs/tables/tab_09_skills_vs_salary.csv), [fig_09_skills_vs_salary.png](outputs/figures/fig_09_skills_vs_salary.png).
 
 ---
 
 ## 2. Skill Experience Requirements
 - **Highest Mean Experience Skill:** `%s` (Mean: %.2f years).
 - **Lowest Mean Experience Skill (Accessible):** `%s` (Mean: %.2f years).
-- **Output Artifacts:** [tab_09_skills_vs_experience.csv](file:///d:/projects/TechScape/outputs/tables/tab_09_skills_vs_experience.csv).
+- **Output Artifacts:** [tab_09_skills_vs_experience.csv](outputs/tables/tab_09_skills_vs_experience.csv).
 
 ---
 
@@ -190,7 +190,7 @@ findings_text <- sprintf(
   1. `%s` (%.1f%% penetration in entry roles)
   2. `%s` (%.1f%% penetration in entry roles)
   3. `%s` (%.1f%% penetration in entry roles)
-- **Output Artifacts:** [tab_09_entry_vs_experienced_skills.csv](file:///d:/projects/TechScape/outputs/tables/tab_09_entry_vs_experienced_skills.csv), [fig_09_entry_vs_experienced_skills.png](file:///d:/projects/TechScape/outputs/figures/fig_09_entry_vs_experienced_skills.png).
+- **Output Artifacts:** [tab_09_entry_vs_experienced_skills.csv](outputs/tables/tab_09_entry_vs_experienced_skills.csv), [fig_09_entry_vs_experienced_skills.png](outputs/figures/fig_09_entry_vs_experienced_skills.png).
 ",
   nrow(jobs),
   skill_sal_df$Skill_Name[1], format(skill_sal_df$Median_LKR[1], big.mark=","),

@@ -40,3 +40,9 @@ desktop.ini
 # IDE files
 .vscode/
 .idea/
+
+# Testing & Tool Caches
+.pytest_cache/
+.ruff_cache/
+.playwright-mcp/
+

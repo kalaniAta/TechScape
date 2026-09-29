@@ -198,7 +198,7 @@ findings_text <- sprintf(
 - **Overall Disclosure Rate:** %.1f%% (%d of %d postings disclosed numeric compensation).
 - **Undisclosed Proportion:** %.1f%% (%d postings) listed qualitative terms (*Negotiable*, *Market Standard*).
 - **Category with Highest Disclosure:** `%s` (%.1f%% disclosed).
-- **Output Artifacts:** [tab_07_salary_disclosure_by_category.csv](file:///d:/projects/TechScape/outputs/tables/tab_07_salary_disclosure_by_category.csv), [fig_07_salary_disclosure_rate.png](file:///d:/projects/TechScape/outputs/figures/fig_07_salary_disclosure_rate.png).
+- **Output Artifacts:** [tab_07_salary_disclosure_by_category.csv](outputs/tables/tab_07_salary_disclosure_by_category.csv), [fig_07_salary_disclosure_rate.png](outputs/figures/fig_07_salary_disclosure_rate.png).
 
 ---
 
@@ -207,21 +207,21 @@ findings_text <- sprintf(
 - **Median Monthly Midpoint:** LKR %s (IQR: LKR %s).
 - **Mean Monthly Midpoint:** LKR %s (StdDev: LKR %s).
 - **Range:** LKR %s to LKR %s.
-- **Output Artifacts:** [tab_07_lkr_salary_summary_statistics.csv](file:///d:/projects/TechScape/outputs/tables/tab_07_lkr_salary_summary_statistics.csv), [fig_07_lkr_salary_distribution.png](file:///d:/projects/TechScape/outputs/figures/fig_07_lkr_salary_distribution.png).
+- **Output Artifacts:** [tab_07_lkr_salary_summary_statistics.csv](outputs/tables/tab_07_lkr_salary_summary_statistics.csv), [fig_07_lkr_salary_distribution.png](outputs/figures/fig_07_lkr_salary_distribution.png).
 
 ---
 
 ## 3. Disclosed USD-Pegged Packages
 - **USD Disclosed Count:** %d observations.
 - **Median Monthly Midpoint:** USD $%s.
-- **Output Artifacts:** [tab_07_usd_salary_summary_statistics.csv](file:///d:/projects/TechScape/outputs/tables/tab_07_usd_salary_summary_statistics.csv).
+- **Output Artifacts:** [tab_07_usd_salary_summary_statistics.csv](outputs/tables/tab_07_usd_salary_summary_statistics.csv).
 
 ---
 
 ## 4. Seniority Progression
 - **Entry / Intern Median (LKR):** LKR %s.
 - **Senior / Lead Median (LKR):** LKR %s.
-- **Output Artifacts:** [tab_07_salary_by_seniority.csv](file:///d:/projects/TechScape/outputs/tables/tab_07_salary_by_seniority.csv), [fig_07_salary_by_seniority.png](file:///d:/projects/TechScape/outputs/figures/fig_07_salary_by_seniority.png).
+- **Output Artifacts:** [tab_07_salary_by_seniority.csv](outputs/tables/tab_07_salary_by_seniority.csv), [fig_07_salary_by_seniority.png](outputs/figures/fig_07_salary_by_seniority.png).
 ",
   n_total,
   mean(jobs$salary_disclosed) * 100, sum(jobs$salary_disclosed), n_total,

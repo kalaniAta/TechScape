@@ -1,0 +1,4 @@
+skill_id,job_id,skill_name,skill_category,is_standardized
+LIVE_00022_SKILL_01,LIVE_00022,UI/UX,Design & Management,True
+LIVE_00023_SKILL_01,LIVE_00023,Node.js,Web Frameworks,True
+LIVE_00023_SKILL_02,LIVE_00023,AWS,Cloud & DevOps,True

@@ -8,11 +8,9 @@ before handing data off to the R pipeline.
 
 import csv
 import os
-import re
 from dataclasses import dataclass, field
 from datetime import datetime
-from typing import Dict, List, Optional, Set, Tuple
-
+from typing import List, Set, Tuple
 
 REQUIRED_JOB_FIELDS = [
     "job_id",

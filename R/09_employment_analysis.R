@@ -178,14 +178,14 @@ findings_macro <- sprintf(
 - **National Unemployment Rate:** Stabilized at 3.9%% in 2025 and 3.7%% in Q1 2026, down from the 2020 peak of 5.5%%.
 - **Youth Unemployment Rate (Ages 20–29):** Decreased from a peak of 17.2%% (2020) to 12.8%% (2025), reflecting post-crisis recovery.
 - **Female Labour Force Participation Rate:** Recorded at 33.1%% in 2025 (DCS LFS).
-- **Key Artifacts:** [real_tab_macro_unemployment_trends.csv](file:///d:/projects/TechScape/outputs/tables/real_tab_macro_unemployment_trends.csv), [real_fig_macro_unemployment_youth.png](file:///d:/projects/TechScape/outputs/figures/real_fig_macro_unemployment_youth.png).
+- **Key Artifacts:** [real_tab_macro_unemployment_trends.csv](outputs/tables/real_tab_macro_unemployment_trends.csv), [real_fig_macro_unemployment_youth.png](outputs/figures/real_fig_macro_unemployment_youth.png).
 
 ---
 
 ## 2. ICT Knowledge Services Export Trajectory (CBSL BPM6)
 - **Export Earnings Trajectory:** Expanded from **USD $985 Million** in 2019 to **USD $1,520 Million** in 2025 (Cumulative growth: +54.3%%).
 - **Resilience:** Continued to grow through 2020–2022 despite domestic economic volatility, highlighting the sector's export-oriented dollar-denominated stability.
-- **Key Artifacts:** [real_tab_macro_ict_export_earnings.csv](file:///d:/projects/TechScape/outputs/tables/real_tab_macro_ict_export_earnings.csv), [real_fig_macro_ict_exports_vs_gdp.png](file:///d:/projects/TechScape/outputs/figures/real_fig_macro_ict_exports_vs_gdp.png).
+- **Key Artifacts:** [real_tab_macro_ict_export_earnings.csv](outputs/tables/real_tab_macro_ict_export_earnings.csv), [real_fig_macro_ict_exports_vs_gdp.png](outputs/figures/real_fig_macro_ict_exports_vs_gdp.png).
 
 ---
 

@@ -222,7 +222,7 @@ findings_text <- sprintf(
 ## 1. Overall Skill Frequency & Penetration (RQ3)
 - **Top Demanded Skill in Testing Asset:** `%s` with %d occurrences (%.1f%% overall penetration).
 - **Subsequent Top Skills:** `%s` (%.1f%%) and `%s` (%.1f%%).
-- **Output Artifacts:** [tab_06_overall_skills.csv](file:///d:/projects/TechScape/outputs/tables/tab_06_overall_skills.csv), [fig_06_top_skills_overall.png](file:///d:/projects/TechScape/outputs/figures/fig_06_top_skills_overall.png).
+- **Output Artifacts:** [tab_06_overall_skills.csv](outputs/tables/tab_06_overall_skills.csv), [fig_06_top_skills_overall.png](outputs/figures/fig_06_top_skills_overall.png).
 
 ---
 
@@ -230,14 +230,14 @@ findings_text <- sprintf(
 - **Programming Languages:** Top 3: `%s` (%d), `%s` (%d), `%s` (%d).
 - **Frameworks & Libraries:** Top 3: `%s` (%d), `%s` (%d), `%s` (%d).
 - **Cloud & DevOps:** Top 3: `%s` (%d), `%s` (%d), `%s` (%d).
-- **Output Artifacts:** [tab_06_programming_languages.csv](file:///d:/projects/TechScape/outputs/tables/tab_06_programming_languages.csv), [tab_06_frameworks.csv](file:///d:/projects/TechScape/outputs/tables/tab_06_frameworks.csv), [tab_06_cloud_devops.csv](file:///d:/projects/TechScape/outputs/tables/tab_06_cloud_devops.csv), [fig_06_skills_by_domain.png](file:///d:/projects/TechScape/outputs/figures/fig_06_skills_by_domain.png).
+- **Output Artifacts:** [tab_06_programming_languages.csv](outputs/tables/tab_06_programming_languages.csv), [tab_06_frameworks.csv](outputs/tables/tab_06_frameworks.csv), [tab_06_cloud_devops.csv](outputs/tables/tab_06_cloud_devops.csv), [fig_06_skills_by_domain.png](outputs/figures/fig_06_skills_by_domain.png).
 
 ---
 
 ## 3. Skill Density (Breadth per Posting)
 - **Average Skills Required:** %.2f skills per posting (Range: %d to %d).
 - **Category with Highest Density:** `%s` (Mean: %.2f skills).
-- **Output Artifacts:** [tab_06_skill_density_by_career.csv](file:///d:/projects/TechScape/outputs/tables/tab_06_skill_density_by_career.csv), [fig_06_skill_density_by_career.png](file:///d:/projects/TechScape/outputs/figures/fig_06_skill_density_by_career.png).
+- **Output Artifacts:** [tab_06_skill_density_by_career.csv](outputs/tables/tab_06_skill_density_by_career.csv), [fig_06_skill_density_by_career.png](outputs/figures/fig_06_skill_density_by_career.png).
 ",
   n_skills, n_jobs,
   skill_counts$Skill_Name[1], skill_counts$Occurrence_Count[1], skill_counts$Penetration_Pct[1],

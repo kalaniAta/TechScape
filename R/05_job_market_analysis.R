@@ -205,14 +205,14 @@ findings_text <- sprintf(
 ## 1. Volume & Temporal Distribution (RQ1)
 - **Total Records Analyzed:** %d synthetic job postings spanning years %d to %d.
 - **Annual Intensity:** Annual volume in the synthetic testing dataset ranges from %d to %d postings per year.
-- **Output Artifacts:** [tab_05_annual_volume.csv](file:///d:/projects/TechScape/outputs/tables/tab_05_annual_volume.csv), [fig_05_annual_job_volume.png](file:///d:/projects/TechScape/outputs/figures/fig_05_annual_job_volume.png).
+- **Output Artifacts:** [tab_05_annual_volume.csv](outputs/tables/tab_05_annual_volume.csv), [fig_05_annual_job_volume.png](outputs/figures/fig_05_annual_job_volume.png).
 
 ---
 
 ## 2. Career Category Distribution (RQ2)
 - **Dominant Category:** `%s` accounts for the largest share at %.1f%% (%d postings).
 - **Secondary Tracks:** `%s` (%.1f%%) and `%s` (%.1f%%).
-- **Output Artifacts:** [tab_05_career_distribution.csv](file:///d:/projects/TechScape/outputs/tables/tab_05_career_distribution.csv), [fig_05_career_category_distribution.png](file:///d:/projects/TechScape/outputs/figures/fig_05_career_category_distribution.png).
+- **Output Artifacts:** [tab_05_career_distribution.csv](outputs/tables/tab_05_career_distribution.csv), [fig_05_career_category_distribution.png](outputs/figures/fig_05_career_category_distribution.png).
 
 ---
 
@@ -220,7 +220,7 @@ findings_text <- sprintf(
 - **Overall Entry-Level Proportion:** %.1f%% of synthetic positions (%d of %d) require <= 1 year of experience.
 - **Highest Entry-Level Share:** `%s` (%.1f%% entry-level).
 - **Lowest Entry-Level Share:** `%s` (%.1f%% entry-level).
-- **Output Artifacts:** [tab_05_entry_level_by_category.csv](file:///d:/projects/TechScape/outputs/tables/tab_05_entry_level_by_category.csv), [fig_05_entry_level_distribution.png](file:///d:/projects/TechScape/outputs/figures/fig_05_entry_level_distribution.png).
+- **Output Artifacts:** [tab_05_entry_level_by_category.csv](outputs/tables/tab_05_entry_level_by_category.csv), [fig_05_entry_level_distribution.png](outputs/figures/fig_05_entry_level_distribution.png).
 ",
   n_total, n_total, min(jobs$posting_year), max(jobs$posting_year),
   min(annual_vol$Posting_Count), max(annual_vol$Posting_Count),

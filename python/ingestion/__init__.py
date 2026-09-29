@@ -6,11 +6,11 @@ Modular API fetchers and heterogeneous source adapters for raw data ingestion.
 
 from .api_fetcher import BaseJobAPIFetcher, MockJobAPIFetcher, PublicMacroAPIFetcher
 from .source_adapters import (
-    JSONSourceAdapter,
-    TSVSourceAdapter,
     CSVSourceAdapter,
+    JSONSourceAdapter,
     MacroSeriesAdapter,
-    StandardJobRecord
+    StandardJobRecord,
+    TSVSourceAdapter,
 )
 
 __all__ = [

@@ -86,8 +86,8 @@ This single command:
 
 ## 7. Interactive Dashboard Access
 
-- **Standalone Web UI:** Open [`dashboard/index.html`](file:///d:/projects/TechScape/dashboard/index.html) in any standard web browser (no local web server or node installation required).
-- **R Shiny Companion:** Run [`dashboard/app.R`](file:///d:/projects/TechScape/dashboard/app.R) in RStudio (`shiny::runApp('dashboard')`).
+- **Standalone Web UI:** Open [`dashboard/index.html`](dashboard/index.html) in any standard web browser (no local web server or node installation required).
+- **R Shiny Companion:** Run [`dashboard/app.R`](dashboard/app.R) in RStudio (`shiny::runApp('dashboard')`).
 
 ---
 
@@ -102,12 +102,12 @@ This single command:
 
 ## 9. Important Repository File Map
  
-- **Python Master Orchestrator:** [`python/runner.py`](file:///d:/projects/TechScape/python/runner.py)
-- **Python Ingestion Layer:** [`python/ingestion/api_fetcher.py`](file:///d:/projects/TechScape/python/ingestion/api_fetcher.py) & [`python/ingestion/source_adapters.py`](file:///d:/projects/TechScape/python/ingestion/source_adapters.py)
-- **Python Preprocessing & Guard:** [`python/preprocessing/text_hygiene.py`](file:///d:/projects/TechScape/python/preprocessing/text_hygiene.py) & [`python/preprocessing/raw_validator.py`](file:///d:/projects/TechScape/python/preprocessing/raw_validator.py)
-- **R Pipeline Runner:** [`R/13_run_complete_ecosystem.R`](file:///d:/projects/TechScape/R/13_run_complete_ecosystem.R)
-- **Empirical Datasets:** [`data/real_sample/jobs_real_sample.csv`](file:///d:/projects/TechScape/data/real_sample/jobs_real_sample.csv) & [`data/real_sample/job_skills_real_sample.csv`](file:///d:/projects/TechScape/data/real_sample/job_skills_real_sample.csv)
-- **Macro Dataset:** [`data/processed/macro_labour_indicators.csv`](file:///d:/projects/TechScape/data/processed/macro_labour_indicators.csv)
-- **Academic Synthesis:** [`outputs/findings/final_academic_synthesis_report.md`](file:///d:/projects/TechScape/outputs/findings/final_academic_synthesis_report.md)
-- **Automated Tests:** [`tests/test_python_pipeline.py`](file:///d:/projects/TechScape/tests/test_python_pipeline.py) & [`tests/data_quality/test_real_and_inferential.R`](file:///d:/projects/TechScape/tests/data_quality/test_real_and_inferential.R)
-- **Interactive UI:** [`dashboard/index.html`](file:///d:/projects/TechScape/dashboard/index.html)
+- **Python Master Orchestrator:** [`python/runner.py`](python/runner.py)
+- **Python Ingestion Layer:** [`python/ingestion/api_fetcher.py`](python/ingestion/api_fetcher.py) & [`python/ingestion/source_adapters.py`](python/ingestion/source_adapters.py)
+- **Python Preprocessing & Guard:** [`python/preprocessing/text_hygiene.py`](python/preprocessing/text_hygiene.py) & [`python/preprocessing/raw_validator.py`](python/preprocessing/raw_validator.py)
+- **R Pipeline Runner:** [`R/13_run_complete_ecosystem.R`](R/13_run_complete_ecosystem.R)
+- **Empirical Datasets:** [`data/real_sample/jobs_real_sample.csv`](data/real_sample/jobs_real_sample.csv) & [`data/real_sample/job_skills_real_sample.csv`](data/real_sample/job_skills_real_sample.csv)
+- **Macro Dataset:** [`data/processed/macro_labour_indicators.csv`](data/processed/macro_labour_indicators.csv)
+- **Academic Synthesis:** [`outputs/findings/final_academic_synthesis_report.md`](outputs/findings/final_academic_synthesis_report.md)
+- **Automated Tests:** [`tests/test_python_pipeline.py`](tests/test_python_pipeline.py) & [`tests/data_quality/test_real_and_inferential.R`](tests/data_quality/test_real_and_inferential.R)
+- **Interactive UI:** [`dashboard/index.html`](dashboard/index.html)

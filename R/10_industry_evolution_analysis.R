@@ -128,7 +128,7 @@ findings_text <- sprintf(
 - **Hybrid Dominance:** **%.1f%%** of observed postings (%d of %d) utilize hybrid working arrangements.
 - **Remote-First Postings:** **%.1f%%** of postings operate fully remotely, predominantly offered by export software firms and global delivery units.
 - **On-Site Requirements:** **%.1f%%** require on-site presence, concentrated in domestic banking, infrastructure support, and hardware operations.
-- **Key Artifacts:** [real_tab_10_work_mode_distribution.csv](file:///d:/projects/TechScape/outputs/tables/real_tab_10_work_mode_distribution.csv), [real_fig_10_work_mode_distribution.png](file:///d:/projects/TechScape/outputs/figures/real_fig_10_work_mode_distribution.png).
+- **Key Artifacts:** [real_tab_10_work_mode_distribution.csv](outputs/tables/real_tab_10_work_mode_distribution.csv), [real_fig_10_work_mode_distribution.png](outputs/figures/real_fig_10_work_mode_distribution.png).
 
 ---
 
@@ -137,7 +137,7 @@ findings_text <- sprintf(
 - **Cloud & IaC Architecture:** AWS, Azure, GCP, and Terraform appear in **%.1f%%** of vacancies.
 - **Containerization:** Docker and Kubernetes appear in **%.1f%%** of vacancies, reflecting widespread microservices deployment.
 - **Modern Frontend:** React and Next.js dominate frontend demand (**%.1f%%**).
-- **Key Artifacts:** [real_tab_10_tech_stack_penetration.csv](file:///d:/projects/TechScape/outputs/tables/real_tab_10_tech_stack_penetration.csv), [real_fig_10_tech_stack_adoption.png](file:///d:/projects/TechScape/outputs/figures/real_fig_10_tech_stack_adoption.png).
+- **Key Artifacts:** [real_tab_10_tech_stack_penetration.csv](outputs/tables/real_tab_10_tech_stack_penetration.csv), [real_fig_10_tech_stack_adoption.png](outputs/figures/real_fig_10_tech_stack_adoption.png).
 ",
   n_jobs,
   subset(work_mode_tab, Work_Mode == "Hybrid")$Share_Pct, subset(work_mode_tab, Work_Mode == "Hybrid")$Posting_Count, n_jobs,

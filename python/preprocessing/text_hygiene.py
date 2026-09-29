@@ -10,7 +10,7 @@ import html
 import os
 import re
 from dataclasses import dataclass
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List
 
 
 @dataclass
@@ -50,7 +50,7 @@ def sanitize_string(text: str) -> str:
 
     # Normalize horizontal whitespace within single lines
     lines = cleaned.splitlines()
-    normalized_lines = [re.sub(r"[ \t]+", " ", l).strip() for l in lines]
+    normalized_lines = [re.sub(r"[ \t]+", " ", line).strip() for line in lines]
     return "\n".join(normalized_lines)
 
 

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <title>TechScape — Sri Lankan IT Labour Market Analytics</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,60 +10,80 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Mobile Header Bar (Visible on mobile/tablet <= 768px) -->
+  <header class="mobile-top-bar">
+    <button id="mobile-menu-toggle" class="mobile-menu-btn" aria-label="Open Navigation Menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+    </button>
+    <div class="mobile-brand">
+      <div class="logo-icon logo-icon-sm">TS</div>
+      <span class="mobile-brand-title">TechScape</span>
+    </div>
+    <span class="mobile-badge" id="mobile-dataset-badge">Baseline (n=80)</span>
+  </header>
+
+  <!-- Mobile Backdrop Overlay -->
+  <div id="sidebar-backdrop" class="sidebar-backdrop"></div>
+
   <div class="app-container">
     <!-- Sidebar Navigation -->
-    <aside class="sidebar">
+    <aside class="sidebar" id="sidebar">
       <div class="brand">
         <div class="logo-icon">TS</div>
         <div class="brand-text">
           <h2>TechScape</h2>
           <span>SL IT Labour Analytics</span>
         </div>
+        <button id="sidebar-close-btn" class="sidebar-close-btn" aria-label="Close Navigation Menu">&times;</button>
       </div>
 
-      <div class="governance-badge">
-        <span class="pulse-dot"></span>
-        <span>VERIFIED REAL SAMPLE (n=80)</span>
+      <!-- Dataset Governance Badge -->
+      <div class="governance-badge" id="sidebar-gov-badge">
+        <span class="pulse-dot" id="sidebar-pulse-dot"></span>
+        <div class="governance-info">
+          <span class="gov-title" id="gov-badge-title">VERIFIED BASELINE CORPUS</span>
+          <span class="gov-date" id="gov-badge-subtitle">Aug 10 – Aug 26, 2026 (n=80)</span>
+        </div>
       </div>
 
       <nav class="nav-menu">
         <button class="nav-item active" data-tab="overview">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
-          Executive Overview
+          <span>Executive Overview</span>
         </button>
         <button class="nav-item" data-tab="careers">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-          Career Tracks & Volume
+          <span>Career Tracks & Volume</span>
         </button>
         <button class="nav-item" data-tab="skills">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
-          Skills Demand
+          <span>Skills Demand</span>
         </button>
         <button class="nav-item" data-tab="salary">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
-          Compensation & Currency
+          <span>Compensation & Currency</span>
         </button>
         <button class="nav-item" data-tab="experience">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-          Experience & Accessibility
+          <span>Experience & Accessibility</span>
         </button>
         <button class="nav-item" data-tab="macro">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
-          Macro Labour (DCS/CBSL)
+          <span>Macro Labour (DCS/CBSL)</span>
         </button>
         <button class="nav-item" data-tab="advisory">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
-          Student Insights Guide
+          <span>Student Insights Guide</span>
         </button>
         <button class="nav-item" data-tab="explorer">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-          Raw Postings & Provenance
+          <span>Raw Postings & Provenance</span>
         </button>
       </nav>
 
       <div class="sidebar-footer">
-        <div class="version-tag">Version 1.0 (Milestone 5)</div>
-        <div class="source-tag">Sources: TopJobs LK, LinkedIn LK, ITPro LK, DCS, CBSL</div>
+        <div class="version-tag">Version 2.0 (Dual-Track System)</div>
+        <div class="source-tag">Academic Baseline: Frozen n=80<br>Live Feed: TopJobs LK, ITPro LK<br>Macro: DCS, CBSL</div>
       </div>
     </aside>
 
@@ -72,22 +92,73 @@
       <!-- Top Header -->
       <header class="top-header">
         <div class="header-titles">
+          <!-- Dual-Track Dataset Switcher -->
+          <div class="dataset-switcher-bar">
+            <span class="switcher-title">Data Layer:</span>
+            <div class="switcher-buttons">
+              <button class="btn-dataset-switch active" data-dataset="baseline" id="btn-mode-baseline">
+                <span class="switch-dot dot-baseline"></span>
+                <span class="switch-text">🛡️ Verified Baseline (Academic n=80)</span>
+              </button>
+              <button class="btn-dataset-switch" data-dataset="live" id="btn-mode-live">
+                <span class="switch-dot dot-live"></span>
+                <span class="switch-text">📡 Source-Retrieved Feed (<span id="btn-live-count">Live</span>)</span>
+              </button>
+              <button class="btn-dataset-switch" data-dataset="combined" id="btn-mode-combined">
+                <span class="switch-dot dot-combined"></span>
+                <span class="switch-text">🌐 Combined Stream</span>
+              </button>
+            </div>
+          </div>
+
           <h1 id="page-title">Executive Labour Market Overview</h1>
           <p id="page-subtitle">Empirical insights from verified Sri Lankan IT job postings and national employment indicators</p>
+          
+          <!-- Temporal Metadata Chips Bar -->
+          <div class="temporal-meta-bar">
+            <div class="meta-chip">
+              <span class="chip-icon">📊</span>
+              <span class="chip-label">Active Dataset:</span>
+              <span class="chip-val" id="meta-dataset-mode">Verified Baseline (Academic Corpus)</span>
+            </div>
+            <div class="meta-chip">
+              <span class="chip-icon">📅</span>
+              <span class="chip-label">Observation Window:</span>
+              <span class="chip-val" id="meta-posting-window">10 Aug 2026 – 26 Aug 2026 (Q3 2026)</span>
+            </div>
+            <div class="meta-chip" id="meta-retrieved-chip" style="display:none;">
+              <span class="chip-icon">🕒</span>
+              <span class="chip-label">Last Retrieved:</span>
+              <span class="chip-val" id="meta-retrieved-time">-</span>
+            </div>
+            <div class="meta-chip">
+              <span class="chip-icon">🌐</span>
+              <span class="chip-label">Macro Series:</span>
+              <span class="chip-val">2016 – 2025/2026 (DCS & CBSL)</span>
+            </div>
+          </div>
         </div>
 
         <!-- Global Interactive Filter Bar -->
         <div class="filter-bar">
           <div class="filter-group">
+            <label for="filter-date">Date Window:</label>
+            <select id="filter-date">
+              <option value="ALL">All Available Dates</option>
+              <option value="LIVE">Live Feed (Sep 2026)</option>
+              <option value="BASELINE">Baseline Corpus (Aug 2026)</option>
+            </select>
+          </div>
+          <div class="filter-group">
             <label for="filter-career">Career Track:</label>
             <select id="filter-career">
-              <option value="ALL">All Categories (8)</option>
+              <option value="ALL">All Categories</option>
             </select>
           </div>
           <div class="filter-group">
             <label for="filter-seniority">Seniority:</label>
             <select id="filter-seniority">
-              <option value="ALL">All Tiers (5)</option>
+              <option value="ALL">All Tiers</option>
               <option value="Intern">Intern</option>
               <option value="Junior">Junior / Associate</option>
               <option value="Mid">Mid-Level</option>
@@ -104,36 +175,36 @@
               <option value="Remote">Remote</option>
             </select>
           </div>
-          <button id="btn-reset-filters" class="btn-secondary">Reset</button>
+          <button id="btn-reset-filters" class="btn-secondary">Reset Filters</button>
         </div>
       </header>
 
       <!-- KPI Ribbon -->
       <section class="kpi-grid">
         <div class="kpi-card">
-          <div class="kpi-label">Verified Sample Postings</div>
+          <div class="kpi-label" id="kpi-label-total">Sample Postings</div>
           <div class="kpi-value" id="kpi-total-jobs">80</div>
-          <div class="kpi-subtext">39 Unique Tech Employers</div>
+          <div class="kpi-subtext" id="kpi-date-range">10 Aug – 26 Aug 2026</div>
         </div>
         <div class="kpi-card">
           <div class="kpi-label">Entry-Level Accessibility</div>
           <div class="kpi-value highlight-green" id="kpi-entry-pct">26.2%</div>
-          <div class="kpi-subtext">&le; 1 Year Exp Required (21 jobs)</div>
+          <div class="kpi-subtext" id="kpi-entry-sub">&le; 1 Year Exp Required</div>
         </div>
         <div class="kpi-card">
           <div class="kpi-label">Disclosed LKR Median</div>
           <div class="kpi-value highlight-blue" id="kpi-median-salary">LKR 330k</div>
-          <div class="kpi-subtext">IQR: LKR 310,000 (n=26)</div>
+          <div class="kpi-subtext" id="kpi-salary-sub">Market Median Midpoint</div>
         </div>
         <div class="kpi-card">
-          <div class="kpi-label">USD-Pegged Contracts</div>
+          <div class="kpi-label">USD-Pegged Ratio</div>
           <div class="kpi-value highlight-purple" id="kpi-usd-ratio">25.7%</div>
-          <div class="kpi-subtext">Export Tech Package Scale</div>
+          <div class="kpi-subtext">Export Tech Contracts</div>
         </div>
         <div class="kpi-card">
           <div class="kpi-label">ICT Export Revenue</div>
           <div class="kpi-value highlight-amber">$1.52 B</div>
-          <div class="kpi-subtext">CBSL 2025 (+54% vs 2019)</div>
+          <div class="kpi-subtext">CBSL 2016–2025 (+54% vs 2019)</div>
         </div>
       </section>
 
@@ -141,11 +212,25 @@
 
       <!-- TAB 1: OVERVIEW -->
       <section id="tab-overview" class="tab-panel active">
+        <!-- Daily Posting Velocity Timeline -->
+        <div class="card mb-4">
+          <div class="card-header">
+            <div>
+              <h3>Daily Posting Velocity & Temporal Trend</h3>
+              <p class="card-desc">Volume of live/retrieved job postings published by date across Sri Lankan portals</p>
+            </div>
+            <span class="badge" id="badge-timeline-count">Postings Distribution</span>
+          </div>
+          <div class="card-body">
+            <div class="chart-container-timeline" id="chart-posting-timeline"></div>
+          </div>
+        </div>
+
         <div class="grid-2">
           <div class="card">
             <div class="card-header">
               <h3>Career Track Demand Share (RQ2)</h3>
-              <span class="badge">n=80 Jobs</span>
+              <span class="badge" id="badge-career-sample">Active Sample</span>
             </div>
             <div class="card-body">
               <div class="chart-container" id="chart-career-dist"></div>
@@ -155,7 +240,7 @@
           <div class="card">
             <div class="card-header">
               <h3>Top 10 Technical Skills Demand (RQ3)</h3>
-              <span class="badge">n=290 Skills</span>
+              <span class="badge" id="badge-skills-sample">Technical Skills</span>
             </div>
             <div class="card-body">
               <div class="chart-container" id="chart-top-skills"></div>
@@ -177,7 +262,7 @@
           <div class="card">
             <div class="card-header">
               <h3>Macro Unemployment vs ICT Exports (RQ7)</h3>
-              <span class="badge">DCS & CBSL</span>
+              <span class="badge">DCS & CBSL Annual Series</span>
             </div>
             <div class="card-body">
               <div class="chart-container" id="chart-macro-summary"></div>
@@ -190,8 +275,11 @@
       <section id="tab-careers" class="tab-panel">
         <div class="card">
           <div class="card-header">
-            <h3>Career Category Market Share Breakdown</h3>
-            <p>Distribution of advertised vacancies across 7 standardized IT career categories</p>
+            <div>
+              <h3>Career Category Market Share Breakdown</h3>
+              <p>Distribution of advertised vacancies across standardized IT career categories</p>
+            </div>
+            <span class="badge" id="badge-careers-horizon">Standardized Taxonomy</span>
           </div>
           <div class="card-body">
             <div class="table-responsive">
@@ -203,7 +291,7 @@
                     <th>Share (%)</th>
                     <th>Entry-Level Access (%)</th>
                     <th>Disclosed Median LKR</th>
-                    <th>Primary Stack</th>
+                    <th>Observation Layer</th>
                   </tr>
                 </thead>
                 <tbody></tbody>
@@ -219,6 +307,7 @@
           <div class="card">
             <div class="card-header">
               <h3>Skills by Technical Domain</h3>
+              <span class="badge">Skill Domains</span>
             </div>
             <div class="card-body">
               <div class="chart-container" id="chart-domain-breakdown"></div>
@@ -227,6 +316,7 @@
           <div class="card">
             <div class="card-header">
               <h3>Entry-Level vs. Senior Skill Penetration</h3>
+              <span class="badge">Skill Distribution</span>
             </div>
             <div class="card-body">
               <div class="chart-container" id="chart-entry-skill-comp"></div>
@@ -241,7 +331,7 @@
           <div class="card">
             <div class="card-header">
               <h3>Disclosed Monthly Salary Distribution (LKR)</h3>
-              <span class="badge">n=26 Disclosed</span>
+              <span class="badge" id="badge-salary-count">Compensation Tiers</span>
             </div>
             <div class="card-body">
               <div class="chart-container" id="chart-salary-dist"></div>
@@ -251,6 +341,7 @@
           <div class="card">
             <div class="card-header">
               <h3>Monthly Salary by Seniority Tier</h3>
+              <span class="badge">Compensation Benchmark</span>
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -276,7 +367,11 @@
       <section id="tab-experience" class="tab-panel">
         <div class="card">
           <div class="card-header">
-            <h3>Minimum Required Experience Distribution (RQ5)</h3>
+            <div>
+              <h3>Minimum Required Experience Distribution (RQ5)</h3>
+              <p>Spread of stated experience requirements across active job listings</p>
+            </div>
+            <span class="badge">Experience Spread</span>
           </div>
           <div class="card-body">
             <div class="chart-container" id="chart-experience-dist"></div>
@@ -289,7 +384,11 @@
         <div class="grid-2">
           <div class="card">
             <div class="card-header">
-              <h3>National vs. Youth Unemployment (DCS LFS)</h3>
+              <div>
+                <h3>National vs. Youth Unemployment (DCS LFS)</h3>
+                <p class="card-desc">Annual Series: 2016 – 2025 (Department of Census & Statistics)</p>
+              </div>
+              <span class="badge">2016–2025 Longitudinal</span>
             </div>
             <div class="card-body">
               <div class="chart-container" id="chart-macro-unemp"></div>
@@ -298,7 +397,11 @@
 
           <div class="card">
             <div class="card-header">
-              <h3>ICT Knowledge Service Export Earnings (CBSL)</h3>
+              <div>
+                <h3>ICT Knowledge Service Export Earnings (CBSL)</h3>
+                <p class="card-desc">Annual Series: 2016 – 2025 (Central Bank of Sri Lanka)</p>
+              </div>
+              <span class="badge">2016–2025 Trend</span>
             </div>
             <div class="card-body">
               <div class="chart-container" id="chart-macro-exports"></div>
@@ -313,22 +416,25 @@
           <div class="advisory-card">
             <div class="advisory-icon">&#127891;</div>
             <h3>1. Dual-Stack Fluency for Undergraduates</h3>
-            <p><strong>Evidence:</strong> 35% of all job openings require Java, C# .NET, or Python, coupled with modern containerization (Docker, Kubernetes) and Git.</p>
+            <p><strong>Evidence (Empirical Data):</strong> 35% of all job openings require Java, C# .NET, or Python, coupled with modern containerization (Docker, Kubernetes) and Git.</p>
             <p><strong>Guidance:</strong> Focus on mastering one core backend OOP language deeply while building real projects with Docker and GitHub Actions.</p>
+            <div class="advisory-tag">Academic Evidence Base</div>
           </div>
 
           <div class="advisory-card">
             <div class="advisory-icon">&#128640;</div>
             <h3>2. Explore Beyond Pure Software Engineering</h3>
-            <p><strong>Evidence:</strong> Over 45% of total advertised hiring demand exists in Cloud/DevOps (12.5%), Data/AI (13.8%), QA Automation (11.2%), and Security (6.2%).</p>
+            <p><strong>Evidence (Empirical Data):</strong> Over 45% of total advertised hiring demand exists in Cloud/DevOps, Data/AI, QA Automation, and Security.</p>
             <p><strong>Guidance:</strong> Specializing early in Cloud Infrastructure (AWS/Terraform) or Test Automation (Selenium/Playwright) offers less crowded entry pathways.</p>
+            <div class="advisory-tag">Academic Evidence Base</div>
           </div>
 
           <div class="advisory-card">
             <div class="advisory-icon">&#128188;</div>
             <h3>3. Target Structured Associate & Internship Tracks</h3>
-            <p><strong>Evidence:</strong> 26.2% of advertised postings accept &le; 1 year experience, with standard intern stipends (LKR 40,000–50,000) and starting associate salaries (LKR 110,000–160,000).</p>
+            <p><strong>Evidence (Empirical Data):</strong> Over 25% of advertised postings accept &le; 1 year experience, with standard intern stipends (LKR 40,000–50,000) and starting associate salaries (LKR 110,000–160,000).</p>
             <p><strong>Guidance:</strong> Early internships significantly accelerate placement into mid-level tiers where compensation scales up to LKR 350,000–500,000+.</p>
+            <div class="advisory-tag">Academic Evidence Base</div>
           </div>
         </div>
       </section>
@@ -337,23 +443,48 @@
       <section id="tab-explorer" class="tab-panel">
         <div class="card">
           <div class="card-header">
-            <h3>Verified Empirical Job Postings (Audit Registry)</h3>
-            <span class="badge">100% Traceable Provenance</span>
+            <div>
+              <h3 id="explorer-header-title">Job Postings Registry & Provenance Explorer</h3>
+              <p class="card-desc" id="explorer-header-desc">Complete record explorer with date posted, collection timestamps, and direct portal verification</p>
+            </div>
+            <span class="badge" id="explorer-badge-layer">Verified Provenance</span>
           </div>
+
+          <!-- Explorer Filter & Search Controls -->
+          <div class="explorer-controls">
+            <div class="search-box">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              <input type="text" id="explorer-search" placeholder="Search by title, company, skills, date (e.g. 2026-08-28)...">
+            </div>
+            <div class="sort-control">
+              <label for="explorer-sort">Sort By:</label>
+              <select id="explorer-sort">
+                <option value="date-desc">Date Posted (Latest First)</option>
+                <option value="date-asc">Date Posted (Oldest First)</option>
+                <option value="coll-desc">Collection/Retrieved Date</option>
+                <option value="title-asc">Job Title (A &rarr; Z)</option>
+                <option value="company-asc">Company (A &rarr; Z)</option>
+              </select>
+            </div>
+            <div class="record-counter" id="explorer-record-count">Showing records</div>
+          </div>
+
           <div class="card-body">
             <div class="table-responsive">
               <table class="data-table" id="table-raw-explorer">
                 <thead>
                   <tr>
                     <th>Job ID</th>
-                    <th>Original Title</th>
+                    <th>Date Posted</th>
+                    <th>Job Title</th>
                     <th>Company</th>
                     <th>Category</th>
                     <th>Seniority</th>
                     <th>Mode</th>
-                    <th>Original Experience</th>
-                    <th>Original Salary</th>
-                    <th>Source Portal</th>
+                    <th>Date Sourced</th>
+                    <th>Salary Stated</th>
+                    <th>Source / Verification</th>
+                    <th>Audit</th>
                   </tr>
                 </thead>
                 <tbody id="raw-table-body"></tbody>
@@ -363,6 +494,78 @@
         </div>
       </section>
     </main>
+  </div>
+
+  <!-- Job Detail & Temporal Provenance Modal -->
+  <div id="job-detail-modal" class="modal-backdrop">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <h3 id="modal-job-title">Job Title</h3>
+          <span id="modal-company" class="modal-company-sub">Company Name</span>
+        </div>
+        <button id="modal-close-btn" class="modal-close" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-date-strip">
+          <div class="date-strip-item">
+            <span class="strip-label">📅 Date Posted</span>
+            <span class="strip-val highlight-blue" id="modal-date-posted">2026-08-28</span>
+          </div>
+          <div class="date-strip-item">
+            <span class="strip-label">🕒 Sourced Date</span>
+            <span class="strip-val highlight-green" id="modal-date-collected">2026-08-28</span>
+          </div>
+          <div class="date-strip-item">
+            <span class="strip-label">🗓️ Quarter / Period</span>
+            <span class="strip-val" id="modal-quarter">2026-Q3</span>
+          </div>
+          <div class="date-strip-item">
+            <span class="strip-label">🌐 Sourced Portal</span>
+            <span class="strip-val" id="modal-source">TopJobs_LK</span>
+          </div>
+        </div>
+
+        <div class="modal-details-grid">
+          <div class="detail-item">
+            <span class="detail-label">Job ID:</span>
+            <span class="detail-val font-mono" id="modal-job-id">REAL_00001</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Career Category:</span>
+            <span class="detail-val" id="modal-category">Software Engineering</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Seniority Tier:</span>
+            <span class="detail-val" id="modal-seniority">Senior</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Work Arrangement:</span>
+            <span class="detail-val" id="modal-mode">Hybrid</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Experience Stated:</span>
+            <span class="detail-val" id="modal-experience">5+ years</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Salary Stated:</span>
+            <span class="detail-val" id="modal-salary">Negotiable</span>
+          </div>
+        </div>
+
+        <div class="modal-skills-section">
+          <h4>Extracted Technical Skills & Stack:</h4>
+          <div class="skills-tags-container" id="modal-skills-list"></div>
+        </div>
+
+        <div class="modal-footer-actions">
+          <a id="modal-linkedin-link" href="#" target="_blank" class="modal-action-btn btn-linkedin">Search Live (LinkedIn) &nearr;</a>
+          <a id="modal-google-link" href="#" target="_blank" class="modal-action-btn btn-google">Search Live (Google Jobs LK) &nearr;</a>
+          <a id="modal-source-link" href="#" target="_blank" class="modal-action-btn btn-source">Direct Source Archive &nearr;</a>
+          <button id="modal-done-btn" class="modal-action-btn btn-close">Close</button>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="data.js"></script>

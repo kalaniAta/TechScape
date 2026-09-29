@@ -197,19 +197,37 @@ class TestDatasetIsolation(unittest.TestCase):
         self.assertTrue(os.path.exists(real_sample_csv))
         before_stat = os.stat(real_sample_csv)
 
-        # Run live updater with offline fixtures
-        metadata = run_live_update(sources=["topjobs", "itpro"], limit_per_source=5, use_fixtures=True)
-        self.assertIsNotNone(metadata)
-        self.assertIn("total_retrieved", metadata)
+        # Backup existing live feed and dashboard files to preserve clean git tree
+        tracked_files = [
+            os.path.join(PROJECT_ROOT, "data", "live_feed", "jobs_live_feed.csv"),
+            os.path.join(PROJECT_ROOT, "data", "live_feed", "job_skills_live_feed.csv"),
+            os.path.join(PROJECT_ROOT, "data", "live_feed", "live_feed_metadata.json"),
+            os.path.join(PROJECT_ROOT, "dashboard", "data.js"),
+        ]
+        backups = {}
+        for p in tracked_files:
+            if os.path.exists(p):
+                with open(p, "rb") as bf:
+                    backups[p] = bf.read()
 
-        # Check real_sample is unchanged
-        after_stat = os.stat(real_sample_csv)
-        self.assertEqual(before_stat.st_mtime, after_stat.st_mtime)
-        self.assertEqual(before_stat.st_size, after_stat.st_size)
+        try:
+            # Run live updater with offline fixtures
+            metadata = run_live_update(sources=["topjobs", "itpro"], limit_per_source=5, use_fixtures=True)
+            self.assertIsNotNone(metadata)
+            self.assertIn("total_retrieved", metadata)
 
-        # Check live feed was created in data/live_feed/
-        live_csv = os.path.join(PROJECT_ROOT, "data", "live_feed", "jobs_live_feed.csv")
-        self.assertTrue(os.path.exists(live_csv))
+            # Check real_sample is unchanged
+            after_stat = os.stat(real_sample_csv)
+            self.assertEqual(before_stat.st_mtime, after_stat.st_mtime)
+            self.assertEqual(before_stat.st_size, after_stat.st_size)
+
+            # Check live feed was created in data/live_feed/
+            live_csv = os.path.join(PROJECT_ROOT, "data", "live_feed", "jobs_live_feed.csv")
+            self.assertTrue(os.path.exists(live_csv))
+        finally:
+            for p, content in backups.items():
+                with open(p, "wb") as bf:
+                    bf.write(content)
 
 
 if __name__ == "__main__":

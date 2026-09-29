@@ -34,6 +34,9 @@ function Show-Help {
     Write-Host "  lint        - Check code hygiene and style via ruff"
     Write-Host "  audit       - Verify repo claims, table/figure counts, and links"
     Write-Host "  pipeline    - Run full hybrid Python + R analytical pipeline"
+    Write-Host "  update-feed - Scrape fresh vacancies from live job portals"
+    Write-Host "  db-seed     - Idempotently seed SQLite database with empirical baseline"
+    Write-Host "  db-clean    - Remove SQLite database file"
     Write-Host "  run-api     - Start the FastAPI development server"
     Write-Host "  clean       - Clean temporary caches and bytecode"
 }
@@ -75,6 +78,19 @@ switch ($Target.ToLower()) {
     "update-feed" {
         Write-Host ">>> Executing live web scraping from TopJobs LK and ITPro LK..." -ForegroundColor Green
         & $Python python/live_updater.py --limit 20
+    }
+    "db-seed" {
+        Write-Host ">>> Seeding SQLite database with baseline empirical corpus..." -ForegroundColor Green
+        & $Python python/db/seed.py
+    }
+    "db-clean" {
+        Write-Host ">>> Removing SQLite database file..." -ForegroundColor Green
+        if (Test-Path "data/techscape.db") {
+            Remove-Item "data/techscape.db" -Force
+            Write-Host ">>> data/techscape.db removed." -ForegroundColor Green
+        } else {
+            Write-Host ">>> data/techscape.db does not exist." -ForegroundColor Yellow
+        }
     }
     "run-api" {
         Write-Host ">>> Starting FastAPI server..." -ForegroundColor Green

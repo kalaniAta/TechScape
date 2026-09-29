@@ -4,7 +4,7 @@
 PYTHON ?= python
 RSCRIPT ?= Rscript
 
-.PHONY: help setup test test-python test-r lint audit pipeline run-api clean
+.PHONY: help setup test test-python test-r lint audit pipeline update-feed db-seed db-clean run-api clean
 
 help:  ## Display available targets
 	@echo "TechScape Build & Automation System"
@@ -35,6 +35,12 @@ pipeline:  ## Run full hybrid Python + R end-to-end analytical pipeline
 
 update-feed:  ## Scrape fresh vacancies from live job portals
 	$(PYTHON) python/live_updater.py --limit 20
+
+db-seed:  ## Idempotently seed SQLite relational database with baseline empirical corpus
+	$(PYTHON) python/db/seed.py
+
+db-clean:  ## Remove SQLite database file
+	-rm -f data/techscape.db
 
 run-api:  ## Start the FastAPI development server with hot-reload
 	$(PYTHON) -m uvicorn api.main:app --reload --host 0.0.0.0 --port 8000

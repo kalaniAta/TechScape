@@ -46,3 +46,7 @@ desktop.ini
 .ruff_cache/
 .playwright-mcp/
 
+# Local databases
+*.db
+*.sqlite3
+
